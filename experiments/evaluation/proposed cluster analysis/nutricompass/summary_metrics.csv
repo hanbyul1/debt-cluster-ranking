@@ -1,0 +1,9 @@
+metric,value
+mean_distribution_shift,0.30601096993485405
+mean_turnover,0.09090909090909091
+mean_membership_shift,0.1509311326045962
+mean_rank_correlation,0.9845733401909349
+mean_cluster_similarity,0.8811766851998221
+mean_variance_shift,1.969716561567862
+composite_sensitivity,0.18261706448284706
+composite_consistency,0.8080122793869694

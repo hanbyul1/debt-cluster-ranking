@@ -1,0 +1,1114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-13">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="('FeatureButtonGradients', 'gradient')" label="('FeatureButtonGradients', 'gradient')" />
+      <node id="('FeatureButtonGridView', 'buttonCell')" label="('FeatureButtonGridView', 'buttonCell')" />
+      <node id="('ChefMouseView', 'showRandomMenuBubble')" label="('ChefMouseView', 'showRandomMenuBubble')" />
+      <node id="('RestaurantKeyBuilder', 'make')" label="('RestaurantKeyBuilder', 'make')" />
+      <node id="('NameNormalizer', 'canonical')" label="('NameNormalizer', 'canonical')" />
+      <node id="('NameNormalizer', 'display')" label="('NameNormalizer', 'display')" />
+      <node id="('NameNormalizer', 'normalizeRecipeNoise')" label="('NameNormalizer', 'normalizeRecipeNoise')" />
+      <node id="('NameNormalizer', 'normalizeMenuNoise')" label="('NameNormalizer', 'normalizeMenuNoise')" />
+      <node id="('NameNormalizer', 'normalizeRestaurantNoise')" label="('NameNormalizer', 'normalizeRestaurantNoise')" />
+      <node id="('NameNormalizer', 'finalize')" label="('NameNormalizer', 'finalize')" />
+      <node id="('NameNormalizer', 'baseNormalize')" label="('NameNormalizer', 'baseNormalize')" />
+      <node id="('BackgroundManager', 'reshuffle')" label="('BackgroundManager', 'reshuffle')" />
+      <node id="('BackgroundManager', 'imageName')" label="('BackgroundManager', 'imageName')" />
+      <node id="('FeatureButtonStore', 'load')" label="('FeatureButtonStore', 'load')" />
+      <node id="('FeatureButtonStore', 'migrate')" label="('FeatureButtonStore', 'migrate')" />
+      <node id="('FeatureButtonStore', 'save')" label="('FeatureButtonStore', 'save')" />
+      <node id="('FeatureButtonStore', 'delete')" label="('FeatureButtonStore', 'delete')" />
+      <node id="('FeatureButtonStore', 'move')" label="('FeatureButtonStore', 'move')" />
+      <node id="('FeatureButtonStore', 'reset')" label="('FeatureButtonStore', 'reset')" />
+      <node id="('FeatureButtonBoxView', 'gradient')" label="('FeatureButtonBoxView', 'gradient')" />
+      <node id="('ContentView', 'handleReceiptScan')" label="('ContentView', 'handleReceiptScan')" />
+      <node id="('ContentView', 'menuResultView')" label="('ContentView', 'menuResultView')" />
+      <node id="('ContentView', 'makeSnapshots')" label="('ContentView', 'makeSnapshots')" />
+      <node id="('ContentView', 'finalizeReorder')" label="('ContentView', 'finalizeReorder')" />
+      <node id="('ContentView', 'resetDrag')" label="('ContentView', 'resetDrag')" />
+      <node id="('ContentView', 'handleReorder')" label="('ContentView', 'handleReorder')" />
+      <node id="('ContentView', 'handleFeatureAction')" label="('ContentView', 'handleFeatureAction')" />
+      <node id="('ContentView', 'makeHealthProfile')" label="('ContentView', 'makeHealthProfile')" />
+      <node id="('ContentView', 'createProductFromScanMenu')" label="('ContentView', 'createProductFromScanMenu')" />
+      <node id="('ContentView', 'handleBarcodeScanned')" label="('ContentView', 'handleBarcodeScanned')" />
+      <node id="('ContentView', 'resetAllScanResults')" label="('ContentView', 'resetAllScanResults')" />
+      <node id="('ContentView', 'saveMenuScanRecord')" label="('ContentView', 'saveMenuScanRecord')" />
+      <node id="('ContentView', 'parseAndEstimateCalories')" label="('ContentView', 'parseAndEstimateCalories')" />
+      <node id="('ContentView', 'extractExplicitCalories')" label="('ContentView', 'extractExplicitCalories')" />
+      <node id="('ContentView', 'saveUserScannedRestaurantIfNeeded')" label="('ContentView', 'saveUserScannedRestaurantIfNeeded')" />
+      <node id="('LCRNG', 'next')" label="('LCRNG', 'next')" />
+      <node id="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" label="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" />
+      <node id="('AutoDishCardView', 'toggleFavorite')" label="('AutoDishCardView', 'toggleFavorite')" />
+      <node id="('RestaurantDetector', 'detectNow')" label="('RestaurantDetector', 'detectNow')" />
+      <node id="('RestaurantDetector', 'detect')" label="('RestaurantDetector', 'detect')" />
+      <node id="('RestaurantDetector', 'selectManually')" label="('RestaurantDetector', 'selectManually')" />
+      <node id="('RestaurantDetector', 'reset')" label="('RestaurantDetector', 'reset')" />
+      <node id="('RestaurantDetector', 'clearAll')" label="('RestaurantDetector', 'clearAll')" />
+      <node id="('RestaurantDetector', 'calculateConfidence')" label="('RestaurantDetector', 'calculateConfidence')" />
+      <node id="('RSSParser', 'parse')" label="('RSSParser', 'parse')" />
+      <node id="('RSSParser', 'parser')" label="('RSSParser', 'parser')" />
+      <node id="('FoodNewsAutoScrollView', 'startAutoScroll')" label="('FoodNewsAutoScrollView', 'startAutoScroll')" />
+      <node id="('FoodNewsAutoScrollView', 'stopAutoScroll')" label="('FoodNewsAutoScrollView', 'stopAutoScroll')" />
+      <node id="('FoodNewsAutoScrollView', 'headlineRow')" label="('FoodNewsAutoScrollView', 'headlineRow')" />
+      <node id="('SafariView', 'makeUIViewController')" label="('SafariView', 'makeUIViewController')" />
+      <node id="('SafariView', 'updateUIViewController')" label="('SafariView', 'updateUIViewController')" />
+      <node id="('FoodNewsService', 'refreshIfNeeded')" label="('FoodNewsService', 'refreshIfNeeded')" />
+      <node id="('FoodNewsService', 'fetchAllFeeds')" label="('FoodNewsService', 'fetchAllFeeds')" />
+      <node id="('FoodNewsService', 'fetchRSS')" label="('FoodNewsService', 'fetchRSS')" />
+      <node id="('FoodNewsService', 'saveCache')" label="('FoodNewsService', 'saveCache')" />
+      <node id="('FoodNewsService', 'loadCache')" label="('FoodNewsService', 'loadCache')" />
+      <node id="('FoodNewsService', 'isExpired')" label="('FoodNewsService', 'isExpired')" />
+      <node id="('FoodNewsStore', 'load')" label="('FoodNewsStore', 'load')" />
+      <node id="('FoodNewsStore', 'updateVisible')" label="('FoodNewsStore', 'updateVisible')" />
+      <node id="('FoodNewsStore', 'startRoundRobin')" label="('FoodNewsStore', 'startRoundRobin')" />
+      <node id="('FoodNewsStore', 'stopRoundRobin')" label="('FoodNewsStore', 'stopRoundRobin')" />
+      <node id="('ReceiptOCR', 'recognizeText')" label="('ReceiptOCR', 'recognizeText')" />
+      <node id="('ReceiptDishMatcher', 'extractMenuBlocks')" label="('ReceiptDishMatcher', 'extractMenuBlocks')" />
+      <node id="('ReceiptDishMatcher', 'matchAll')" label="('ReceiptDishMatcher', 'matchAll')" />
+      <node id="('ReceiptDishMatcher', 'bestMatch')" label="('ReceiptDishMatcher', 'bestMatch')" />
+      <node id="('ReceiptDishMatcher', 'pickBetter')" label="('ReceiptDishMatcher', 'pickBetter')" />
+      <node id="('ReceiptDishMatcher', 'normalize')" label="('ReceiptDishMatcher', 'normalize')" />
+      <node id="('ReceiptDishMatcher', 'tokenOverlapScore')" label="('ReceiptDishMatcher', 'tokenOverlapScore')" />
+      <node id="('ReceiptDishMatcher', 'extractNameAndPrice')" label="('ReceiptDishMatcher', 'extractNameAndPrice')" />
+      <node id="('ReceiptDishMatcher', 'extractQuantity')" label="('ReceiptDishMatcher', 'extractQuantity')" />
+      <node id="('ReceiptScanRecord', 'makeDayKey')" label="('ReceiptScanRecord', 'makeDayKey')" />
+      <node id="('ReceiptMatchRow', 'confidenceBadge')" label="('ReceiptMatchRow', 'confidenceBadge')" />
+      <node id="('DishCalorieProfileStore', 'loadIfNeeded')" label="('DishCalorieProfileStore', 'loadIfNeeded')" />
+      <node id="('ReceiptScanStore', 'refresh')" label="('ReceiptScanStore', 'refresh')" />
+      <node id="('ReceiptScanStore', 'save')" label="('ReceiptScanStore', 'save')" />
+      <node id="('ReceiptScanStore', 'loadAll')" label="('ReceiptScanStore', 'loadAll')" />
+      <node id="('ReceiptScanStore', 'load')" label="('ReceiptScanStore', 'load')" />
+      <node id="('ReceiptScanStore', 'delete')" label="('ReceiptScanStore', 'delete')" />
+      <node id="('ReceiptScanStore', 'deleteAll')" label="('ReceiptScanStore', 'deleteAll')" />
+      <node id="('ReceiptScanStore', 'loadFromDisk')" label="('ReceiptScanStore', 'loadFromDisk')" />
+      <node id="('ReceiptScanStore', 'persist')" label="('ReceiptScanStore', 'persist')" />
+      <node id="('ReceiptScanStore', 'fileURL')" label="('ReceiptScanStore', 'fileURL')" />
+      <node id="('ReceiptDocumentScannerView', 'makeUIViewController')" label="('ReceiptDocumentScannerView', 'makeUIViewController')" />
+      <node id="('ReceiptDocumentScannerView', 'updateUIViewController')" label="('ReceiptDocumentScannerView', 'updateUIViewController')" />
+      <node id="('ReceiptDocumentScannerView', 'makeCoordinator')" label="('ReceiptDocumentScannerView', 'makeCoordinator')" />
+      <node id="('ReceiptDocumentScannerView', 'documentCameraViewControllerDidCancel')" label="('ReceiptDocumentScannerView', 'documentCameraViewControllerDidCancel')" />
+      <node id="('ReceiptDocumentScannerView', 'documentCameraViewController')" label="('ReceiptDocumentScannerView', 'documentCameraViewController')" />
+      <node id="('Coordinator', 'documentCameraViewControllerDidCancel')" label="('Coordinator', 'documentCameraViewControllerDidCancel')" />
+      <node id="('Coordinator', 'documentCameraViewController')" label="('Coordinator', 'documentCameraViewController')" />
+      <node id="('Coordinator', 'imagePickerControllerDidCancel')" label="('Coordinator', 'imagePickerControllerDidCancel')" />
+      <node id="('Coordinator', 'imagePickerController')" label="('Coordinator', 'imagePickerController')" />
+      <node id="('Coordinator', 'recognizeText')" label="('Coordinator', 'recognizeText')" />
+      <node id="('DishCalorieStore', 'upsert')" label="('DishCalorieStore', 'upsert')" />
+      <node id="('DishCalorieStore', 'all')" label="('DishCalorieStore', 'all')" />
+      <node id="('DishCalorieStore', 'bestApproximateDish')" label="('DishCalorieStore', 'bestApproximateDish')" />
+      <node id="('DishCalorieStore', 'shouldOverwrite')" label="('DishCalorieStore', 'shouldOverwrite')" />
+      <node id="('DishCalorieStore', 'similarity')" label="('DishCalorieStore', 'similarity')" />
+      <node id="('DishCalorieStore', 'saveToDisk')" label="('DishCalorieStore', 'saveToDisk')" />
+      <node id="('DishCalorieStore', 'loadFromDisk')" label="('DishCalorieStore', 'loadFromDisk')" />
+      <node id="('DishCalorieStore', 'exportToJSON')" label="('DishCalorieStore', 'exportToJSON')" />
+      <node id="('DishCalorieStore', 'saveForDebug')" label="('DishCalorieStore', 'saveForDebug')" />
+      <node id="('DishCalorieConfidenceCalculator', 'evaluate')" label="('DishCalorieConfidenceCalculator', 'evaluate')" />
+      <node id="('DishCalorieConfidenceCalculator', 'calculateConfidence')" label="('DishCalorieConfidenceCalculator', 'calculateConfidence')" />
+      <node id="('ChainMenuService', 'loadMenu')" label="('ChainMenuService', 'loadMenu')" />
+      <node id="('LocalJSONMenuLoader', 'loadMenu')" label="('LocalJSONMenuLoader', 'loadMenu')" />
+      <node id="('NearbyRestaurantPickerView', 'restaurantRow')" label="('NearbyRestaurantPickerView', 'restaurantRow')" />
+      <node id="('NearbyRestaurantPickerView', 'rowContent')" label="('NearbyRestaurantPickerView', 'rowContent')" />
+      <node id="('NearbyRestaurantPickerView', 'shouldShowArrow')" label="('NearbyRestaurantPickerView', 'shouldShowArrow')" />
+      <node id="('NearbyRestaurantPickerView', 'hasChainMenu')" label="('NearbyRestaurantPickerView', 'hasChainMenu')" />
+      <node id="('NearbyRestaurantPickerView', 'inferCuisine')" label="('NearbyRestaurantPickerView', 'inferCuisine')" />
+      <node id="('NearbyRestaurantPickerView', 'displayCategoryName')" label="('NearbyRestaurantPickerView', 'displayCategoryName')" />
+      <node id="('NearbyRestaurantPickerView', 'distanceString')" label="('NearbyRestaurantPickerView', 'distanceString')" />
+      <node id="('ChainMenuRegistry', 'load')" label="('ChainMenuRegistry', 'load')" />
+      <node id="('ChainMenuRegistry', 'chain')" label="('ChainMenuRegistry', 'chain')" />
+      <node id="('ChainMenuRegistry', 'cuisine')" label="('ChainMenuRegistry', 'cuisine')" />
+      <node id="('ChainMenuRegistry', 'allChainKeys')" label="('ChainMenuRegistry', 'allChainKeys')" />
+      <node id="('ChainMenuRegistry', 'allCuisineKeys')" label="('ChainMenuRegistry', 'allCuisineKeys')" />
+      <node id="('ChainMenuRegistry', 'matchChainKey')" label="('ChainMenuRegistry', 'matchChainKey')" />
+      <node id="('ChainMenuRegistry', 'matchCuisineKey')" label="('ChainMenuRegistry', 'matchCuisineKey')" />
+      <node id="('ChainMenuRegistry', 'resolve')" label="('ChainMenuRegistry', 'resolve')" />
+      <node id="('LocationManager', 'requestLocation')" label="('LocationManager', 'requestLocation')" />
+      <node id="('LocationManager', 'locationManagerDidChangeAuthorization')" label="('LocationManager', 'locationManagerDidChangeAuthorization')" />
+      <node id="('LocationManager', 'resumeIfNeeded')" label="('LocationManager', 'resumeIfNeeded')" />
+      <node id="('LocationManager', 'locationManager')" label="('LocationManager', 'locationManager')" />
+      <node id="('LocationManager', 'reverseGeocode')" label="('LocationManager', 'reverseGeocode')" />
+      <node id="('LocationManager', 'fetchAddress')" label="('LocationManager', 'fetchAddress')" />
+      <node id="('LocationManager', 'startLocationUpdatesIfAllowed')" label="('LocationManager', 'startLocationUpdatesIfAllowed')" />
+      <node id="('LocationManager', 'resetForNextScan')" label="('LocationManager', 'resetForNextScan')" />
+      <node id="('ChainNameNormalizer', 'normalize')" label="('ChainNameNormalizer', 'normalize')" />
+      <node id="('FoodPhotoMenuLinkSheet', 'loadDishImage')" label="('FoodPhotoMenuLinkSheet', 'loadDishImage')" />
+      <node id="('FoodPhotoView', 'makeUIViewController')" label="('FoodPhotoView', 'makeUIViewController')" />
+      <node id="('FoodPhotoView', 'updateUIViewController')" label="('FoodPhotoView', 'updateUIViewController')" />
+      <node id="('FoodPhotoView', 'makeCoordinator')" label="('FoodPhotoView', 'makeCoordinator')" />
+      <node id="('FoodPhotoView', 'imagePickerControllerDidCancel')" label="('FoodPhotoView', 'imagePickerControllerDidCancel')" />
+      <node id="('FoodPhotoView', 'imagePickerController')" label="('FoodPhotoView', 'imagePickerController')" />
+      <node id="('FoodPhotoThumbnail', 'loadThumbnail')" label="('FoodPhotoThumbnail', 'loadThumbnail')" />
+      <node id="('PhotoPreviewView', 'loadImage')" label="('PhotoPreviewView', 'loadImage')" />
+      <node id="('FoodPhotoLinkViewModel', 'loadMenus')" label="('FoodPhotoLinkViewModel', 'loadMenus')" />
+      <node id="('MenuCalPhotoStore', 'add')" label="('MenuCalPhotoStore', 'add')" />
+      <node id="('MenuCalPhotoStore', 'all')" label="('MenuCalPhotoStore', 'all')" />
+      <node id="('MenuCalPhotoStore', 'clear')" label="('MenuCalPhotoStore', 'clear')" />
+      <node id="('MappedFoodPhotoRow', 'uniqueLabels')" label="('MappedFoodPhotoRow', 'uniqueLabels')" />
+      <node id="('FoodPhotoSaver', 'saveToPhotos')" label="('FoodPhotoSaver', 'saveToPhotos')" />
+      <node id="('FoodPhotoMenuLinkStore', 'add')" label="('FoodPhotoMenuLinkStore', 'add')" />
+      <node id="('FoodPhotoMenuLinkStore', 'remove')" label="('FoodPhotoMenuLinkStore', 'remove')" />
+      <node id="('FoodPhotoMenuLinkStore', 'load')" label="('FoodPhotoMenuLinkStore', 'load')" />
+      <node id="('FoodPhotoMenuLinkStore', 'save')" label="('FoodPhotoMenuLinkStore', 'save')" />
+      <node id="('PhotoLabelStore', 'addLabel')" label="('PhotoLabelStore', 'addLabel')" />
+      <node id="('PhotoLabelStore', 'save')" label="('PhotoLabelStore', 'save')" />
+      <node id="('PhotoLabelStore', 'load')" label="('PhotoLabelStore', 'load')" />
+      <node id="('PhotoLabelStore', 'fileURL')" label="('PhotoLabelStore', 'fileURL')" />
+      <node id="('PhotoLabelStore', 'deleteLabel')" label="('PhotoLabelStore', 'deleteLabel')" />
+      <node id="('IngredientSelectSheet', 'toggle')" label="('IngredientSelectSheet', 'toggle')" />
+      <node id="('IngredientSelectSheet', 'saveIngredientLabel')" label="('IngredientSelectSheet', 'saveIngredientLabel')" />
+      <node id="('FoodPhotoLibraryView', 'loadFoodPhotos')" label="('FoodPhotoLibraryView', 'loadFoodPhotos')" />
+      <node id="('FoodPhotoLabelViewModel', 'delete')" label="('FoodPhotoLabelViewModel', 'delete')" />
+      <node id="('DishSelectSheet', 'toggleRestaurant')" label="('DishSelectSheet', 'toggleRestaurant')" />
+      <node id="('DishSelectSheet', 'saveDishLabel')" label="('DishSelectSheet', 'saveDishLabel')" />
+      <node id="('FavoriteRecipeStore', 'isFavorite')" label="('FavoriteRecipeStore', 'isFavorite')" />
+      <node id="('FavoriteRecipeStore', 'toggle')" label="('FavoriteRecipeStore', 'toggle')" />
+      <node id="('FavoriteRecipeStore', 'load')" label="('FavoriteRecipeStore', 'load')" />
+      <node id="('FavoriteRecipeStore', 'save')" label="('FavoriteRecipeStore', 'save')" />
+      <node id="('FavoriteRecipeStore', 'normalize')" label="('FavoriteRecipeStore', 'normalize')" />
+      <node id="('FavoriteMenuStore', 'isFavorite')" label="('FavoriteMenuStore', 'isFavorite')" />
+      <node id="('FavoriteMenuStore', 'toggle')" label="('FavoriteMenuStore', 'toggle')" />
+      <node id="('FavoriteMenuStore', 'save')" label="('FavoriteMenuStore', 'save')" />
+      <node id="('FavoriteMenuStore', 'load')" label="('FavoriteMenuStore', 'load')" />
+      <node id="('FavoriteMenuStore', 'prune')" label="('FavoriteMenuStore', 'prune')" />
+      <node id="('FavoriteRestaurantStore', 'isFavorite')" label="('FavoriteRestaurantStore', 'isFavorite')" />
+      <node id="('FavoriteRestaurantStore', 'toggle')" label="('FavoriteRestaurantStore', 'toggle')" />
+      <node id="('FavoriteRestaurantStore', 'load')" label="('FavoriteRestaurantStore', 'load')" />
+      <node id="('FavoriteRestaurantStore', 'save')" label="('FavoriteRestaurantStore', 'save')" />
+      <node id="('FavoriteRestaurantStore', 'normalize')" label="('FavoriteRestaurantStore', 'normalize')" />
+      <node id="('RecipeCalorieCache', 'setCalories')" label="('RecipeCalorieCache', 'setCalories')" />
+      <node id="('RecipeCalorieCache', 'calories')" label="('RecipeCalorieCache', 'calories')" />
+      <node id="('RecipeCalorieCache', 'normalize')" label="('RecipeCalorieCache', 'normalize')" />
+      <node id="('MenuParser', 'parseRecipeIngredients')" label="('MenuParser', 'parseRecipeIngredients')" />
+      <node id="('MenuParser', 'overrideEmbeddingIndex')" label="('MenuParser', 'overrideEmbeddingIndex')" />
+      <node id="('MenuParser', 'isCompleteAnchor')" label="('MenuParser', 'isCompleteAnchor')" />
+      <node id="('MenuParser', 'setRecipeIndex')" label="('MenuParser', 'setRecipeIndex')" />
+      <node id="('MenuParser', 'getIngredientInfo')" label="('MenuParser', 'getIngredientInfo')" />
+      <node id="('MenuParser', 'normalizeUnit')" label="('MenuParser', 'normalizeUnit')" />
+      <node id="('MenuParser', 'deduplicateAnchorsByTitleKeepFirst')" label="('MenuParser', 'deduplicateAnchorsByTitleKeepFirst')" />
+      <node id="('MenuParser', 'parseMenuItems')" label="('MenuParser', 'parseMenuItems')" />
+      <node id="('MenuParser', 'extractTitleAndBody')" label="('MenuParser', 'extractTitleAndBody')" />
+      <node id="('MenuParser', 'containsPrice')" label="('MenuParser', 'containsPrice')" />
+      <node id="('MenuParser', 'isNoiseBlock')" label="('MenuParser', 'isNoiseBlock')" />
+      <node id="('MenuParser', 'splitCombinedDishes')" label="('MenuParser', 'splitCombinedDishes')" />
+      <node id="('MenuParser', 'calculateMenuEstimates')" label="('MenuParser', 'calculateMenuEstimates')" />
+      <node id="('MenuParser', 'parseIngredientsOptimized')" label="('MenuParser', 'parseIngredientsOptimized')" />
+      <node id="('MenuParser', 'normalize')" label="('MenuParser', 'normalize')" />
+      <node id="('MenuParser', 'makeDisplay')" label="('MenuParser', 'makeDisplay')" />
+      <node id="('MenuParser', 'stripTrailingPunctuation')" label="('MenuParser', 'stripTrailingPunctuation')" />
+      <node id="('MenuParser', 'removeStopWords')" label="('MenuParser', 'removeStopWords')" />
+      <node id="('MenuParser', 'isGenericNoise')" label="('MenuParser', 'isGenericNoise')" />
+      <node id="('MenuParser', 'addIngredient')" label="('MenuParser', 'addIngredient')" />
+      <node id="('MenuParser', 'gramsFrom')" label="('MenuParser', 'gramsFrom')" />
+      <node id="('MenuParser', 'loadIngredientsDB')" label="('MenuParser', 'loadIngredientsDB')" />
+      <node id="('MenuParser', 'parseIngredientsFromText')" label="('MenuParser', 'parseIngredientsFromText')" />
+      <node id="('MenuParser', 'resetSharedForDBTool')" label="('MenuParser', 'resetSharedForDBTool')" />
+      <node id="('RecipeViewRecord', 'makeDayKey')" label="('RecipeViewRecord', 'makeDayKey')" />
+      <node id="('RecipeCategoryPreloadStore', 'preload')" label="('RecipeCategoryPreloadStore', 'preload')" />
+      <node id="('RecipeCategoryPreloadStore', 'get')" label="('RecipeCategoryPreloadStore', 'get')" />
+      <node id="('RecipeCategoryPreloadStore', 'clear')" label="('RecipeCategoryPreloadStore', 'clear')" />
+      <node id="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" label="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" />
+      <node id="('RecipeEmbeddingStore', 'loadEmbeddingsIfNeeded')" label="('RecipeEmbeddingStore', 'loadEmbeddingsIfNeeded')" />
+      <node id="('RecipeHubView', 'startBackgroundPreload')" label="('RecipeHubView', 'startBackgroundPreload')" />
+      <node id="('RecipeHubView', 'handleRecipeButtonTap')" label="('RecipeHubView', 'handleRecipeButtonTap')" />
+      <node id="('RecipeHubView', 'mapToCategory')" label="('RecipeHubView', 'mapToCategory')" />
+      <node id="('RecipeHubView', 'handleDragChanged')" label="('RecipeHubView', 'handleDragChanged')" />
+      <node id="('RecipeHubView', 'handleDragEnded')" label="('RecipeHubView', 'handleDragEnded')" />
+      <node id="('RecipeHubView', 'resetDrag')" label="('RecipeHubView', 'resetDrag')" />
+      <node id="('RecipeHubView', 'handleReorder')" label="('RecipeHubView', 'handleReorder')" />
+      <node id="('RecipeHubView', 'loadRecommendations')" label="('RecipeHubView', 'loadRecommendations')" />
+      <node id="('RecipeHubView', 'recommendationRow')" label="('RecipeHubView', 'recommendationRow')" />
+      <node id="('RecipeCoreCategory', 'hash')" label="('RecipeCoreCategory', 'hash')" />
+      <node id="('RecipeParser', 'buildEstimate')" label="('RecipeParser', 'buildEstimate')" />
+      <node id="('RecipeCalorieService', 'calculateTotalCalories')" label="('RecipeCalorieService', 'calculateTotalCalories')" />
+      <node id="('RecipeViewStore', 'recordView')" label="('RecipeViewStore', 'recordView')" />
+      <node id="('RecipeViewStore', 'records')" label="('RecipeViewStore', 'records')" />
+      <node id="('RecipeViewStore', 'loadAll')" label="('RecipeViewStore', 'loadAll')" />
+      <node id="('RecipeViewStore', 'delete')" label="('RecipeViewStore', 'delete')" />
+      <node id="('RecipeViewStore', 'deleteAll')" label="('RecipeViewStore', 'deleteAll')" />
+      <node id="('RecipeViewStore', 'loadIfNeeded')" label="('RecipeViewStore', 'loadIfNeeded')" />
+      <node id="('RecipeViewStore', 'persist')" label="('RecipeViewStore', 'persist')" />
+      <node id="('RecipeViewStore', 'fileURL')" label="('RecipeViewStore', 'fileURL')" />
+      <node id="('RecipeEmbeddingIndex', 'vector')" label="('RecipeEmbeddingIndex', 'vector')" />
+      <node id="('RecipeEmbeddingIndex', 'loadFromBundle')" label="('RecipeEmbeddingIndex', 'loadFromBundle')" />
+      <node id="('RecipeEmbeddingIndex', 'topKSimilar')" label="('RecipeEmbeddingIndex', 'topKSimilar')" />
+      <node id="('RecipeEmbeddingIndex', 'getFoodLikelihood')" label="('RecipeEmbeddingIndex', 'getFoodLikelihood')" />
+      <node id="('RecipeEmbeddingIndex', 'loadForDBTool')" label="('RecipeEmbeddingIndex', 'loadForDBTool')" />
+      <node id="('DietContentView', 'sectionView')" label="('DietContentView', 'sectionView')" />
+      <node id="('DietContentView', 'row')" label="('DietContentView', 'row')" />
+      <node id="('DishTypeRecipeCache', 'prepareIfNeeded')" label="('DishTypeRecipeCache', 'prepareIfNeeded')" />
+      <node id="('DishTypeRecipeCache', 'allRecipeNames')" label="('DishTypeRecipeCache', 'allRecipeNames')" />
+      <node id="('DishTypeRecipeCache', 'buildResultsInBackground')" label="('DishTypeRecipeCache', 'buildResultsInBackground')" />
+      <node id="('PreloadGate', 'enter')" label="('PreloadGate', 'enter')" />
+      <node id="('PreloadGate', 'reset')" label="('PreloadGate', 'reset')" />
+      <node id="('NutritionContentView', 'sectionView')" label="('NutritionContentView', 'sectionView')" />
+      <node id="('NutritionContentView', 'row')" label="('NutritionContentView', 'row')" />
+      <node id="('PopularContentView', 'section')" label="('PopularContentView', 'section')" />
+      <node id="('PopularContentView', 'row')" label="('PopularContentView', 'row')" />
+      <node id="('OccasionContentView', 'sectionView')" label="('OccasionContentView', 'sectionView')" />
+      <node id="('OccasionContentView', 'row')" label="('OccasionContentView', 'row')" />
+      <node id="('CuisineRecipeCache', 'prepareIfNeeded')" label="('CuisineRecipeCache', 'prepareIfNeeded')" />
+      <node id="('CuisineRecipeCache', 'allRecipeNames')" label="('CuisineRecipeCache', 'allRecipeNames')" />
+      <node id="('CuisineRecipeCache', 'buildResultsInBackground')" label="('CuisineRecipeCache', 'buildResultsInBackground')" />
+      <node id="('CookingContentView', 'sectionView')" label="('CookingContentView', 'sectionView')" />
+      <node id="('CookingContentView', 'row')" label="('CookingContentView', 'row')" />
+      <node id="('IngredientContentView', 'sectionView')" label="('IngredientContentView', 'sectionView')" />
+      <node id="('IngredientContentView', 'row')" label="('IngredientContentView', 'row')" />
+      <node id="('DishTypeContentView', 'sectionView')" label="('DishTypeContentView', 'sectionView')" />
+      <node id="('DishTypeContentView', 'row')" label="('DishTypeContentView', 'row')" />
+      <node id="('DietRecipeCache', 'prepareIfNeeded')" label="('DietRecipeCache', 'prepareIfNeeded')" />
+      <node id="('DietRecipeCache', 'allRecipeNames')" label="('DietRecipeCache', 'allRecipeNames')" />
+      <node id="('DietRecipeCache', 'buildResultsInBackground')" label="('DietRecipeCache', 'buildResultsInBackground')" />
+      <node id="('NutritionixMenuLoader', 'loadMenu')" label="('NutritionixMenuLoader', 'loadMenu')" />
+      <node id="('IngredientRecipeCache', 'prepareIfNeeded')" label="('IngredientRecipeCache', 'prepareIfNeeded')" />
+      <node id="('IngredientRecipeCache', 'allRecipeNames')" label="('IngredientRecipeCache', 'allRecipeNames')" />
+      <node id="('IngredientRecipeCache', 'buildResultsInBackground')" label="('IngredientRecipeCache', 'buildResultsInBackground')" />
+      <node id="('CookingRecipeCache', 'prepareIfNeeded')" label="('CookingRecipeCache', 'prepareIfNeeded')" />
+      <node id="('CookingRecipeCache', 'allRecipeNames')" label="('CookingRecipeCache', 'allRecipeNames')" />
+      <node id="('CookingRecipeCache', 'buildResultsInBackground')" label="('CookingRecipeCache', 'buildResultsInBackground')" />
+      <node id="('OccasionRecipeCache', 'prepareIfNeeded')" label="('OccasionRecipeCache', 'prepareIfNeeded')" />
+      <node id="('OccasionRecipeCache', 'allRecipeNames')" label="('OccasionRecipeCache', 'allRecipeNames')" />
+      <node id="('OccasionRecipeCache', 'buildResultsInBackground')" label="('OccasionRecipeCache', 'buildResultsInBackground')" />
+      <node id="('PopularRecipeCache', 'prepareIfNeeded')" label="('PopularRecipeCache', 'prepareIfNeeded')" />
+      <node id="('PopularRecipeCache', 'allRecipeNames')" label="('PopularRecipeCache', 'allRecipeNames')" />
+      <node id="('PopularRecipeCache', 'buildResultsInBackground')" label="('PopularRecipeCache', 'buildResultsInBackground')" />
+      <node id="('PopularRecipeCache', 'normalizeTitle')" label="('PopularRecipeCache', 'normalizeTitle')" />
+      <node id="('NutritionRecipeCache', 'prepareIfNeeded')" label="('NutritionRecipeCache', 'prepareIfNeeded')" />
+      <node id="('NutritionRecipeCache', 'allRecipeNames')" label="('NutritionRecipeCache', 'allRecipeNames')" />
+      <node id="('NutritionRecipeCache', 'buildResultsInBackground')" label="('NutritionRecipeCache', 'buildResultsInBackground')" />
+      <node id="('CuisineContentView', 'sectionView')" label="('CuisineContentView', 'sectionView')" />
+      <node id="('CuisineContentView', 'row')" label="('CuisineContentView', 'row')" />
+      <node id="('UserRecipeStore', 'add')" label="('UserRecipeStore', 'add')" />
+      <node id="('UserRecipeStore', 'update')" label="('UserRecipeStore', 'update')" />
+      <node id="('UserRecipeStore', 'delete')" label="('UserRecipeStore', 'delete')" />
+      <node id="('UserRecipeStore', 'save')" label="('UserRecipeStore', 'save')" />
+      <node id="('UserRecipeStore', 'load')" label="('UserRecipeStore', 'load')" />
+      <node id="('MyRecipeContentView', 'myRecipeRow')" label="('MyRecipeContentView', 'myRecipeRow')" />
+      <node id="('IngredientStore', 'rebuildCategorizedIngredients')" label="('IngredientStore', 'rebuildCategorizedIngredients')" />
+      <node id="('IngredientStore', 'addIngredient')" label="('IngredientStore', 'addIngredient')" />
+      <node id="('IngredientStore', 'removeIngredient')" label="('IngredientStore', 'removeIngredient')" />
+      <node id="('IngredientStore', 'save')" label="('IngredientStore', 'save')" />
+      <node id="('IngredientStore', 'load')" label="('IngredientStore', 'load')" />
+      <node id="('IngredientStore', 'isCustomIngredient')" label="('IngredientStore', 'isCustomIngredient')" />
+      <node id="('MyRecipeEditorView', 'endTyping')" label="('MyRecipeEditorView', 'endTyping')" />
+      <node id="('MyRecipeEditorView', 'resolvedRecipeName')" label="('MyRecipeEditorView', 'resolvedRecipeName')" />
+      <node id="('MyRecipeEditorView', 'updateSuggestions')" label="('MyRecipeEditorView', 'updateSuggestions')" />
+      <node id="('MyRecipeEditorView', 'ingredientCell')" label="('MyRecipeEditorView', 'ingredientCell')" />
+      <node id="('View', 'hideKeyboard')" label="('View', 'hideKeyboard')" />
+      <node id="('View', 'cornerRadius')" label="('View', 'cornerRadius')" />
+      <node id="('RecipeSearchView', 'optionsGrid')" label="('RecipeSearchView', 'optionsGrid')" />
+      <node id="('RecipeSearchView', 'toggleSelection')" label="('RecipeSearchView', 'toggleSelection')" />
+      <node id="('RecipeSearchView', 'filterRow')" label="('RecipeSearchView', 'filterRow')" />
+      <node id="('RecipeSearchView', 'dropdownContent')" label="('RecipeSearchView', 'dropdownContent')" />
+      <node id="('RecipeSearchView', 'selectionDisplayText')" label="('RecipeSearchView', 'selectionDisplayText')" />
+      <node id="('RecipeSearchView', 'handleSelection')" label="('RecipeSearchView', 'handleSelection')" />
+      <node id="('RecipeSearchView', 'resultRow')" label="('RecipeSearchView', 'resultRow')" />
+      <node id="('RecipeSearchView', 'performSearch')" label="('RecipeSearchView', 'performSearch')" />
+      <node id="('RecipeSearchView', 'filterOptions')" label="('RecipeSearchView', 'filterOptions')" />
+      <node id="('RecipeSearchService', 'searchSimilarRecipes')" label="('RecipeSearchService', 'searchSimilarRecipes')" />
+      <node id="('RecipeSearchService', 'bestMatchDetail')" label="('RecipeSearchService', 'bestMatchDetail')" />
+      <node id="('RecipeSearchService', 'ultraNormalize')" label="('RecipeSearchService', 'ultraNormalize')" />
+      <node id="('RecipeSearchService', 'dotCosine')" label="('RecipeSearchService', 'dotCosine')" />
+      <node id="('RecipeSearchService', 'createVector')" label="('RecipeSearchService', 'createVector')" />
+      <node id="('RecipeSearchService', 'getRandomRecipes')" label="('RecipeSearchService', 'getRandomRecipes')" />
+      <node id="('RecipeSearchService', 'dishKey')" label="('RecipeSearchService', 'dishKey')" />
+      <node id="('RecipeSearchService', 'inferVersionLabel')" label="('RecipeSearchService', 'inferVersionLabel')" />
+      <node id="('IngredientCalorieResolver', 'kcal')" label="('IngredientCalorieResolver', 'kcal')" />
+      <node id="('RecipeDetailDB', 'ensureLoaded')" label="('RecipeDetailDB', 'ensureLoaded')" />
+      <node id="('RecipeDetailDB', 'detail')" label="('RecipeDetailDB', 'detail')" />
+      <node id="('RecipeDetailDB', 'allDetails')" label="('RecipeDetailDB', 'allDetails')" />
+      <node id="('RecipeDetailDB', 'loadBSet')" label="('RecipeDetailDB', 'loadBSet')" />
+      <node id="('RecipeDetailDB', 'parseText')" label="('RecipeDetailDB', 'parseText')" />
+      <node id="('RecipeDetailDB', 'parseIngredientsBlock')" label="('RecipeDetailDB', 'parseIngredientsBlock')" />
+      <node id="('RecipeDetailDB', 'isQuantityOnlyLine')" label="('RecipeDetailDB', 'isQuantityOnlyLine')" />
+      <node id="('RecipeDetailDB', 'parseStepsBlock')" label="('RecipeDetailDB', 'parseStepsBlock')" />
+      <node id="('RecipeDetailDB', 'normalize')" label="('RecipeDetailDB', 'normalize')" />
+      <node id="('IngredientCalorieStore', 'kcal')" label="('IngredientCalorieStore', 'kcal')" />
+      <node id="('IngredientCalorieStore', 'upsert')" label="('IngredientCalorieStore', 'upsert')" />
+      <node id="('RecipeDetailView', 'capitalizeFirstLetter')" label="('RecipeDetailView', 'capitalizeFirstLetter')" />
+      <node id="('RecipeDetailView', 'loadSimilarRecipes')" label="('RecipeDetailView', 'loadSimilarRecipes')" />
+      <node id="('RecipeDetailStore', 'loadIfNeeded')" label="('RecipeDetailStore', 'loadIfNeeded')" />
+      <node id="('RecipeDetailStore', 'allRecipeNames')" label="('RecipeDetailStore', 'allRecipeNames')" />
+      <node id="('DietaryPreferenceStore', 'load')" label="('DietaryPreferenceStore', 'load')" />
+      <node id="('DietaryPreferenceStore', 'toggle')" label="('DietaryPreferenceStore', 'toggle')" />
+      <node id="('DietaryPreferenceStore', 'clear')" label="('DietaryPreferenceStore', 'clear')" />
+      <node id="('PreferencesView', 'isExpanded')" label="('PreferencesView', 'isExpanded')" />
+      <node id="('PreferencesView', 'toggle')" label="('PreferencesView', 'toggle')" />
+      <node id="('PreferencesView', 'scannedRestaurantRow')" label="('PreferencesView', 'scannedRestaurantRow')" />
+      <node id="('PreferencesView', 'sectionHeader')" label="('PreferencesView', 'sectionHeader')" />
+      <node id="('PreferencesView', 'emptyHint')" label="('PreferencesView', 'emptyHint')" />
+      <node id="('PreferencesView', 'healthInsightRow')" label="('PreferencesView', 'healthInsightRow')" />
+      <node id="('PreferencesView', 'healthInsightItem')" label="('PreferencesView', 'healthInsightItem')" />
+      <node id="('PreferencesView', 'favoriteRecipeRow')" label="('PreferencesView', 'favoriteRecipeRow')" />
+      <node id="('PreferencesView', 'favoriteRestaurantRow')" label="('PreferencesView', 'favoriteRestaurantRow')" />
+      <node id="('PreferencesView', 'openAppSettings')" label="('PreferencesView', 'openAppSettings')" />
+      <node id="('DietaryPreferenceEngine', 'infer')" label="('DietaryPreferenceEngine', 'infer')" />
+      <node id="('AnalyticsEventStore', 'log')" label="('AnalyticsEventStore', 'log')" />
+      <node id="('AnalyticsEventStore', 'prune')" label="('AnalyticsEventStore', 'prune')" />
+      <node id="('AnalyticsEventStore', 'save')" label="('AnalyticsEventStore', 'save')" />
+      <node id="('AnalyticsEventStore', 'load')" label="('AnalyticsEventStore', 'load')" />
+      <node id="('AnalyticsEventStore', 'clearAll')" label="('AnalyticsEventStore', 'clearAll')" />
+      <node id="('AnalyticsView', 'photoMappingCard')" label="('AnalyticsView', 'photoMappingCard')" />
+      <node id="('AnalyticsView', 'overviewCard')" label="('AnalyticsView', 'overviewCard')" />
+      <node id="('AnalyticsView', 'usageCard')" label="('AnalyticsView', 'usageCard')" />
+      <node id="('AnalyticsView', 'behaviorCard')" label="('AnalyticsView', 'behaviorCard')" />
+      <node id="('AnalyticsView', 'affinityCard')" label="('AnalyticsView', 'affinityCard')" />
+      <node id="('AnalyticsView', 'color')" label="('AnalyticsView', 'color')" />
+      <node id="('AnalyticsView', 'favoriteTopSection')" label="('AnalyticsView', 'favoriteTopSection')" />
+      <node id="('AnalyticsView', 'cardTitle')" label="('AnalyticsView', 'cardTitle')" />
+      <node id="('AnalyticsView', 'lineKV')" label="('AnalyticsView', 'lineKV')" />
+      <node id="('DonutChart', 'startAngle')" label="('DonutChart', 'startAngle')" />
+      <node id="('DonutChart', 'endAngle')" label="('DonutChart', 'endAngle')" />
+      <node id="('AnalyticsEngine', 'build')" label="('AnalyticsEngine', 'build')" />
+      <node id="('AnalyticsEngine', 'formatHour')" label="('AnalyticsEngine', 'formatHour')" />
+      <node id="('AnalyticsEngine', 'holdingDays')" label="('AnalyticsEngine', 'holdingDays')" />
+      <node id="('DonutPalette', 'color')" label="('DonutPalette', 'color')" />
+      <node id="('Date', 'startOfMonth')" label="('Date', 'startOfMonth')" />
+      <node id="('Date', 'daysInMonth')" label="('Date', 'daysInMonth')" />
+      <node id="('Date', 'addMonth')" label="('Date', 'addMonth')" />
+      <node id="('Date', 'toString')" label="('Date', 'toString')" />
+      <node id="('Date', 'toYMD')" label="('Date', 'toYMD')" />
+      <node id="('RecipeVisibilityStore', 'hide')" label="('RecipeVisibilityStore', 'hide')" />
+      <node id="('RecipeVisibilityStore', 'isHidden')" label="('RecipeVisibilityStore', 'isHidden')" />
+      <node id="('RecipeVisibilityStore', 'unhide')" label="('RecipeVisibilityStore', 'unhide')" />
+      <node id="('RecipeVisibilityStore', 'load')" label="('RecipeVisibilityStore', 'load')" />
+      <node id="('RecipeVisibilityStore', 'save')" label="('RecipeVisibilityStore', 'save')" />
+      <node id="('Calendar', 'isSameDay')" label="('Calendar', 'isSameDay')" />
+      <node id="('HistoryDaySheet', 'receiptRow')" label="('HistoryDaySheet', 'receiptRow')" />
+      <node id="('HistoryDaySheet', 'recipeRow')" label="('HistoryDaySheet', 'recipeRow')" />
+      <node id="('HistoryDaySheet', 'recomputeDerivedData')" label="('HistoryDaySheet', 'recomputeDerivedData')" />
+      <node id="('Set', 'toggle')" label="('Set', 'toggle')" />
+      <node id="('RecipeHistoryView', 'loadRecommendations')" label="('RecipeHistoryView', 'loadRecommendations')" />
+      <node id="('RecipeHistoryView', 'recommendationSection')" label="('RecipeHistoryView', 'recommendationSection')" />
+      <node id="('RecipeHistoryView', 'recomputeGrouped')" label="('RecipeHistoryView', 'recomputeGrouped')" />
+      <node id="('RecipeHistoryView', 'recommendationRow')" label="('RecipeHistoryView', 'recommendationRow')" />
+      <node id="('RecipeHistoryView', 'sectionView')" label="('RecipeHistoryView', 'sectionView')" />
+      <node id="('RecipeHistoryView', 'recipeRow')" label="('RecipeHistoryView', 'recipeRow')" />
+      <node id="('ReceiptVisibilityStore', 'hide')" label="('ReceiptVisibilityStore', 'hide')" />
+      <node id="('ReceiptVisibilityStore', 'isHidden')" label="('ReceiptVisibilityStore', 'isHidden')" />
+      <node id="('ReceiptVisibilityStore', 'load')" label="('ReceiptVisibilityStore', 'load')" />
+      <node id="('ReceiptVisibilityStore', 'save')" label="('ReceiptVisibilityStore', 'save')" />
+      <node id="('MenuVisibilityStore', 'loadHiddenIDs')" label="('MenuVisibilityStore', 'loadHiddenIDs')" />
+      <node id="('MenuVisibilityStore', 'saveHiddenIDs')" label="('MenuVisibilityStore', 'saveHiddenIDs')" />
+      <node id="('MenuVisibilityStore', 'rebuild')" label="('MenuVisibilityStore', 'rebuild')" />
+      <node id="('MenuVisibilityStore', 'hide')" label="('MenuVisibilityStore', 'hide')" />
+      <node id="('MenuVisibilityStore', 'unhide')" label="('MenuVisibilityStore', 'unhide')" />
+      <node id="('MenuItemCardView', 'makeIngredientLine')" label="('MenuItemCardView', 'makeIngredientLine')" />
+      <node id="('String', 'allWordsCapitalized')" label="('String', 'allWordsCapitalized')" />
+      <node id="('TextDocumentCameraView', 'makeCoordinator')" label="('TextDocumentCameraView', 'makeCoordinator')" />
+      <node id="('TextDocumentCameraView', 'makeUIViewController')" label="('TextDocumentCameraView', 'makeUIViewController')" />
+      <node id="('TextDocumentCameraView', 'updateUIViewController')" label="('TextDocumentCameraView', 'updateUIViewController')" />
+      <node id="('TextDocumentCameraView', 'documentCameraViewController')" label="('TextDocumentCameraView', 'documentCameraViewController')" />
+      <node id="('TextDocumentCameraView', 'recognizeText')" label="('TextDocumentCameraView', 'recognizeText')" />
+      <node id="('UIImage', 'removeAlpha')" label="('UIImage', 'removeAlpha')" />
+      <node id="('MenuScanMenuView', 'cardOpacity')" label="('MenuScanMenuView', 'cardOpacity')" />
+      <node id="('MenuScanStore', 'loadAll')" label="('MenuScanStore', 'loadAll')" />
+      <node id="('MenuScanStore', 'save')" label="('MenuScanStore', 'save')" />
+      <node id="('MenuScanStore', 'rebuildIndex')" label="('MenuScanStore', 'rebuildIndex')" />
+      <node id="('MenuScanStore', 'fileURL')" label="('MenuScanStore', 'fileURL')" />
+      <node id="('MenuScanStore', 'readFile')" label="('MenuScanStore', 'readFile')" />
+      <node id="('MenuScanStore', 'writeFile')" label="('MenuScanStore', 'writeFile')" />
+      <node id="('MenuScanStore', 'validSnapshots')" label="('MenuScanStore', 'validSnapshots')" />
+      <node id="('MenuScanStore', 'menus')" label="('MenuScanStore', 'menus')" />
+      <node id="('MenuItemEstimate', 'normalize')" label="('MenuItemEstimate', 'normalize')" />
+      <node id="('MenuItemEstimate', 'makeID')" label="('MenuItemEstimate', 'makeID')" />
+      <node id="('UserScannedMenuStore', 'upsert')" label="('UserScannedMenuStore', 'upsert')" />
+      <node id="('UserScannedMenuStore', 'restaurant')" label="('UserScannedMenuStore', 'restaurant')" />
+      <node id="('UserScannedMenuStore', 'all')" label="('UserScannedMenuStore', 'all')" />
+      <node id="('UserScannedMenuStore', 'mergeMenus')" label="('UserScannedMenuStore', 'mergeMenus')" />
+      <node id="('UserScannedMenuStore', 'fileURL')" label="('UserScannedMenuStore', 'fileURL')" />
+      <node id="('UserScannedMenuStore', 'save')" label="('UserScannedMenuStore', 'save')" />
+      <node id="('UserScannedMenuStore', 'load')" label="('UserScannedMenuStore', 'load')" />
+      <node id="('DishCalorieCalculator', 'calculate')" label="('DishCalorieCalculator', 'calculate')" />
+      <node id="('DishCalorieCalculator', 'dishScaleFromTitle')" label="('DishCalorieCalculator', 'dishScaleFromTitle')" />
+      <node id="('DishCalorieCalculator', 'quantityMultiplier')" label="('DishCalorieCalculator', 'quantityMultiplier')" />
+      <node id="('DishCalorieCalculator', 'findExplicitCalories')" label="('DishCalorieCalculator', 'findExplicitCalories')" />
+      <node id="('HealthAlertService', 'checkBarcodeProduct')" label="('HealthAlertService', 'checkBarcodeProduct')" />
+      <node id="('HealthAlertService', 'checkMenuText')" label="('HealthAlertService', 'checkMenuText')" />
+      <node id="('BarcodeScannerView', 'makeUIViewController')" label="('BarcodeScannerView', 'makeUIViewController')" />
+      <node id="('BarcodeScannerView', 'updateUIViewController')" label="('BarcodeScannerView', 'updateUIViewController')" />
+      <node id="('ScannerVC', 'viewDidLoad')" label="('ScannerVC', 'viewDidLoad')" />
+      <node id="('ScannerVC', 'setupCamera')" label="('ScannerVC', 'setupCamera')" />
+      <node id="('ScannerVC', 'setupCloseButton')" label="('ScannerVC', 'setupCloseButton')" />
+      <node id="('ScannerVC', 'closeTapped')" label="('ScannerVC', 'closeTapped')" />
+      <node id="('ScannerVC', 'metadataOutput')" label="('ScannerVC', 'metadataOutput')" />
+      <node id="('ScannerVC', 'viewWillDisappear')" label="('ScannerVC', 'viewWillDisappear')" />
+      <node id="('OpenFoodFactsMenuLoader', 'loadMenu')" label="('OpenFoodFactsMenuLoader', 'loadMenu')" />
+      <node id="('ProductAlertBuilder', 'build')" label="('ProductAlertBuilder', 'build')" />
+      <node id="('NonHalalFoodStore', 'load')" label="('NonHalalFoodStore', 'load')" />
+      <node id="('HealthKitManager', 'checkAuthorizationStatus')" label="('HealthKitManager', 'checkAuthorizationStatus')" />
+      <node id="('HealthKitManager', 'requestAuthorization')" label="('HealthKitManager', 'requestAuthorization')" />
+      <node id="('HealthKitManager', 'loadHealthData')" label="('HealthKitManager', 'loadHealthData')" />
+      <node id="('HealthKitManager', 'updateHealthFlags')" label="('HealthKitManager', 'updateHealthFlags')" />
+      <node id="('HealthKitManager', 'debugPrintLatestValues')" label="('HealthKitManager', 'debugPrintLatestValues')" />
+      <node id="('HealthKitManager', 'refreshHealthData')" label="('HealthKitManager', 'refreshHealthData')" />
+      <node id="('HealthKitManager', 'loadLatestGlucose')" label="('HealthKitManager', 'loadLatestGlucose')" />
+      <node id="('HealthKitManager', 'loadLatestBloodPressure')" label="('HealthKitManager', 'loadLatestBloodPressure')" />
+      <node id="('HealthKitManager', 'fetchLatestGlucoseSample')" label="('HealthKitManager', 'fetchLatestGlucoseSample')" />
+      <node id="('HealthKitManager', 'fetchLatestBloodPressure')" label="('HealthKitManager', 'fetchLatestBloodPressure')" />
+      <node id="('OpenFoodFactsAPI', 'fetchProduct')" label="('OpenFoodFactsAPI', 'fetchProduct')" />
+      <node id="('FoodDB', 'openDatabase')" label="('FoodDB', 'openDatabase')" />
+      <node id="('FoodDB', 'lookup')" label="('FoodDB', 'lookup')" />
+      <node id="('FoodDB', 'trimLeadingZeros')" label="('FoodDB', 'trimLeadingZeros')" />
+      <node id="('FoodDB', 'runQuery')" label="('FoodDB', 'runQuery')" />
+      <node id="('FoodDB', 'getString')" label="('FoodDB', 'getString')" />
+      <node id="('FoodDB', 'getDouble')" label="('FoodDB', 'getDouble')" />
+      <node id="('FoodDB', 'getInt')" label="('FoodDB', 'getInt')" />
+      <node id="('ProductResultView', 'guessIcon')" label="('ProductResultView', 'guessIcon')" />
+      <node id="('ProductResultView', 'nutriScoreColor')" label="('ProductResultView', 'nutriScoreColor')" />
+      <node id="('ProductResultView', 'novaColor')" label="('ProductResultView', 'novaColor')" />
+      <node id="('ProductResultView', 'checkHalalCompliance')" label="('ProductResultView', 'checkHalalCompliance')" />
+      <node id="('InfiniteCookingGameView', 'loadSavedLevel')" label="('InfiniteCookingGameView', 'loadSavedLevel')" />
+      <node id="('InfiniteCookingGameView', 'resetGame')" label="('InfiniteCookingGameView', 'resetGame')" />
+      <node id="('InfiniteCookingGameView', 'generateMission')" label="('InfiniteCookingGameView', 'generateMission')" />
+      <node id="('InfiniteCookingGameView', 'checkAnswer')" label="('InfiniteCookingGameView', 'checkAnswer')" />
+      <node id="('InfiniteSushiGameView', 'loadSavedLevel')" label="('InfiniteSushiGameView', 'loadSavedLevel')" />
+      <node id="('InfiniteSushiGameView', 'getGridColumnCount')" label="('InfiniteSushiGameView', 'getGridColumnCount')" />
+      <node id="('InfiniteSushiGameView', 'generateLevel')" label="('InfiniteSushiGameView', 'generateLevel')" />
+      <node id="('InfiniteSushiGameView', 'flipCard')" label="('InfiniteSushiGameView', 'flipCard')" />
+      <node id="('InfiniteSushiGameView', 'handleMatchSuccess')" label="('InfiniteSushiGameView', 'handleMatchSuccess')" />
+      <node id="('InfiniteSushiGameView', 'handleMatchFailure')" label="('InfiniteSushiGameView', 'handleMatchFailure')" />
+      <node id="('InfiniteSushiGameView', 'handleTimerTick')" label="('InfiniteSushiGameView', 'handleTimerTick')" />
+      <node id="('InfiniteSushiGameView', 'levelUp')" label="('InfiniteSushiGameView', 'levelUp')" />
+      <node id="('InfiniteSushiGameView', 'resetGame')" label="('InfiniteSushiGameView', 'resetGame')" />
+      <node id="('LocationScannerView', 'startScan')" label="('LocationScannerView', 'startScan')" />
+      <node id="('InfiniteIngredientGameView', 'ingredientItemView')" label="('InfiniteIngredientGameView', 'ingredientItemView')" />
+      <node id="('InfiniteIngredientGameView', 'resetGame')" label="('InfiniteIngredientGameView', 'resetGame')" />
+      <node id="('InfiniteIngredientGameView', 'generateMission')" label="('InfiniteIngredientGameView', 'generateMission')" />
+      <node id="('InfiniteIngredientGameView', 'checkAnswer')" label="('InfiniteIngredientGameView', 'checkAnswer')" />
+      <node id="('GameContext', 'unlockNext')" label="('GameContext', 'unlockNext')" />
+      <node id="('StoryRunnerView', 'resetLevel')" label="('StoryRunnerView', 'resetLevel')" />
+      <node id="('StoryRunnerView', 'loadSavedData')" label="('StoryRunnerView', 'loadSavedData')" />
+      <node id="('StoryRunnerView', 'handleGameClear')" label="('StoryRunnerView', 'handleGameClear')" />
+      <node id="('StoryRunnerView', 'getCharacterIcon')" label="('StoryRunnerView', 'getCharacterIcon')" />
+      <node id="('StoryRunnerView', 'loadInitialScript')" label="('StoryRunnerView', 'loadInitialScript')" />
+      <node id="('StoryRunnerView', 'updateDialogueAfterClear')" label="('StoryRunnerView', 'updateDialogueAfterClear')" />
+      <node id="('RoundedCorner', 'path')" label="('RoundedCorner', 'path')" />
+      <node id="('CookingWorldMapView', 'getPosition')" label="('CookingWorldMapView', 'getPosition')" />
+      <node id="('KCuisineStoryGameView', 'requiredCorrectCount')" label="('KCuisineStoryGameView', 'requiredCorrectCount')" />
+      <node id="('KCuisineStoryGameView', 'generateQuiz')" label="('KCuisineStoryGameView', 'generateQuiz')" />
+      <node id="('KCuisineStoryGameView', 'resetCompletedQuizzes')" label="('KCuisineStoryGameView', 'resetCompletedQuizzes')" />
+      <node id="('KCuisineStoryGameView', 'processChoice')" label="('KCuisineStoryGameView', 'processChoice')" />
+      <node id="('KCuisineStoryGameView', 'showFeedback')" label="('KCuisineStoryGameView', 'showFeedback')" />
+      <node id="('DBToolResource', 'requireResource')" label="('DBToolResource', 'requireResource')" />
+      <node id="('RecipeDishParser', 'buildDishCalorieDB')" label="('RecipeDishParser', 'buildDishCalorieDB')" />
+      <node id="('DishCalorieDBBuilder', 'buildAndExport')" label="('DishCalorieDBBuilder', 'buildAndExport')" />
+      <node id="('ChainMenuDishParser', 'buildDishCalorieDB')" label="('ChainMenuDishParser', 'buildDishCalorieDB')" />
+      <node id="('FoodSeg103Segmenter', 'segment')" label="('FoodSeg103Segmenter', 'segment')" />
+      <node id="('FoodSeg103Segmenter', 'extractIngredients')" label="('FoodSeg103Segmenter', 'extractIngredients')" />
+      <node id="('MiniLMTokenizer', 'encode')" label="('MiniLMTokenizer', 'encode')" />
+      <node id="('MiniLMTokenizer', 'basicClean')" label="('MiniLMTokenizer', 'basicClean')" />
+      <node id="('MiniLMTokenizer', 'wordpieceTokenize')" label="('MiniLMTokenizer', 'wordpieceTokenize')" />
+      <node id="('MiniLMWordPieceTokenizer', 'loadFromBundle')" label="('MiniLMWordPieceTokenizer', 'loadFromBundle')" />
+      <node id="('MiniLMWordPieceTokenizer', 'id')" label="('MiniLMWordPieceTokenizer', 'id')" />
+      <node id="('MiniLMWordPieceTokenizer', 'basicTokens')" label="('MiniLMWordPieceTokenizer', 'basicTokens')" />
+      <node id="('MiniLMWordPieceTokenizer', 'flushCurrent')" label="('MiniLMWordPieceTokenizer', 'flushCurrent')" />
+      <node id="('MiniLMWordPieceTokenizer', 'wordpiece')" label="('MiniLMWordPieceTokenizer', 'wordpiece')" />
+      <node id="('MiniLMWordPieceTokenizer', 'encode')" label="('MiniLMWordPieceTokenizer', 'encode')" />
+      <node id="('MiniLMEmbedderService', 'embed')" label="('MiniLMEmbedderService', 'embed')" />
+    </nodes>
+    <edges>
+      <edge source="('ChefMouseView', 'showRandomMenuBubble')" target="('RecipeSearchService', 'getRandomRecipes')" id="0" />
+      <edge source="('NameNormalizer', 'canonical')" target="('NameNormalizer', 'baseNormalize')" id="1" />
+      <edge source="('NameNormalizer', 'canonical')" target="('NameNormalizer', 'normalizeRecipeNoise')" id="2" />
+      <edge source="('NameNormalizer', 'canonical')" target="('NameNormalizer', 'normalizeMenuNoise')" id="3" />
+      <edge source="('NameNormalizer', 'canonical')" target="('NameNormalizer', 'normalizeRestaurantNoise')" id="4" />
+      <edge source="('NameNormalizer', 'canonical')" target="('NameNormalizer', 'finalize')" id="5" />
+      <edge source="('NameNormalizer', 'display')" target="('NameNormalizer', 'canonical')" id="6" />
+      <edge source="('FeatureButtonStore', 'load')" target="('FeatureButtonStore', 'migrate')" id="7" />
+      <edge source="('FeatureButtonStore', 'load')" target="('FeatureButtonStore', 'save')" id="8" />
+      <edge source="('FeatureButtonStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="9" />
+      <edge source="('FeatureButtonStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="10" />
+      <edge source="('FeatureButtonStore', 'delete')" target="('FeatureButtonStore', 'save')" id="11" />
+      <edge source="('FeatureButtonStore', 'move')" target="('FeatureButtonStore', 'move')" id="12" />
+      <edge source="('FeatureButtonStore', 'move')" target="('FeatureButtonStore', 'save')" id="13" />
+      <edge source="('FeatureButtonStore', 'reset')" target="('FeatureButtonStore', 'save')" id="14" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('ReceiptOCR', 'recognizeText')" id="15" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('Coordinator', 'recognizeText')" id="16" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('TextDocumentCameraView', 'recognizeText')" id="17" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('ReceiptDishMatcher', 'extractMenuBlocks')" id="18" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('ReceiptDishMatcher', 'matchAll')" id="19" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('RestaurantKeyBuilder', 'make')" id="20" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('ReceiptScanStore', 'save')" id="21" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('FoodPhotoMenuLinkStore', 'save')" id="22" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('UserScannedMenuStore', 'save')" id="23" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('IngredientStore', 'save')" id="24" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('ReceiptVisibilityStore', 'save')" id="25" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('AnalyticsEventStore', 'save')" id="26" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('FavoriteRestaurantStore', 'save')" id="27" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('FavoriteMenuStore', 'save')" id="28" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('FavoriteRecipeStore', 'save')" id="29" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('UserRecipeStore', 'save')" id="30" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('MenuScanStore', 'save')" id="31" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('PhotoLabelStore', 'save')" id="32" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('FeatureButtonStore', 'save')" id="33" />
+      <edge source="('ContentView', 'handleReceiptScan')" target="('RecipeVisibilityStore', 'save')" id="34" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('FeatureButtonStore', 'save')" id="35" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('ReceiptScanStore', 'save')" id="36" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('FoodPhotoMenuLinkStore', 'save')" id="37" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('UserScannedMenuStore', 'save')" id="38" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('IngredientStore', 'save')" id="39" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('ReceiptVisibilityStore', 'save')" id="40" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('AnalyticsEventStore', 'save')" id="41" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('FavoriteRestaurantStore', 'save')" id="42" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('FavoriteMenuStore', 'save')" id="43" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('FavoriteRecipeStore', 'save')" id="44" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('UserRecipeStore', 'save')" id="45" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('MenuScanStore', 'save')" id="46" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('PhotoLabelStore', 'save')" id="47" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('RecipeVisibilityStore', 'save')" id="48" />
+      <edge source="('ContentView', 'finalizeReorder')" target="('ContentView', 'resetDrag')" id="49" />
+      <edge source="('ContentView', 'handleReorder')" target="('FeatureButtonStore', 'move')" id="50" />
+      <edge source="('ContentView', 'handleFeatureAction')" target="('AnalyticsEventStore', 'log')" id="51" />
+      <edge source="('ContentView', 'handleBarcodeScanned')" target="('AnalyticsEngine', 'build')" id="52" />
+      <edge source="('ContentView', 'handleBarcodeScanned')" target="('ProductAlertBuilder', 'build')" id="53" />
+      <edge source="('ContentView', 'handleBarcodeScanned')" target="('ContentView', 'makeHealthProfile')" id="54" />
+      <edge source="('ContentView', 'handleBarcodeScanned')" target="('FoodDB', 'lookup')" id="55" />
+      <edge source="('ContentView', 'handleBarcodeScanned')" target="('OpenFoodFactsAPI', 'fetchProduct')" id="56" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('RestaurantKeyBuilder', 'make')" id="57" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('ReceiptScanStore', 'save')" id="58" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('FoodPhotoMenuLinkStore', 'save')" id="59" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('UserScannedMenuStore', 'save')" id="60" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('IngredientStore', 'save')" id="61" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('ReceiptVisibilityStore', 'save')" id="62" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('AnalyticsEventStore', 'save')" id="63" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('FavoriteRestaurantStore', 'save')" id="64" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('FavoriteMenuStore', 'save')" id="65" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('FavoriteRecipeStore', 'save')" id="66" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('UserRecipeStore', 'save')" id="67" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('MenuScanStore', 'save')" id="68" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('PhotoLabelStore', 'save')" id="69" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('FeatureButtonStore', 'save')" id="70" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('RecipeVisibilityStore', 'save')" id="71" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('AnalyticsEventStore', 'log')" id="72" />
+      <edge source="('ContentView', 'saveMenuScanRecord')" target="('ContentView', 'saveUserScannedRestaurantIfNeeded')" id="73" />
+      <edge source="('ContentView', 'parseAndEstimateCalories')" target="('MenuParser', 'parseMenuItems')" id="74" />
+      <edge source="('ContentView', 'parseAndEstimateCalories')" target="('ContentView', 'makeSnapshots')" id="75" />
+      <edge source="('ContentView', 'saveUserScannedRestaurantIfNeeded')" target="('RestaurantKeyBuilder', 'make')" id="76" />
+      <edge source="('ContentView', 'saveUserScannedRestaurantIfNeeded')" target="('UserScannedMenuStore', 'upsert')" id="77" />
+      <edge source="('ContentView', 'saveUserScannedRestaurantIfNeeded')" target="('DishCalorieStore', 'upsert')" id="78" />
+      <edge source="('ContentView', 'saveUserScannedRestaurantIfNeeded')" target="('IngredientCalorieStore', 'upsert')" id="79" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('ChainNameNormalizer', 'normalize')" id="80" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('RecipeDetailDB', 'normalize')" id="81" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('ReceiptDishMatcher', 'normalize')" id="82" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('FavoriteRestaurantStore', 'normalize')" id="83" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('FavoriteRecipeStore', 'normalize')" id="84" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('MenuItemEstimate', 'normalize')" id="85" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('MenuParser', 'normalize')" id="86" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('RecipeCalorieCache', 'normalize')" id="87" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('ReceiptScanStore', 'save')" id="88" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('FoodPhotoMenuLinkStore', 'save')" id="89" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('UserScannedMenuStore', 'save')" id="90" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('IngredientStore', 'save')" id="91" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('ReceiptVisibilityStore', 'save')" id="92" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('AnalyticsEventStore', 'save')" id="93" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('FavoriteRestaurantStore', 'save')" id="94" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('FavoriteMenuStore', 'save')" id="95" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('FavoriteRecipeStore', 'save')" id="96" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('UserRecipeStore', 'save')" id="97" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('MenuScanStore', 'save')" id="98" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('PhotoLabelStore', 'save')" id="99" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('FeatureButtonStore', 'save')" id="100" />
+      <edge source="('AutoMenuLoaderView', 'saveAutoMenuToHistory')" target="('RecipeVisibilityStore', 'save')" id="101" />
+      <edge source="('AutoDishCardView', 'toggleFavorite')" target="('DietaryPreferenceStore', 'toggle')" id="102" />
+      <edge source="('AutoDishCardView', 'toggleFavorite')" target="('FavoriteRestaurantStore', 'toggle')" id="103" />
+      <edge source="('AutoDishCardView', 'toggleFavorite')" target="('FavoriteMenuStore', 'toggle')" id="104" />
+      <edge source="('AutoDishCardView', 'toggleFavorite')" target="('FavoriteRecipeStore', 'toggle')" id="105" />
+      <edge source="('AutoDishCardView', 'toggleFavorite')" target="('Set', 'toggle')" id="106" />
+      <edge source="('AutoDishCardView', 'toggleFavorite')" target="('PreferencesView', 'toggle')" id="107" />
+      <edge source="('AutoDishCardView', 'toggleFavorite')" target="('IngredientSelectSheet', 'toggle')" id="108" />
+      <edge source="('RestaurantDetector', 'detectNow')" target="('RestaurantDetector', 'detect')" id="109" />
+      <edge source="('RestaurantDetector', 'detect')" target="('RestaurantDetector', 'calculateConfidence')" id="110" />
+      <edge source="('RSSParser', 'parse')" target="('RSSParser', 'parse')" id="111" />
+      <edge source="('FoodNewsAutoScrollView', 'startAutoScroll')" target="('FoodNewsAutoScrollView', 'stopAutoScroll')" id="112" />
+      <edge source="('FoodNewsService', 'refreshIfNeeded')" target="('FoodNewsService', 'loadCache')" id="113" />
+      <edge source="('FoodNewsService', 'refreshIfNeeded')" target="('FoodNewsService', 'isExpired')" id="114" />
+      <edge source="('FoodNewsService', 'refreshIfNeeded')" target="('FoodNewsService', 'fetchAllFeeds')" id="115" />
+      <edge source="('FoodNewsService', 'refreshIfNeeded')" target="('FoodNewsService', 'saveCache')" id="116" />
+      <edge source="('FoodNewsService', 'fetchAllFeeds')" target="('FoodNewsService', 'fetchRSS')" id="117" />
+      <edge source="('FoodNewsService', 'fetchRSS')" target="('RSSParser', 'parse')" id="118" />
+      <edge source="('FoodNewsService', 'saveCache')" target="('MiniLMWordPieceTokenizer', 'encode')" id="119" />
+      <edge source="('FoodNewsService', 'saveCache')" target="('MiniLMTokenizer', 'encode')" id="120" />
+      <edge source="('FoodNewsStore', 'load')" target="('FoodNewsService', 'refreshIfNeeded')" id="121" />
+      <edge source="('FoodNewsStore', 'load')" target="('FoodNewsStore', 'updateVisible')" id="122" />
+      <edge source="('FoodNewsStore', 'load')" target="('FoodNewsStore', 'stopRoundRobin')" id="123" />
+      <edge source="('FoodNewsStore', 'load')" target="('FoodNewsStore', 'startRoundRobin')" id="124" />
+      <edge source="('FoodNewsStore', 'updateVisible')" target="('FoodNewsStore', 'stopRoundRobin')" id="125" />
+      <edge source="('FoodNewsStore', 'startRoundRobin')" target="('FoodNewsStore', 'updateVisible')" id="126" />
+      <edge source="('FoodNewsStore', 'startRoundRobin')" target="('FoodNewsStore', 'stopRoundRobin')" id="127" />
+      <edge source="('ReceiptDishMatcher', 'extractMenuBlocks')" target="('ReceiptDishMatcher', 'extractQuantity')" id="128" />
+      <edge source="('ReceiptDishMatcher', 'extractMenuBlocks')" target="('ReceiptDishMatcher', 'extractNameAndPrice')" id="129" />
+      <edge source="('ReceiptDishMatcher', 'extractMenuBlocks')" target="('ReceiptDishMatcher', 'normalize')" id="130" />
+      <edge source="('ReceiptDishMatcher', 'matchAll')" target="('RecipeViewStore', 'loadIfNeeded')" id="131" />
+      <edge source="('ReceiptDishMatcher', 'matchAll')" target="('RecipeDetailStore', 'loadIfNeeded')" id="132" />
+      <edge source="('ReceiptDishMatcher', 'matchAll')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="133" />
+      <edge source="('ReceiptDishMatcher', 'matchAll')" target="('ReceiptDishMatcher', 'bestMatch')" id="134" />
+      <edge source="('ReceiptDishMatcher', 'bestMatch')" target="('ReceiptDishMatcher', 'normalize')" id="135" />
+      <edge source="('ReceiptDishMatcher', 'bestMatch')" target="('ReceiptDishMatcher', 'pickBetter')" id="136" />
+      <edge source="('ReceiptDishMatcher', 'bestMatch')" target="('ReceiptDishMatcher', 'tokenOverlapScore')" id="137" />
+      <edge source="('ReceiptScanStore', 'refresh')" target="('ReceiptScanStore', 'loadFromDisk')" id="138" />
+      <edge source="('ReceiptScanStore', 'save')" target="('ReceiptScanStore', 'persist')" id="139" />
+      <edge source="('ReceiptScanStore', 'delete')" target="('ReceiptScanStore', 'persist')" id="140" />
+      <edge source="('ReceiptScanStore', 'deleteAll')" target="('ReceiptScanStore', 'persist')" id="141" />
+      <edge source="('ReceiptScanStore', 'loadFromDisk')" target="('ReceiptScanStore', 'fileURL')" id="142" />
+      <edge source="('ReceiptScanStore', 'persist')" target="('ReceiptScanStore', 'fileURL')" id="143" />
+      <edge source="('ReceiptScanStore', 'persist')" target="('MiniLMWordPieceTokenizer', 'encode')" id="144" />
+      <edge source="('ReceiptScanStore', 'persist')" target="('MiniLMTokenizer', 'encode')" id="145" />
+      <edge source="('Coordinator', 'documentCameraViewController')" target="('PreloadGate', 'enter')" id="146" />
+      <edge source="('Coordinator', 'documentCameraViewController')" target="('Coordinator', 'recognizeText')" id="147" />
+      <edge source="('Coordinator', 'recognizeText')" target="('UIImage', 'removeAlpha')" id="148" />
+      <edge source="('DishCalorieStore', 'upsert')" target="('DishCalorieStore', 'shouldOverwrite')" id="149" />
+      <edge source="('DishCalorieStore', 'bestApproximateDish')" target="('NameNormalizer', 'canonical')" id="150" />
+      <edge source="('DishCalorieStore', 'bestApproximateDish')" target="('DishCalorieStore', 'similarity')" id="151" />
+      <edge source="('DishCalorieStore', 'saveToDisk')" target="('MiniLMWordPieceTokenizer', 'encode')" id="152" />
+      <edge source="('DishCalorieStore', 'saveToDisk')" target="('MiniLMTokenizer', 'encode')" id="153" />
+      <edge source="('DishCalorieStore', 'exportToJSON')" target="('MiniLMWordPieceTokenizer', 'encode')" id="154" />
+      <edge source="('DishCalorieStore', 'exportToJSON')" target="('MiniLMTokenizer', 'encode')" id="155" />
+      <edge source="('DishCalorieStore', 'saveForDebug')" target="('DishCalorieStore', 'saveToDisk')" id="156" />
+      <edge source="('DishCalorieConfidenceCalculator', 'evaluate')" target="('DishCalorieCalculator', 'calculate')" id="157" />
+      <edge source="('DishCalorieConfidenceCalculator', 'evaluate')" target="('DishCalorieConfidenceCalculator', 'calculateConfidence')" id="158" />
+      <edge source="('ChainMenuService', 'loadMenu')" target="('MenuParser', 'parseMenuItems')" id="159" />
+      <edge source="('NearbyRestaurantPickerView', 'restaurantRow')" target="('NearbyRestaurantPickerView', 'shouldShowArrow')" id="160" />
+      <edge source="('NearbyRestaurantPickerView', 'restaurantRow')" target="('NearbyRestaurantPickerView', 'rowContent')" id="161" />
+      <edge source="('NearbyRestaurantPickerView', 'rowContent')" target="('NearbyRestaurantPickerView', 'displayCategoryName')" id="162" />
+      <edge source="('NearbyRestaurantPickerView', 'rowContent')" target="('NearbyRestaurantPickerView', 'distanceString')" id="163" />
+      <edge source="('NearbyRestaurantPickerView', 'shouldShowArrow')" target="('NearbyRestaurantPickerView', 'hasChainMenu')" id="164" />
+      <edge source="('NearbyRestaurantPickerView', 'shouldShowArrow')" target="('NearbyRestaurantPickerView', 'inferCuisine')" id="165" />
+      <edge source="('NearbyRestaurantPickerView', 'hasChainMenu')" target="('ChainMenuRegistry', 'matchChainKey')" id="166" />
+      <edge source="('NearbyRestaurantPickerView', 'inferCuisine')" target="('ChainMenuRegistry', 'matchCuisineKey')" id="167" />
+      <edge source="('ChainMenuRegistry', 'load')" target="('DBToolResource', 'requireResource')" id="168" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('ChainNameNormalizer', 'normalize')" id="169" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('RecipeDetailDB', 'normalize')" id="170" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('ReceiptDishMatcher', 'normalize')" id="171" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('FavoriteRestaurantStore', 'normalize')" id="172" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('FavoriteRecipeStore', 'normalize')" id="173" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('MenuItemEstimate', 'normalize')" id="174" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('MenuParser', 'normalize')" id="175" />
+      <edge source="('ChainMenuRegistry', 'matchChainKey')" target="('RecipeCalorieCache', 'normalize')" id="176" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('ChainNameNormalizer', 'normalize')" id="177" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('RecipeDetailDB', 'normalize')" id="178" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('ReceiptDishMatcher', 'normalize')" id="179" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('FavoriteRestaurantStore', 'normalize')" id="180" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('FavoriteRecipeStore', 'normalize')" id="181" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('MenuItemEstimate', 'normalize')" id="182" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('MenuParser', 'normalize')" id="183" />
+      <edge source="('ChainMenuRegistry', 'matchCuisineKey')" target="('RecipeCalorieCache', 'normalize')" id="184" />
+      <edge source="('ChainMenuRegistry', 'resolve')" target="('ChainMenuRegistry', 'matchChainKey')" id="185" />
+      <edge source="('ChainMenuRegistry', 'resolve')" target="('ChainMenuRegistry', 'chain')" id="186" />
+      <edge source="('ChainMenuRegistry', 'resolve')" target="('ChainMenuRegistry', 'matchCuisineKey')" id="187" />
+      <edge source="('ChainMenuRegistry', 'resolve')" target="('ChainMenuRegistry', 'cuisine')" id="188" />
+      <edge source="('LocationManager', 'requestLocation')" target="('LocationManager', 'requestLocation')" id="189" />
+      <edge source="('LocationManager', 'locationManager')" target="('RestaurantDetector', 'detect')" id="190" />
+      <edge source="('LocationManager', 'locationManager')" target="('LocationManager', 'reverseGeocode')" id="191" />
+      <edge source="('LocationManager', 'fetchAddress')" target="('LocationManager', 'startLocationUpdatesIfAllowed')" id="192" />
+      <edge source="('LocationManager', 'resetForNextScan')" target="('FeatureButtonStore', 'reset')" id="193" />
+      <edge source="('LocationManager', 'resetForNextScan')" target="('RestaurantDetector', 'reset')" id="194" />
+      <edge source="('LocationManager', 'resetForNextScan')" target="('PreloadGate', 'reset')" id="195" />
+      <edge source="('FoodPhotoLinkViewModel', 'loadMenus')" target="('ReceiptScanStore', 'loadAll')" id="196" />
+      <edge source="('FoodPhotoLinkViewModel', 'loadMenus')" target="('RecipeViewStore', 'loadAll')" id="197" />
+      <edge source="('FoodPhotoLinkViewModel', 'loadMenus')" target="('MenuScanStore', 'loadAll')" id="198" />
+      <edge source="('MenuCalPhotoStore', 'add')" target="('MenuCalPhotoStore', 'all')" id="199" />
+      <edge source="('FoodPhotoSaver', 'saveToPhotos')" target="('HealthKitManager', 'requestAuthorization')" id="200" />
+      <edge source="('FoodPhotoMenuLinkStore', 'add')" target="('FoodPhotoMenuLinkStore', 'save')" id="201" />
+      <edge source="('FoodPhotoMenuLinkStore', 'remove')" target="('FoodPhotoMenuLinkStore', 'save')" id="202" />
+      <edge source="('FoodPhotoMenuLinkStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="203" />
+      <edge source="('FoodPhotoMenuLinkStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="204" />
+      <edge source="('PhotoLabelStore', 'addLabel')" target="('PhotoLabelStore', 'save')" id="205" />
+      <edge source="('PhotoLabelStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="206" />
+      <edge source="('PhotoLabelStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="207" />
+      <edge source="('PhotoLabelStore', 'save')" target="('PhotoLabelStore', 'fileURL')" id="208" />
+      <edge source="('PhotoLabelStore', 'load')" target="('PhotoLabelStore', 'fileURL')" id="209" />
+      <edge source="('PhotoLabelStore', 'deleteLabel')" target="('PhotoLabelStore', 'save')" id="210" />
+      <edge source="('IngredientSelectSheet', 'toggle')" target="('FoodPhotoMenuLinkStore', 'remove')" id="211" />
+      <edge source="('IngredientSelectSheet', 'saveIngredientLabel')" target="('PhotoLabelStore', 'addLabel')" id="212" />
+      <edge source="('FoodPhotoLibraryView', 'loadFoodPhotos')" target="('MenuCalPhotoStore', 'all')" id="213" />
+      <edge source="('FoodPhotoLibraryView', 'loadFoodPhotos')" target="('UserScannedMenuStore', 'all')" id="214" />
+      <edge source="('FoodPhotoLibraryView', 'loadFoodPhotos')" target="('DishCalorieStore', 'all')" id="215" />
+      <edge source="('FoodPhotoLabelViewModel', 'delete')" target="('PhotoLabelStore', 'deleteLabel')" id="216" />
+      <edge source="('DishSelectSheet', 'toggleRestaurant')" target="('FoodPhotoMenuLinkStore', 'remove')" id="217" />
+      <edge source="('DishSelectSheet', 'saveDishLabel')" target="('PhotoLabelStore', 'addLabel')" id="218" />
+      <edge source="('FavoriteRecipeStore', 'isFavorite')" target="('FavoriteRecipeStore', 'normalize')" id="219" />
+      <edge source="('FavoriteRecipeStore', 'toggle')" target="('FavoriteRecipeStore', 'normalize')" id="220" />
+      <edge source="('FavoriteRecipeStore', 'toggle')" target="('FoodPhotoMenuLinkStore', 'remove')" id="221" />
+      <edge source="('FavoriteRecipeStore', 'toggle')" target="('FavoriteRecipeStore', 'save')" id="222" />
+      <edge source="('FavoriteRecipeStore', 'load')" target="('FavoriteRecipeStore', 'normalize')" id="223" />
+      <edge source="('FavoriteRecipeStore', 'load')" target="('FavoriteRecipeStore', 'save')" id="224" />
+      <edge source="('FavoriteRecipeStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="225" />
+      <edge source="('FavoriteRecipeStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="226" />
+      <edge source="('FavoriteMenuStore', 'toggle')" target="('FoodPhotoMenuLinkStore', 'remove')" id="227" />
+      <edge source="('FavoriteMenuStore', 'toggle')" target="('FavoriteMenuStore', 'save')" id="228" />
+      <edge source="('FavoriteMenuStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="229" />
+      <edge source="('FavoriteMenuStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="230" />
+      <edge source="('FavoriteMenuStore', 'prune')" target="('FavoriteMenuStore', 'save')" id="231" />
+      <edge source="('FavoriteRestaurantStore', 'isFavorite')" target="('FavoriteRestaurantStore', 'normalize')" id="232" />
+      <edge source="('FavoriteRestaurantStore', 'toggle')" target="('FavoriteRestaurantStore', 'normalize')" id="233" />
+      <edge source="('FavoriteRestaurantStore', 'toggle')" target="('FoodPhotoMenuLinkStore', 'remove')" id="234" />
+      <edge source="('FavoriteRestaurantStore', 'toggle')" target="('FavoriteRestaurantStore', 'save')" id="235" />
+      <edge source="('FavoriteRestaurantStore', 'load')" target="('FavoriteRestaurantStore', 'normalize')" id="236" />
+      <edge source="('FavoriteRestaurantStore', 'load')" target="('FavoriteRestaurantStore', 'save')" id="237" />
+      <edge source="('FavoriteRestaurantStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="238" />
+      <edge source="('FavoriteRestaurantStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="239" />
+      <edge source="('RecipeCalorieCache', 'setCalories')" target="('RecipeCalorieCache', 'normalize')" id="240" />
+      <edge source="('RecipeCalorieCache', 'calories')" target="('RecipeCalorieCache', 'normalize')" id="241" />
+      <edge source="('MenuParser', 'parseRecipeIngredients')" target="('MenuParser', 'parseIngredientsFromText')" id="242" />
+      <edge source="('MenuParser', 'overrideEmbeddingIndex')" target="('MenuParser', 'setRecipeIndex')" id="243" />
+      <edge source="('MenuParser', 'normalizeUnit')" target="('MenuParser', 'gramsFrom')" id="244" />
+      <edge source="('MenuParser', 'parseMenuItems')" target="('MenuParser', 'isCompleteAnchor')" id="245" />
+      <edge source="('MenuParser', 'parseMenuItems')" target="('MenuParser', 'deduplicateAnchorsByTitleKeepFirst')" id="246" />
+      <edge source="('MenuParser', 'parseMenuItems')" target="('MenuParser', 'extractTitleAndBody')" id="247" />
+      <edge source="('MenuParser', 'parseMenuItems')" target="('MenuParser', 'splitCombinedDishes')" id="248" />
+      <edge source="('MenuParser', 'parseMenuItems')" target="('MenuParser', 'calculateMenuEstimates')" id="249" />
+      <edge source="('MenuParser', 'calculateMenuEstimates')" target="('DishCalorieCalculator', 'calculate')" id="250" />
+      <edge source="('MenuParser', 'calculateMenuEstimates')" target="('MenuParser', 'parseIngredientsOptimized')" id="251" />
+      <edge source="('MenuParser', 'parseIngredientsOptimized')" target="('MenuParser', 'normalize')" id="252" />
+      <edge source="('MenuParser', 'parseIngredientsOptimized')" target="('MenuParser', 'makeDisplay')" id="253" />
+      <edge source="('MenuParser', 'parseIngredientsOptimized')" target="('MenuParser', 'stripTrailingPunctuation')" id="254" />
+      <edge source="('MenuParser', 'parseIngredientsOptimized')" target="('MenuParser', 'isGenericNoise')" id="255" />
+      <edge source="('MenuParser', 'parseIngredientsOptimized')" target="('MenuParser', 'gramsFrom')" id="256" />
+      <edge source="('MenuParser', 'parseIngredientsOptimized')" target="('MenuParser', 'normalizeUnit')" id="257" />
+      <edge source="('MenuParser', 'makeDisplay')" target="('MenuParser', 'stripTrailingPunctuation')" id="258" />
+      <edge source="('MenuParser', 'makeDisplay')" target="('MenuParser', 'normalize')" id="259" />
+      <edge source="('MenuParser', 'addIngredient')" target="('MenuParser', 'gramsFrom')" id="260" />
+      <edge source="('MenuParser', 'parseIngredientsFromText')" target="('MenuParser', 'parseIngredientsOptimized')" id="261" />
+      <edge source="('RecipeCategoryPreloadStore', 'preload')" target="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" id="262" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('NutritionRecipeCache', 'prepareIfNeeded')" id="263" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('OccasionRecipeCache', 'prepareIfNeeded')" id="264" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('DishTypeRecipeCache', 'prepareIfNeeded')" id="265" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('DietRecipeCache', 'prepareIfNeeded')" id="266" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('IngredientRecipeCache', 'prepareIfNeeded')" id="267" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('CuisineRecipeCache', 'prepareIfNeeded')" id="268" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('CookingRecipeCache', 'prepareIfNeeded')" id="269" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('PopularRecipeCache', 'prepareIfNeeded')" id="270" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('NutritionRecipeCache', 'allRecipeNames')" id="271" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('OccasionRecipeCache', 'allRecipeNames')" id="272" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('RecipeDetailStore', 'allRecipeNames')" id="273" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('DishTypeRecipeCache', 'allRecipeNames')" id="274" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('DietRecipeCache', 'allRecipeNames')" id="275" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('IngredientRecipeCache', 'allRecipeNames')" id="276" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('CuisineRecipeCache', 'allRecipeNames')" id="277" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('CookingRecipeCache', 'allRecipeNames')" id="278" />
+      <edge source="('RecipeCategoryPreloadStore', 'fetchRecipeNames')" target="('PopularRecipeCache', 'allRecipeNames')" id="279" />
+      <edge source="('RecipeEmbeddingStore', 'loadEmbeddingsIfNeeded')" target="('MiniLMWordPieceTokenizer', 'loadFromBundle')" id="280" />
+      <edge source="('RecipeEmbeddingStore', 'loadEmbeddingsIfNeeded')" target="('RecipeEmbeddingIndex', 'loadFromBundle')" id="281" />
+      <edge source="('RecipeHubView', 'startBackgroundPreload')" target="('RecipeCategoryPreloadStore', 'preload')" id="282" />
+      <edge source="('RecipeHubView', 'handleRecipeButtonTap')" target="('RecipeHubView', 'mapToCategory')" id="283" />
+      <edge source="('RecipeHubView', 'handleRecipeButtonTap')" target="('RecipeCategoryPreloadStore', 'get')" id="284" />
+      <edge source="('RecipeHubView', 'handleDragChanged')" target="('RecipeHubView', 'handleReorder')" id="285" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('ReceiptScanStore', 'save')" id="286" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('FoodPhotoMenuLinkStore', 'save')" id="287" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('UserScannedMenuStore', 'save')" id="288" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('IngredientStore', 'save')" id="289" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('ReceiptVisibilityStore', 'save')" id="290" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('AnalyticsEventStore', 'save')" id="291" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('FavoriteRestaurantStore', 'save')" id="292" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('FavoriteMenuStore', 'save')" id="293" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('FavoriteRecipeStore', 'save')" id="294" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('UserRecipeStore', 'save')" id="295" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('MenuScanStore', 'save')" id="296" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('PhotoLabelStore', 'save')" id="297" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('FeatureButtonStore', 'save')" id="298" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('RecipeVisibilityStore', 'save')" id="299" />
+      <edge source="('RecipeHubView', 'handleDragEnded')" target="('RecipeHubView', 'resetDrag')" id="300" />
+      <edge source="('RecipeHubView', 'handleReorder')" target="('FeatureButtonStore', 'move')" id="301" />
+      <edge source="('RecipeHubView', 'loadRecommendations')" target="('RecipeSearchService', 'searchSimilarRecipes')" id="302" />
+      <edge source="('RecipeHubView', 'recommendationRow')" target="('FavoriteRestaurantStore', 'isFavorite')" id="303" />
+      <edge source="('RecipeHubView', 'recommendationRow')" target="('FavoriteMenuStore', 'isFavorite')" id="304" />
+      <edge source="('RecipeHubView', 'recommendationRow')" target="('FavoriteRecipeStore', 'isFavorite')" id="305" />
+      <edge source="('RecipeHubView', 'recommendationRow')" target="('View', 'cornerRadius')" id="306" />
+      <edge source="('RecipeParser', 'buildEstimate')" target="('DishCalorieCalculator', 'calculate')" id="307" />
+      <edge source="('RecipeParser', 'buildEstimate')" target="('MenuParser', 'parseRecipeIngredients')" id="308" />
+      <edge source="('RecipeCalorieService', 'calculateTotalCalories')" target="('DishCalorieCalculator', 'calculate')" id="309" />
+      <edge source="('RecipeViewStore', 'recordView')" target="('RecipeViewStore', 'loadIfNeeded')" id="310" />
+      <edge source="('RecipeViewStore', 'recordView')" target="('RecipeViewStore', 'persist')" id="311" />
+      <edge source="('RecipeViewStore', 'records')" target="('ReceiptScanRecord', 'makeDayKey')" id="312" />
+      <edge source="('RecipeViewStore', 'records')" target="('RecipeViewRecord', 'makeDayKey')" id="313" />
+      <edge source="('RecipeViewStore', 'records')" target="('RecipeViewStore', 'loadIfNeeded')" id="314" />
+      <edge source="('RecipeViewStore', 'loadAll')" target="('RecipeViewStore', 'loadIfNeeded')" id="315" />
+      <edge source="('RecipeViewStore', 'delete')" target="('RecipeViewStore', 'loadIfNeeded')" id="316" />
+      <edge source="('RecipeViewStore', 'delete')" target="('RecipeViewStore', 'persist')" id="317" />
+      <edge source="('RecipeViewStore', 'deleteAll')" target="('RecipeViewStore', 'loadIfNeeded')" id="318" />
+      <edge source="('RecipeViewStore', 'deleteAll')" target="('RecipeViewStore', 'persist')" id="319" />
+      <edge source="('RecipeViewStore', 'loadIfNeeded')" target="('RecipeViewStore', 'fileURL')" id="320" />
+      <edge source="('RecipeViewStore', 'persist')" target="('RecipeViewStore', 'fileURL')" id="321" />
+      <edge source="('RecipeViewStore', 'persist')" target="('MiniLMWordPieceTokenizer', 'encode')" id="322" />
+      <edge source="('RecipeViewStore', 'persist')" target="('MiniLMTokenizer', 'encode')" id="323" />
+      <edge source="('RecipeEmbeddingIndex', 'getFoodLikelihood')" target="('RecipeEmbeddingIndex', 'topKSimilar')" id="324" />
+      <edge source="('RecipeEmbeddingIndex', 'getFoodLikelihood')" target="('MiniLMEmbedderService', 'embed')" id="325" />
+      <edge source="('RecipeEmbeddingIndex', 'loadForDBTool')" target="('DBToolResource', 'requireResource')" id="326" />
+      <edge source="('DietContentView', 'sectionView')" target="('DietContentView', 'row')" id="327" />
+      <edge source="('DietContentView', 'row')" target="('View', 'cornerRadius')" id="328" />
+      <edge source="('DishTypeRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="329" />
+      <edge source="('DishTypeRecipeCache', 'prepareIfNeeded')" target="('DishTypeRecipeCache', 'buildResultsInBackground')" id="330" />
+      <edge source="('DishTypeRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="331" />
+      <edge source="('DishTypeRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="332" />
+      <edge source="('DishTypeRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="333" />
+      <edge source="('NutritionContentView', 'sectionView')" target="('NutritionContentView', 'row')" id="334" />
+      <edge source="('NutritionContentView', 'row')" target="('View', 'cornerRadius')" id="335" />
+      <edge source="('PopularContentView', 'section')" target="('PopularContentView', 'row')" id="336" />
+      <edge source="('PopularContentView', 'row')" target="('View', 'cornerRadius')" id="337" />
+      <edge source="('OccasionContentView', 'sectionView')" target="('OccasionContentView', 'row')" id="338" />
+      <edge source="('OccasionContentView', 'row')" target="('View', 'cornerRadius')" id="339" />
+      <edge source="('CuisineRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="340" />
+      <edge source="('CuisineRecipeCache', 'prepareIfNeeded')" target="('CuisineRecipeCache', 'buildResultsInBackground')" id="341" />
+      <edge source="('CuisineRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="342" />
+      <edge source="('CuisineRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="343" />
+      <edge source="('CuisineRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="344" />
+      <edge source="('CookingContentView', 'sectionView')" target="('CookingContentView', 'row')" id="345" />
+      <edge source="('CookingContentView', 'row')" target="('View', 'cornerRadius')" id="346" />
+      <edge source="('IngredientContentView', 'sectionView')" target="('IngredientContentView', 'row')" id="347" />
+      <edge source="('IngredientContentView', 'row')" target="('View', 'cornerRadius')" id="348" />
+      <edge source="('DishTypeContentView', 'sectionView')" target="('DishTypeContentView', 'row')" id="349" />
+      <edge source="('DishTypeContentView', 'row')" target="('View', 'cornerRadius')" id="350" />
+      <edge source="('DietRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="351" />
+      <edge source="('DietRecipeCache', 'prepareIfNeeded')" target="('DietRecipeCache', 'buildResultsInBackground')" id="352" />
+      <edge source="('DietRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="353" />
+      <edge source="('DietRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="354" />
+      <edge source="('DietRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="355" />
+      <edge source="('IngredientRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="356" />
+      <edge source="('IngredientRecipeCache', 'prepareIfNeeded')" target="('IngredientRecipeCache', 'buildResultsInBackground')" id="357" />
+      <edge source="('IngredientRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="358" />
+      <edge source="('IngredientRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="359" />
+      <edge source="('IngredientRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="360" />
+      <edge source="('CookingRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="361" />
+      <edge source="('CookingRecipeCache', 'prepareIfNeeded')" target="('CookingRecipeCache', 'buildResultsInBackground')" id="362" />
+      <edge source="('CookingRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="363" />
+      <edge source="('CookingRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="364" />
+      <edge source="('CookingRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="365" />
+      <edge source="('OccasionRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="366" />
+      <edge source="('OccasionRecipeCache', 'prepareIfNeeded')" target="('OccasionRecipeCache', 'buildResultsInBackground')" id="367" />
+      <edge source="('OccasionRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="368" />
+      <edge source="('OccasionRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="369" />
+      <edge source="('OccasionRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="370" />
+      <edge source="('PopularRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="371" />
+      <edge source="('PopularRecipeCache', 'prepareIfNeeded')" target="('PopularRecipeCache', 'buildResultsInBackground')" id="372" />
+      <edge source="('PopularRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="373" />
+      <edge source="('PopularRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="374" />
+      <edge source="('PopularRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="375" />
+      <edge source="('PopularRecipeCache', 'buildResultsInBackground')" target="('RecipeSearchService', 'searchSimilarRecipes')" id="376" />
+      <edge source="('PopularRecipeCache', 'buildResultsInBackground')" target="('PopularRecipeCache', 'normalizeTitle')" id="377" />
+      <edge source="('NutritionRecipeCache', 'prepareIfNeeded')" target="('PreloadGate', 'enter')" id="378" />
+      <edge source="('NutritionRecipeCache', 'prepareIfNeeded')" target="('NutritionRecipeCache', 'buildResultsInBackground')" id="379" />
+      <edge source="('NutritionRecipeCache', 'buildResultsInBackground')" target="('RecipeViewStore', 'loadIfNeeded')" id="380" />
+      <edge source="('NutritionRecipeCache', 'buildResultsInBackground')" target="('RecipeDetailStore', 'loadIfNeeded')" id="381" />
+      <edge source="('NutritionRecipeCache', 'buildResultsInBackground')" target="('DishCalorieProfileStore', 'loadIfNeeded')" id="382" />
+      <edge source="('CuisineContentView', 'sectionView')" target="('CuisineContentView', 'row')" id="383" />
+      <edge source="('CuisineContentView', 'row')" target="('View', 'cornerRadius')" id="384" />
+      <edge source="('UserRecipeStore', 'add')" target="('UserRecipeStore', 'save')" id="385" />
+      <edge source="('UserRecipeStore', 'update')" target="('UserRecipeStore', 'save')" id="386" />
+      <edge source="('UserRecipeStore', 'delete')" target="('UserRecipeStore', 'save')" id="387" />
+      <edge source="('UserRecipeStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="388" />
+      <edge source="('UserRecipeStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="389" />
+      <edge source="('MyRecipeContentView', 'myRecipeRow')" target="('View', 'cornerRadius')" id="390" />
+      <edge source="('IngredientStore', 'addIngredient')" target="('IngredientStore', 'save')" id="391" />
+      <edge source="('IngredientStore', 'addIngredient')" target="('IngredientStore', 'rebuildCategorizedIngredients')" id="392" />
+      <edge source="('IngredientStore', 'removeIngredient')" target="('IngredientStore', 'save')" id="393" />
+      <edge source="('IngredientStore', 'removeIngredient')" target="('IngredientStore', 'rebuildCategorizedIngredients')" id="394" />
+      <edge source="('IngredientStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="395" />
+      <edge source="('IngredientStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="396" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('NutritionRecipeCache', 'allRecipeNames')" id="397" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('OccasionRecipeCache', 'allRecipeNames')" id="398" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('RecipeDetailStore', 'allRecipeNames')" id="399" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('DishTypeRecipeCache', 'allRecipeNames')" id="400" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('DietRecipeCache', 'allRecipeNames')" id="401" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('IngredientRecipeCache', 'allRecipeNames')" id="402" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('CuisineRecipeCache', 'allRecipeNames')" id="403" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('CookingRecipeCache', 'allRecipeNames')" id="404" />
+      <edge source="('MyRecipeEditorView', 'updateSuggestions')" target="('PopularRecipeCache', 'allRecipeNames')" id="405" />
+      <edge source="('MyRecipeEditorView', 'ingredientCell')" target="('IngredientStore', 'isCustomIngredient')" id="406" />
+      <edge source="('MyRecipeEditorView', 'ingredientCell')" target="('View', 'cornerRadius')" id="407" />
+      <edge source="('RecipeSearchView', 'optionsGrid')" target="('RecipeSearchView', 'filterOptions')" id="408" />
+      <edge source="('RecipeSearchView', 'optionsGrid')" target="('RecipeSearchView', 'toggleSelection')" id="409" />
+      <edge source="('RecipeSearchView', 'toggleSelection')" target="('FoodPhotoMenuLinkStore', 'remove')" id="410" />
+      <edge source="('RecipeSearchView', 'filterRow')" target="('RecipeSearchView', 'selectionDisplayText')" id="411" />
+      <edge source="('RecipeSearchView', 'filterRow')" target="('View', 'cornerRadius')" id="412" />
+      <edge source="('RecipeSearchView', 'filterRow')" target="('RecipeSearchView', 'filterOptions')" id="413" />
+      <edge source="('RecipeSearchView', 'filterRow')" target="('RecipeSearchView', 'handleSelection')" id="414" />
+      <edge source="('RecipeSearchView', 'dropdownContent')" target="('RecipeSearchView', 'filterOptions')" id="415" />
+      <edge source="('RecipeSearchView', 'dropdownContent')" target="('FoodPhotoMenuLinkStore', 'remove')" id="416" />
+      <edge source="('RecipeSearchView', 'handleSelection')" target="('FoodPhotoMenuLinkStore', 'remove')" id="417" />
+      <edge source="('RecipeSearchView', 'resultRow')" target="('NameNormalizer', 'display')" id="418" />
+      <edge source="('RecipeSearchView', 'resultRow')" target="('View', 'cornerRadius')" id="419" />
+      <edge source="('RecipeSearchView', 'performSearch')" target="('RecipeDetailDB', 'allDetails')" id="420" />
+      <edge source="('RecipeSearchService', 'searchSimilarRecipes')" target="('RecipeEmbeddingIndex', 'topKSimilar')" id="421" />
+      <edge source="('RecipeSearchService', 'searchSimilarRecipes')" target="('MiniLMEmbedderService', 'embed')" id="422" />
+      <edge source="('RecipeSearchService', 'searchSimilarRecipes')" target="('RecipeSearchService', 'searchSimilarRecipes')" id="423" />
+      <edge source="('RecipeSearchService', 'bestMatchDetail')" target="('MiniLMEmbedderService', 'embed')" id="424" />
+      <edge source="('RecipeSearchService', 'bestMatchDetail')" target="('RecipeSearchService', 'bestMatchDetail')" id="425" />
+      <edge source="('RecipeSearchService', 'bestMatchDetail')" target="('RecipeSearchService', 'searchSimilarRecipes')" id="426" />
+      <edge source="('RecipeSearchService', 'bestMatchDetail')" target="('RecipeDetailDB', 'detail')" id="427" />
+      <edge source="('RecipeSearchService', 'createVector')" target="('MiniLMEmbedderService', 'embed')" id="428" />
+      <edge source="('IngredientCalorieResolver', 'kcal')" target="('NameNormalizer', 'canonical')" id="429" />
+      <edge source="('IngredientCalorieResolver', 'kcal')" target="('IngredientCalorieResolver', 'kcal')" id="430" />
+      <edge source="('RecipeDetailDB', 'detail')" target="('RecipeDetailDB', 'ensureLoaded')" id="431" />
+      <edge source="('RecipeDetailDB', 'detail')" target="('RecipeDetailDB', 'normalize')" id="432" />
+      <edge source="('RecipeDetailDB', 'allDetails')" target="('RecipeDetailDB', 'ensureLoaded')" id="433" />
+      <edge source="('RecipeDetailDB', 'loadBSet')" target="('RecipeDetailDB', 'parseText')" id="434" />
+      <edge source="('RecipeDetailDB', 'loadBSet')" target="('RecipeDetailDB', 'normalize')" id="435" />
+      <edge source="('RecipeDetailDB', 'parseText')" target="('RecipeDetailDB', 'parseIngredientsBlock')" id="436" />
+      <edge source="('RecipeDetailDB', 'parseText')" target="('RecipeDetailDB', 'parseStepsBlock')" id="437" />
+      <edge source="('RecipeDetailDB', 'normalize')" target="('NameNormalizer', 'canonical')" id="438" />
+      <edge source="('RecipeDetailView', 'loadSimilarRecipes')" target="('NameNormalizer', 'canonical')" id="439" />
+      <edge source="('RecipeDetailView', 'loadSimilarRecipes')" target="('RecipeSearchService', 'searchSimilarRecipes')" id="440" />
+      <edge source="('RecipeDetailStore', 'loadIfNeeded')" target="('RecipeDetailDB', 'allDetails')" id="441" />
+      <edge source="('PreferencesView', 'toggle')" target="('FoodPhotoMenuLinkStore', 'remove')" id="442" />
+      <edge source="('PreferencesView', 'healthInsightRow')" target="('PreferencesView', 'healthInsightItem')" id="443" />
+      <edge source="('PreferencesView', 'favoriteRecipeRow')" target="('NameNormalizer', 'canonical')" id="444" />
+      <edge source="('PreferencesView', 'favoriteRecipeRow')" target="('NameNormalizer', 'display')" id="445" />
+      <edge source="('PreferencesView', 'favoriteRecipeRow')" target="('PreferencesView', 'toggle')" id="446" />
+      <edge source="('PreferencesView', 'favoriteRestaurantRow')" target="('NameNormalizer', 'canonical')" id="447" />
+      <edge source="('PreferencesView', 'favoriteRestaurantRow')" target="('NameNormalizer', 'display')" id="448" />
+      <edge source="('PreferencesView', 'favoriteRestaurantRow')" target="('PreferencesView', 'toggle')" id="449" />
+      <edge source="('AnalyticsEventStore', 'log')" target="('AnalyticsEventStore', 'prune')" id="450" />
+      <edge source="('AnalyticsEventStore', 'log')" target="('AnalyticsEventStore', 'save')" id="451" />
+      <edge source="('AnalyticsEventStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="452" />
+      <edge source="('AnalyticsEventStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="453" />
+      <edge source="('AnalyticsEventStore', 'load')" target="('AnalyticsEventStore', 'prune')" id="454" />
+      <edge source="('AnalyticsView', 'photoMappingCard')" target="('AnalyticsView', 'cardTitle')" id="455" />
+      <edge source="('AnalyticsView', 'photoMappingCard')" target="('AnalyticsView', 'lineKV')" id="456" />
+      <edge source="('AnalyticsView', 'overviewCard')" target="('AnalyticsView', 'cardTitle')" id="457" />
+      <edge source="('AnalyticsView', 'overviewCard')" target="('AnalyticsView', 'lineKV')" id="458" />
+      <edge source="('AnalyticsView', 'usageCard')" target="('DonutPalette', 'color')" id="459" />
+      <edge source="('AnalyticsView', 'usageCard')" target="('AnalyticsView', 'color')" id="460" />
+      <edge source="('AnalyticsView', 'usageCard')" target="('AnalyticsView', 'cardTitle')" id="461" />
+      <edge source="('AnalyticsView', 'usageCard')" target="('AnalyticsView', 'lineKV')" id="462" />
+      <edge source="('AnalyticsView', 'behaviorCard')" target="('AnalyticsView', 'cardTitle')" id="463" />
+      <edge source="('AnalyticsView', 'affinityCard')" target="('AnalyticsView', 'cardTitle')" id="464" />
+      <edge source="('AnalyticsView', 'affinityCard')" target="('AnalyticsView', 'color')" id="465" />
+      <edge source="('AnalyticsView', 'affinityCard')" target="('AnalyticsView', 'favoriteTopSection')" id="466" />
+      <edge source="('DonutChart', 'endAngle')" target="('DonutChart', 'startAngle')" id="467" />
+      <edge source="('AnalyticsEngine', 'build')" target="('NameNormalizer', 'canonical')" id="468" />
+      <edge source="('AnalyticsEngine', 'build')" target="('NameNormalizer', 'display')" id="469" />
+      <edge source="('AnalyticsEngine', 'build')" target="('AnalyticsEngine', 'holdingDays')" id="470" />
+      <edge source="('Date', 'daysInMonth')" target="('Date', 'startOfMonth')" id="471" />
+      <edge source="('RecipeVisibilityStore', 'hide')" target="('RecipeVisibilityStore', 'save')" id="472" />
+      <edge source="('RecipeVisibilityStore', 'unhide')" target="('FoodPhotoMenuLinkStore', 'remove')" id="473" />
+      <edge source="('RecipeVisibilityStore', 'unhide')" target="('RecipeVisibilityStore', 'save')" id="474" />
+      <edge source="('HistoryDaySheet', 'receiptRow')" target="('Set', 'toggle')" id="475" />
+      <edge source="('HistoryDaySheet', 'receiptRow')" target="('DietaryPreferenceStore', 'toggle')" id="476" />
+      <edge source="('HistoryDaySheet', 'receiptRow')" target="('FavoriteRestaurantStore', 'toggle')" id="477" />
+      <edge source="('HistoryDaySheet', 'receiptRow')" target="('FavoriteMenuStore', 'toggle')" id="478" />
+      <edge source="('HistoryDaySheet', 'receiptRow')" target="('FavoriteRecipeStore', 'toggle')" id="479" />
+      <edge source="('HistoryDaySheet', 'receiptRow')" target="('PreferencesView', 'toggle')" id="480" />
+      <edge source="('HistoryDaySheet', 'receiptRow')" target="('IngredientSelectSheet', 'toggle')" id="481" />
+      <edge source="('HistoryDaySheet', 'recipeRow')" target="('View', 'cornerRadius')" id="482" />
+      <edge source="('HistoryDaySheet', 'recomputeDerivedData')" target="('RecipeViewStore', 'records')" id="483" />
+      <edge source="('HistoryDaySheet', 'recomputeDerivedData')" target="('ReceiptVisibilityStore', 'isHidden')" id="484" />
+      <edge source="('HistoryDaySheet', 'recomputeDerivedData')" target="('RecipeVisibilityStore', 'isHidden')" id="485" />
+      <edge source="('Set', 'toggle')" target="('FoodPhotoMenuLinkStore', 'remove')" id="486" />
+      <edge source="('RecipeHistoryView', 'loadRecommendations')" target="('RecipeSearchService', 'getRandomRecipes')" id="487" />
+      <edge source="('RecipeHistoryView', 'recommendationSection')" target="('RecipeHistoryView', 'recommendationRow')" id="488" />
+      <edge source="('RecipeHistoryView', 'recommendationRow')" target="('View', 'cornerRadius')" id="489" />
+      <edge source="('RecipeHistoryView', 'sectionView')" target="('Date', 'toString')" id="490" />
+      <edge source="('RecipeHistoryView', 'sectionView')" target="('RecipeHistoryView', 'recipeRow')" id="491" />
+      <edge source="('ReceiptVisibilityStore', 'hide')" target="('ReceiptVisibilityStore', 'save')" id="492" />
+      <edge source="('MenuVisibilityStore', 'hide')" target="('MenuVisibilityStore', 'saveHiddenIDs')" id="493" />
+      <edge source="('MenuVisibilityStore', 'hide')" target="('MenuVisibilityStore', 'rebuild')" id="494" />
+      <edge source="('MenuVisibilityStore', 'hide')" target="('MenuVisibilityStore', 'hide')" id="495" />
+      <edge source="('MenuVisibilityStore', 'unhide')" target="('FoodPhotoMenuLinkStore', 'remove')" id="496" />
+      <edge source="('MenuVisibilityStore', 'unhide')" target="('MenuVisibilityStore', 'saveHiddenIDs')" id="497" />
+      <edge source="('MenuVisibilityStore', 'unhide')" target="('MenuVisibilityStore', 'rebuild')" id="498" />
+      <edge source="('TextDocumentCameraView', 'documentCameraViewController')" target="('PreloadGate', 'enter')" id="499" />
+      <edge source="('TextDocumentCameraView', 'documentCameraViewController')" target="('TextDocumentCameraView', 'recognizeText')" id="500" />
+      <edge source="('TextDocumentCameraView', 'recognizeText')" target="('UIImage', 'removeAlpha')" id="501" />
+      <edge source="('MenuScanStore', 'loadAll')" target="('MenuScanStore', 'readFile')" id="502" />
+      <edge source="('MenuScanStore', 'save')" target="('MenuScanStore', 'loadAll')" id="503" />
+      <edge source="('MenuScanStore', 'save')" target="('MenuScanStore', 'writeFile')" id="504" />
+      <edge source="('MenuScanStore', 'save')" target="('MenuScanStore', 'rebuildIndex')" id="505" />
+      <edge source="('MenuScanStore', 'readFile')" target="('MenuScanStore', 'fileURL')" id="506" />
+      <edge source="('MenuScanStore', 'writeFile')" target="('MiniLMWordPieceTokenizer', 'encode')" id="507" />
+      <edge source="('MenuScanStore', 'writeFile')" target="('MiniLMTokenizer', 'encode')" id="508" />
+      <edge source="('MenuScanStore', 'writeFile')" target="('MenuScanStore', 'fileURL')" id="509" />
+      <edge source="('MenuScanStore', 'menus')" target="('ChainNameNormalizer', 'normalize')" id="510" />
+      <edge source="('MenuScanStore', 'menus')" target="('RecipeDetailDB', 'normalize')" id="511" />
+      <edge source="('MenuScanStore', 'menus')" target="('ReceiptDishMatcher', 'normalize')" id="512" />
+      <edge source="('MenuScanStore', 'menus')" target="('FavoriteRestaurantStore', 'normalize')" id="513" />
+      <edge source="('MenuScanStore', 'menus')" target="('FavoriteRecipeStore', 'normalize')" id="514" />
+      <edge source="('MenuScanStore', 'menus')" target="('MenuItemEstimate', 'normalize')" id="515" />
+      <edge source="('MenuScanStore', 'menus')" target="('MenuParser', 'normalize')" id="516" />
+      <edge source="('MenuScanStore', 'menus')" target="('RecipeCalorieCache', 'normalize')" id="517" />
+      <edge source="('MenuItemEstimate', 'makeID')" target="('MenuItemEstimate', 'normalize')" id="518" />
+      <edge source="('UserScannedMenuStore', 'upsert')" target="('UserScannedMenuStore', 'mergeMenus')" id="519" />
+      <edge source="('UserScannedMenuStore', 'upsert')" target="('UserScannedMenuStore', 'save')" id="520" />
+      <edge source="('UserScannedMenuStore', 'save')" target="('MiniLMWordPieceTokenizer', 'encode')" id="521" />
+      <edge source="('UserScannedMenuStore', 'save')" target="('MiniLMTokenizer', 'encode')" id="522" />
+      <edge source="('UserScannedMenuStore', 'save')" target="('UserScannedMenuStore', 'fileURL')" id="523" />
+      <edge source="('UserScannedMenuStore', 'load')" target="('UserScannedMenuStore', 'fileURL')" id="524" />
+      <edge source="('DishCalorieCalculator', 'calculate')" target="('DishCalorieCalculator', 'findExplicitCalories')" id="525" />
+      <edge source="('DishCalorieCalculator', 'calculate')" target="('DishCalorieCalculator', 'dishScaleFromTitle')" id="526" />
+      <edge source="('DishCalorieCalculator', 'calculate')" target="('DishCalorieCalculator', 'quantityMultiplier')" id="527" />
+      <edge source="('ScannerVC', 'viewDidLoad')" target="('ScannerVC', 'viewDidLoad')" id="528" />
+      <edge source="('ScannerVC', 'viewDidLoad')" target="('AnalyticsEventStore', 'log')" id="529" />
+      <edge source="('ScannerVC', 'viewDidLoad')" target="('ScannerVC', 'setupCamera')" id="530" />
+      <edge source="('ScannerVC', 'viewDidLoad')" target="('ScannerVC', 'setupCloseButton')" id="531" />
+      <edge source="('ScannerVC', 'viewWillDisappear')" target="('ScannerVC', 'viewWillDisappear')" id="532" />
+      <edge source="('ProductAlertBuilder', 'build')" target="('HealthAlertService', 'checkMenuText')" id="533" />
+      <edge source="('ProductAlertBuilder', 'build')" target="('HealthAlertService', 'checkBarcodeProduct')" id="534" />
+      <edge source="('HealthKitManager', 'requestAuthorization')" target="('HealthKitManager', 'loadHealthData')" id="535" />
+      <edge source="('HealthKitManager', 'requestAuthorization')" target="('HealthKitManager', 'debugPrintLatestValues')" id="536" />
+      <edge source="('HealthKitManager', 'requestAuthorization')" target="('HealthKitManager', 'updateHealthFlags')" id="537" />
+      <edge source="('HealthKitManager', 'requestAuthorization')" target="('HealthKitManager', 'requestAuthorization')" id="538" />
+      <edge source="('HealthKitManager', 'loadHealthData')" target="('HealthKitManager', 'updateHealthFlags')" id="539" />
+      <edge source="('HealthKitManager', 'refreshHealthData')" target="('HealthKitManager', 'loadLatestGlucose')" id="540" />
+      <edge source="('HealthKitManager', 'refreshHealthData')" target="('HealthKitManager', 'loadLatestBloodPressure')" id="541" />
+      <edge source="('HealthKitManager', 'loadLatestGlucose')" target="('HealthKitManager', 'fetchLatestGlucoseSample')" id="542" />
+      <edge source="('HealthKitManager', 'loadLatestBloodPressure')" target="('HealthKitManager', 'fetchLatestBloodPressure')" id="543" />
+      <edge source="('FoodDB', 'openDatabase')" target="('RoundedCorner', 'path')" id="544" />
+      <edge source="('FoodDB', 'lookup')" target="('FoodDB', 'trimLeadingZeros')" id="545" />
+      <edge source="('FoodDB', 'lookup')" target="('FoodDB', 'runQuery')" id="546" />
+      <edge source="('FoodDB', 'lookup')" target="('FoodDB', 'getString')" id="547" />
+      <edge source="('FoodDB', 'lookup')" target="('FoodDB', 'getDouble')" id="548" />
+      <edge source="('FoodDB', 'lookup')" target="('FoodDB', 'getInt')" id="549" />
+      <edge source="('FoodDB', 'runQuery')" target="('FoodDB', 'getString')" id="550" />
+      <edge source="('FoodDB', 'runQuery')" target="('FoodDB', 'getDouble')" id="551" />
+      <edge source="('FoodDB', 'runQuery')" target="('FoodDB', 'getInt')" id="552" />
+      <edge source="('InfiniteCookingGameView', 'loadSavedLevel')" target="('InfiniteCookingGameView', 'generateMission')" id="553" />
+      <edge source="('InfiniteCookingGameView', 'resetGame')" target="('InfiniteCookingGameView', 'generateMission')" id="554" />
+      <edge source="('InfiniteSushiGameView', 'loadSavedLevel')" target="('InfiniteSushiGameView', 'resetGame')" id="555" />
+      <edge source="('InfiniteSushiGameView', 'flipCard')" target="('InfiniteSushiGameView', 'handleMatchSuccess')" id="556" />
+      <edge source="('InfiniteSushiGameView', 'flipCard')" target="('InfiniteSushiGameView', 'handleMatchFailure')" id="557" />
+      <edge source="('InfiniteSushiGameView', 'handleMatchSuccess')" target="('InfiniteSushiGameView', 'levelUp')" id="558" />
+      <edge source="('InfiniteSushiGameView', 'resetGame')" target="('InfiniteSushiGameView', 'generateLevel')" id="559" />
+      <edge source="('InfiniteIngredientGameView', 'resetGame')" target="('InfiniteIngredientGameView', 'generateMission')" id="560" />
+      <edge source="('InfiniteIngredientGameView', 'checkAnswer')" target="('InfiniteIngredientGameView', 'generateMission')" id="561" />
+      <edge source="('StoryRunnerView', 'resetLevel')" target="('StoryRunnerView', 'loadInitialScript')" id="562" />
+      <edge source="('StoryRunnerView', 'loadSavedData')" target="('StoryRunnerView', 'loadInitialScript')" id="563" />
+      <edge source="('StoryRunnerView', 'handleGameClear')" target="('StoryRunnerView', 'updateDialogueAfterClear')" id="564" />
+      <edge source="('KCuisineStoryGameView', 'generateQuiz')" target="('KCuisineStoryGameView', 'resetCompletedQuizzes')" id="565" />
+      <edge source="('KCuisineStoryGameView', 'generateQuiz')" target="('KCuisineStoryGameView', 'generateQuiz')" id="566" />
+      <edge source="('KCuisineStoryGameView', 'resetCompletedQuizzes')" target="('KCuisineStoryGameView', 'showFeedback')" id="567" />
+      <edge source="('KCuisineStoryGameView', 'processChoice')" target="('KCuisineStoryGameView', 'requiredCorrectCount')" id="568" />
+      <edge source="('KCuisineStoryGameView', 'processChoice')" target="('KCuisineStoryGameView', 'generateQuiz')" id="569" />
+      <edge source="('KCuisineStoryGameView', 'processChoice')" target="('KCuisineStoryGameView', 'showFeedback')" id="570" />
+      <edge source="('RecipeDishParser', 'buildDishCalorieDB')" target="('NameNormalizer', 'canonical')" id="571" />
+      <edge source="('RecipeDishParser', 'buildDishCalorieDB')" target="('DishCalorieConfidenceCalculator', 'evaluate')" id="572" />
+      <edge source="('RecipeDishParser', 'buildDishCalorieDB')" target="('MenuParser', 'parseIngredientsFromText')" id="573" />
+      <edge source="('RecipeDishParser', 'buildDishCalorieDB')" target="('UserScannedMenuStore', 'upsert')" id="574" />
+      <edge source="('RecipeDishParser', 'buildDishCalorieDB')" target="('DishCalorieStore', 'upsert')" id="575" />
+      <edge source="('RecipeDishParser', 'buildDishCalorieDB')" target="('IngredientCalorieStore', 'upsert')" id="576" />
+      <edge source="('RecipeDishParser', 'buildDishCalorieDB')" target="('DishCalorieStore', 'saveForDebug')" id="577" />
+      <edge source="('DishCalorieDBBuilder', 'buildAndExport')" target="('RecipeDishParser', 'buildDishCalorieDB')" id="578" />
+      <edge source="('DishCalorieDBBuilder', 'buildAndExport')" target="('ChainMenuDishParser', 'buildDishCalorieDB')" id="579" />
+      <edge source="('DishCalorieDBBuilder', 'buildAndExport')" target="('DishCalorieStore', 'saveForDebug')" id="580" />
+      <edge source="('DishCalorieDBBuilder', 'buildAndExport')" target="('DishCalorieStore', 'exportToJSON')" id="581" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('DishCalorieConfidenceCalculator', 'evaluate')" id="582" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('NameNormalizer', 'canonical')" id="583" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('ChainMenuRegistry', 'allChainKeys')" id="584" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('ChainMenuRegistry', 'chain')" id="585" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('MenuParser', 'parseIngredientsFromText')" id="586" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('UserScannedMenuStore', 'upsert')" id="587" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('DishCalorieStore', 'upsert')" id="588" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('IngredientCalorieStore', 'upsert')" id="589" />
+      <edge source="('ChainMenuDishParser', 'buildDishCalorieDB')" target="('DishCalorieStore', 'saveForDebug')" id="590" />
+      <edge source="('MiniLMTokenizer', 'encode')" target="('MiniLMTokenizer', 'basicClean')" id="591" />
+      <edge source="('MiniLMTokenizer', 'encode')" target="('MiniLMTokenizer', 'wordpieceTokenize')" id="592" />
+      <edge source="('MiniLMWordPieceTokenizer', 'loadFromBundle')" target="('MiniLMWordPieceTokenizer', 'id')" id="593" />
+      <edge source="('MiniLMWordPieceTokenizer', 'basicTokens')" target="('MiniLMWordPieceTokenizer', 'flushCurrent')" id="594" />
+      <edge source="('MiniLMWordPieceTokenizer', 'encode')" target="('MiniLMWordPieceTokenizer', 'basicTokens')" id="595" />
+      <edge source="('MiniLMWordPieceTokenizer', 'encode')" target="('MiniLMWordPieceTokenizer', 'wordpiece')" id="596" />
+      <edge source="('MiniLMEmbedderService', 'embed')" target="('MiniLMWordPieceTokenizer', 'encode')" id="597" />
+      <edge source="('MiniLMEmbedderService', 'embed')" target="('MiniLMTokenizer', 'encode')" id="598" />
+    </edges>
+  </graph>
+</gexf>

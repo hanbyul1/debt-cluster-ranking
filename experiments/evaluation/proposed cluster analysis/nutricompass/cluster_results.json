@@ -1,0 +1,6866 @@
+{
+  "NutriCompass_backup_20260207": [
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuditLogger",
+        "DefaultInteractionAnalysisService",
+        "HomeView",
+        "InMemoryEvidenceRepository",
+        "InMemorySupplementRepository",
+        "InMemoryUserLibraryRepository",
+        "Interaction",
+        "InteractionTaxonomy",
+        "LiteratureRetrievalModule",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "Supplement",
+        "UserSupplementLibraryStore"
+      ],
+      "size": 18,
+      "DebtMag": 6.57142857142857,
+      "NormDebt": 0.365079365079365,
+      "RankScore": 1.5489005683133896,
+      "metrics": {
+        "CC_T": 1.1111111111111112,
+        "WMT_T": 1.8333333333333333,
+        "LCOT_T": -0.05555555555555555,
+        "CBT_T": 3.111111111111111,
+        "RFT_T": 1.2222222222222223,
+        "ED_T": 0.030187074829931975,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 35.0,
+        "RFT_T": 10.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.03018707482993197,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.03018707482993197,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.03018707482993197,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Citation",
+        "Evidence",
+        "EvidenceSourceType",
+        "StudyType"
+      ],
+      "size": 4,
+      "DebtMag": 0.37560738581146746,
+      "NormDebt": 0.09390184645286687,
+      "RankScore": 0.18780369290573373,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.25,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.8792517006802721,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.03018707482993197,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "ComparisonEngine"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.03018707482993197,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "SecureStorage"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.03018707482993197,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.03018707482993197,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260208": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.107142857142858,
+      "NormDebt": 12.107142857142858,
+      "RankScore": 12.107142857142858,
+      "metrics": {
+        "CC_T": 3.909090909090909,
+        "WMT_T": 43.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 2.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 0.75,
+        "RFT_T": 10.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuditLogger",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DSLDSearchIndex",
+        "DefaultInteractionAnalysisService",
+        "DownloadedDSLDStore",
+        "HomeView",
+        "InMemoryEvidenceRepository",
+        "InMemorySupplementRepository",
+        "InMemoryUserLibraryRepository",
+        "Interaction",
+        "InteractionTaxonomy",
+        "LiteratureRetrievalModule",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "Supplement",
+        "UserSupplementLibraryStore"
+      ],
+      "size": 22,
+      "DebtMag": 11.035714285714288,
+      "NormDebt": 0.5016233766233767,
+      "RankScore": 2.3528221912101297,
+      "metrics": {
+        "CC_T": 1.2992424242424243,
+        "WMT_T": 3.0454545454545454,
+        "LCOT_T": -0.3181818181818182,
+        "CBT_T": 3.1363636363636362,
+        "RFT_T": 2.1363636363636362,
+        "ED_T": 0.025141242937853116,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 44.25,
+        "RFT_T": 32.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 2,
+      "DebtMag": 3.0999596448748985,
+      "NormDebt": 1.5499798224374493,
+      "RankScore": 2.1920024862956824,
+      "metrics": {
+        "CC_T": 1.35,
+        "WMT_T": 4.5,
+        "LCOT_T": 5.5,
+        "CBT_T": 1.5,
+        "RFT_T": 3.5,
+        "ED_T": 1.5,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 11.0,
+        "CBT_T": 0.75,
+        "RFT_T": 5.0,
+        "ED_T": 2.949717514124294,
+        "CY_T": 2.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PreloadedDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.6785714285714286,
+      "NormDebt": 0.6785714285714286,
+      "RankScore": 0.6785714285714286,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 16.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.75,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Citation",
+        "Evidence",
+        "EvidenceSourceType",
+        "StudyType"
+      ],
+      "size": 4,
+      "DebtMag": 0.3784907183212267,
+      "NormDebt": 0.09462267958030668,
+      "RankScore": 0.18924535916061336,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.25,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.8994350282485876,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "ComparisonEngine"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "SecureStorage"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "OCRIngredientChip",
+        "OCRIngredientStrip"
+      ],
+      "size": 2,
+      "DebtMag": 0.1356739305891848,
+      "NormDebt": 0.0678369652945924,
+      "RankScore": 0.09593595634984553,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9497175141242937,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.25,
+        "RFT_T": 1.0,
+        "ED_T": 0.02514124293785311,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260209": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.142857142857142,
+      "NormDebt": 12.142857142857142,
+      "RankScore": 12.142857142857142,
+      "metrics": {
+        "CC_T": 3.909090909090909,
+        "WMT_T": 43.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 2.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 1.0,
+        "RFT_T": 10.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuditLogger",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DSLDSearchIndex",
+        "DefaultInteractionAnalysisService",
+        "DownloadedDSLDStore",
+        "HomeView",
+        "InMemoryEvidenceRepository",
+        "InMemorySupplementRepository",
+        "InMemoryUserLibraryRepository",
+        "Interaction",
+        "InteractionTaxonomy",
+        "LiteratureRetrievalModule",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "Supplement",
+        "UserSupplementLibraryStore"
+      ],
+      "size": 23,
+      "DebtMag": 13.714285714285719,
+      "NormDebt": 0.5962732919254661,
+      "RankScore": 2.859626249925598,
+      "metrics": {
+        "CC_T": 1.5072463768115945,
+        "WMT_T": 4.043478260869565,
+        "LCOT_T": -0.2608695652173913,
+        "CBT_T": 3.1739130434782608,
+        "RFT_T": 2.3043478260869565,
+        "ED_T": 0.02406554019457245,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 5.0,
+        "CBT_T": 52.0,
+        "RFT_T": 37.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 2,
+      "DebtMag": 3.1359812742301214,
+      "NormDebt": 1.5679906371150607,
+      "RankScore": 2.2174736246821487,
+      "metrics": {
+        "CC_T": 1.35,
+        "WMT_T": 4.5,
+        "LCOT_T": 5.5,
+        "CBT_T": 1.5,
+        "RFT_T": 3.5,
+        "ED_T": 1.5,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 11.0,
+        "CBT_T": 1.0,
+        "RFT_T": 5.0,
+        "ED_T": 2.951868919610855,
+        "CY_T": 2.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PreloadedDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.7142857142857142,
+      "NormDebt": 0.7142857142857142,
+      "RankScore": 0.7142857142857142,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 16.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Citation",
+        "Evidence",
+        "EvidenceSourceType",
+        "StudyType"
+      ],
+      "size": 4,
+      "DebtMag": 0.41481969131738705,
+      "NormDebt": 0.10370492282934676,
+      "RankScore": 0.20740984565869353,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.25,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9037378392217101,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "ComparisonEngine"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "SecureStorage"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "OCRIngredientChip",
+        "OCRIngredientStrip"
+      ],
+      "size": 2,
+      "DebtMag": 0.13598127423012216,
+      "NormDebt": 0.06799063711506108,
+      "RankScore": 0.0961532811225069,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9518689196108551,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.024065540194572452,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260210": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.142857142857142,
+      "NormDebt": 12.142857142857142,
+      "RankScore": 12.142857142857142,
+      "metrics": {
+        "CC_T": 3.909090909090909,
+        "WMT_T": 43.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 2.0,
+        "RFT_T": 13.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 0.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DSLDSearchIndex",
+        "DefaultInteractionAnalysisService",
+        "DownloadedDSLDStore",
+        "HomeView",
+        "InMemorySupplementRepository",
+        "Interaction",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "OCRProcessingHelpers",
+        "RootView",
+        "RouteHostView",
+        "SelectionStore",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 20,
+      "DebtMag": 15.428571428571427,
+      "NormDebt": 0.7714285714285714,
+      "RankScore": 3.449933450999675,
+      "metrics": {
+        "CC_T": 1.8473809523809526,
+        "WMT_T": 5.5,
+        "LCOT_T": -0.4,
+        "CBT_T": 3.2,
+        "RFT_T": 3.5,
+        "ED_T": 0.021532091097308484,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 11.0,
+        "LCOT_T": 22.0,
+        "CBT_T": 34.0,
+        "RFT_T": 41.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 2,
+      "DebtMag": 2.7081336882579117,
+      "NormDebt": 1.3540668441289558,
+      "RankScore": 1.914939695326905,
+      "metrics": {
+        "CC_T": 1.35,
+        "WMT_T": 4.5,
+        "LCOT_T": 5.5,
+        "CBT_T": 1.5,
+        "RFT_T": 3.5,
+        "ED_T": 1.5,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 11.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 2.956935817805383,
+        "CY_T": 2.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PreloadedDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.7142857142857142,
+      "NormDebt": 0.7142857142857142,
+      "RankScore": 0.7142857142857142,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 16.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 6.0,
+        "LCOT_T": 2.0,
+        "CBT_T": 1.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 2.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "CoOccurrencePMIDResponse",
+        "CoOccurrenceResponse",
+        "EvidenceAPIClient"
+      ],
+      "size": 3,
+      "DebtMag": 0.9193433895297248,
+      "NormDebt": 0.3064477965099083,
+      "RankScore": 0.5307831534226897,
+      "metrics": {
+        "CC_T": 3.3333333333333335,
+        "WMT_T": 6.666666666666667,
+        "LCOT_T": -0.3333333333333333,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 4.0,
+        "ED_T": 1.4354037267080746,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "SampleData"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Citation",
+        "Evidence",
+        "EvidenceSourceType",
+        "StudyType"
+      ],
+      "size": 4,
+      "DebtMag": 0.27341023365868083,
+      "NormDebt": 0.06835255841467021,
+      "RankScore": 0.13670511682934042,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.25,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.913871635610766,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "OCRIngredientChip",
+        "OCRIngredientStrip"
+      ],
+      "size": 2,
+      "DebtMag": 0.13670511682934042,
+      "NormDebt": 0.06835255841467021,
+      "RankScore": 0.09666511513292582,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9569358178053831,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.021532091097308487,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260211": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.142857142857142,
+      "NormDebt": 12.142857142857142,
+      "RankScore": 12.142857142857142,
+      "metrics": {
+        "CC_T": 3.909090909090909,
+        "WMT_T": 43.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 2.0,
+        "RFT_T": 13.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 0.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DSLDSearchIndex",
+        "DefaultInteractionAnalysisService",
+        "DownloadedDSLDStore",
+        "HomeView",
+        "InMemorySupplementRepository",
+        "Interaction",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "OCRProcessingHelpers",
+        "RootView",
+        "RouteHostView",
+        "SelectionStore",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 20,
+      "DebtMag": 19.28571428571428,
+      "NormDebt": 0.9642857142857141,
+      "RankScore": 4.312416813749593,
+      "metrics": {
+        "CC_T": 1.9411309523809526,
+        "WMT_T": 6.7,
+        "LCOT_T": 0.5,
+        "CBT_T": 3.35,
+        "RFT_T": 3.9,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 14.0,
+        "LCOT_T": 37.0,
+        "CBT_T": 36.0,
+        "RFT_T": 48.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 2,
+      "DebtMag": 2.707956225968648,
+      "NormDebt": 1.353978112984324,
+      "RankScore": 1.9148142105387618,
+      "metrics": {
+        "CC_T": 1.35,
+        "WMT_T": 4.5,
+        "LCOT_T": 5.5,
+        "CBT_T": 1.5,
+        "RFT_T": 3.5,
+        "ED_T": 1.5,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 11.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 2.955693581780538,
+        "CY_T": 2.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "CoOccurrenceItem",
+        "CoOccurrencePMIDResponse",
+        "CoOccurrenceResponse",
+        "EvidenceAPIClient"
+      ],
+      "size": 4,
+      "DebtMag": 1.8921029281277728,
+      "NormDebt": 0.4730257320319432,
+      "RankScore": 0.9460514640638864,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 6.0,
+        "LCOT_T": -0.25,
+        "CBT_T": 1.0,
+        "RFT_T": 1.5,
+        "ED_T": 0.3333333333333333,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 2.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 1.24472049689441,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PreloadedDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.7142857142857142,
+      "NormDebt": 0.7142857142857142,
+      "RankScore": 0.7142857142857142,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 16.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 10.0,
+        "LCOT_T": 2.0,
+        "CBT_T": 1.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 2.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "SampleData"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Citation",
+        "Evidence",
+        "EvidenceSourceType",
+        "StudyType"
+      ],
+      "size": 4,
+      "DebtMag": 0.2730553090801538,
+      "NormDebt": 0.06826382727003845,
+      "RankScore": 0.1365276545400769,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.25,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9113871635610766,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "OCRIngredientChip",
+        "OCRIngredientStrip"
+      ],
+      "size": 2,
+      "DebtMag": 0.1365276545400769,
+      "NormDebt": 0.06826382727003845,
+      "RankScore": 0.0965396303447827,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9556935817805383,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.02215320910973085,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260212": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.285714285714285,
+      "NormDebt": 12.285714285714285,
+      "RankScore": 12.285714285714285,
+      "metrics": {
+        "CC_T": 3.909090909090909,
+        "WMT_T": 43.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 2.0,
+        "RFT_T": 13.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 1.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceAPIClient"
+      ],
+      "size": 1,
+      "DebtMag": 4.476190476190476,
+      "NormDebt": 4.476190476190476,
+      "RankScore": 4.476190476190476,
+      "metrics": {
+        "CC_T": 12.333333333333334,
+        "WMT_T": 37.0,
+        "LCOT_T": -3.0,
+        "CBT_T": 7.0,
+        "RFT_T": 8.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 2.333333333333334,
+        "WMT_T": 17.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 6.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DefaultInteractionAnalysisService",
+        "FaersRepository",
+        "HomeView",
+        "InMemoryUserLibraryRepository",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "LibraryView",
+        "NutriCompassApp",
+        "OCRProcessingHelpers",
+        "PairEvidenceViewModel",
+        "PubMedRepository",
+        "ReactionEvidenceView",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "SettingsView",
+        "Supplement",
+        "UIStringPolicyEnforcer",
+        "UserSupplementLibraryStore"
+      ],
+      "size": 27,
+      "DebtMag": 21.571428571428562,
+      "NormDebt": 0.7989417989417986,
+      "RankScore": 4.151423364173022,
+      "metrics": {
+        "CC_T": 1.9749118165784834,
+        "WMT_T": 5.481481481481482,
+        "LCOT_T": 0.4074074074074074,
+        "CBT_T": 2.888888888888889,
+        "RFT_T": 2.925925925925926,
+        "ED_T": 0.016172146484897083,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 14.0,
+        "LCOT_T": 38.0,
+        "CBT_T": 56.0,
+        "RFT_T": 43.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 2,
+      "DebtMag": 2.8525222438614577,
+      "NormDebt": 1.4262611219307288,
+      "RankScore": 2.017037822119903,
+      "metrics": {
+        "CC_T": 1.35,
+        "WMT_T": 4.5,
+        "LCOT_T": 5.5,
+        "CBT_T": 1.5,
+        "RFT_T": 3.5,
+        "ED_T": 1.5,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 11.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 2.9676557070302056,
+        "CY_T": 2.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDSearchIndex",
+        "DownloadedDSLDStore"
+      ],
+      "size": 2,
+      "DebtMag": 1.7142857142857142,
+      "NormDebt": 0.8571428571428571,
+      "RankScore": 1.2121830534626528,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 10.5,
+        "LCOT_T": -1.5,
+        "CBT_T": 2.5,
+        "RFT_T": 6.5,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 9.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PreloadedDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.8571428571428571,
+      "NormDebt": 0.8571428571428571,
+      "RankScore": 0.8571428571428571,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 16.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 15.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Interaction",
+        "LiteratureRetrievalModule"
+      ],
+      "size": 2,
+      "DebtMag": 0.42857142857142855,
+      "NormDebt": 0.21428571428571427,
+      "RankScore": 0.3030457633656632,
+      "metrics": {
+        "CC_T": 0.5,
+        "WMT_T": 0.5,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.5,
+        "RFT_T": 0.5,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InMemorySupplementRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 3.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Citation",
+        "Evidence",
+        "EvidenceSourceType",
+        "StudyType"
+      ],
+      "size": 4,
+      "DebtMag": 0.41933020200863014,
+      "NormDebt": 0.10483255050215753,
+      "RankScore": 0.20966510100431507,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.75,
+        "RFT_T": 0.0,
+        "ED_T": 0.25,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9353114140604116,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceRepository",
+        "InMemoryEvidenceRepository"
+      ],
+      "size": 2,
+      "DebtMag": 0.2810936724328866,
+      "NormDebt": 0.1405468362164433,
+      "RankScore": 0.19876324192592418,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 2.5,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.9676557070302059,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionDisplayModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionTaxonomy"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 9.5,
+        "WMT_T": 19.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceItem",
+        "Source"
+      ],
+      "size": 2,
+      "DebtMag": 0.1382365295757437,
+      "NormDebt": 0.06911826478787185,
+      "RankScore": 0.0977479874707031,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9676557070302059,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "OCRIngredientChip",
+        "OCRIngredientStrip"
+      ],
+      "size": 2,
+      "DebtMag": 0.1382365295757437,
+      "NormDebt": 0.06911826478787185,
+      "RankScore": 0.0977479874707031,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9676557070302059,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016172146484897086,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260213": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.428571428571427,
+      "NormDebt": 12.428571428571427,
+      "RankScore": 12.428571428571427,
+      "metrics": {
+        "CC_T": 3.909090909090909,
+        "WMT_T": 43.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 3.0,
+        "RFT_T": 14.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 1.0,
+        "RFT_T": 12.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceAPIClient"
+      ],
+      "size": 1,
+      "DebtMag": 5.0,
+      "NormDebt": 5.0,
+      "RankScore": 5.0,
+      "metrics": {
+        "CC_T": 8.2,
+        "WMT_T": 41.0,
+        "LCOT_T": -10.0,
+        "CBT_T": 8.0,
+        "RFT_T": 10.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 21.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 6.0,
+        "RFT_T": 8.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DefaultInteractionAnalysisService",
+        "FaersRepository",
+        "HomeView",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "OCRProcessingHelpers",
+        "PairEvidenceViewModel",
+        "PubMedRepository",
+        "ReactionEvidenceView",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "ShareSheet",
+        "Supplement",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 23,
+      "DebtMag": 22.71428571428571,
+      "NormDebt": 0.9875776397515527,
+      "RankScore": 4.73625597643927,
+      "metrics": {
+        "CC_T": 2.2118530020703933,
+        "WMT_T": 6.956521739130435,
+        "LCOT_T": 0.782608695652174,
+        "CBT_T": 3.782608695652174,
+        "RFT_T": 3.8260869565217392,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 14.0,
+        "LCOT_T": 43.0,
+        "CBT_T": 49.0,
+        "RFT_T": 53.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 2,
+      "DebtMag": 2.709544879898862,
+      "NormDebt": 1.354772439949431,
+      "RankScore": 1.9159375585057747,
+      "metrics": {
+        "CC_T": 1.35,
+        "WMT_T": 4.5,
+        "LCOT_T": 5.5,
+        "CBT_T": 1.5,
+        "RFT_T": 3.5,
+        "ED_T": 1.5,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 11.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 2.9668141592920354,
+        "CY_T": 2.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDSearchIndex",
+        "DownloadedDSLDStore"
+      ],
+      "size": 2,
+      "DebtMag": 1.857142857142857,
+      "NormDebt": 0.9285714285714285,
+      "RankScore": 1.3131983079178737,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 10.5,
+        "LCOT_T": -1.5,
+        "CBT_T": 3.5,
+        "RFT_T": 7.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 10.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PreloadedDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.8571428571428571,
+      "NormDebt": 0.8571428571428571,
+      "RankScore": 0.8571428571428571,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 16.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisPDFExporter"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.3333333333333335,
+        "WMT_T": 7.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 15.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InMemorySupplementRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 3.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Interaction"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisSnapshotStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 6.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Evidence"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionDisplayModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionTaxonomy"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 9.5,
+        "WMT_T": 19.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PDFViewer"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceItem",
+        "Source"
+      ],
+      "size": 2,
+      "DebtMag": 0.13811630847029077,
+      "NormDebt": 0.06905815423514539,
+      "RankScore": 0.09766297831179559,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9668141592920354,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.016592920353982302,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260214": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.428571428571427,
+      "NormDebt": 12.428571428571427,
+      "RankScore": 12.428571428571427,
+      "metrics": {
+        "CC_T": 3.909090909090909,
+        "WMT_T": 43.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 3.0,
+        "RFT_T": 14.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 1.0,
+        "RFT_T": 12.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceAPIClient"
+      ],
+      "size": 1,
+      "DebtMag": 5.428571428571428,
+      "NormDebt": 5.428571428571428,
+      "RankScore": 5.428571428571428,
+      "metrics": {
+        "CC_T": 7.166666666666667,
+        "WMT_T": 43.0,
+        "LCOT_T": -5.0,
+        "CBT_T": 8.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 6.0,
+        "RFT_T": 9.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DefaultInteractionAnalysisService",
+        "FaersRepository",
+        "HomeView",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "OCRProcessingHelpers",
+        "PairEvidenceViewModel",
+        "PubMedRepository",
+        "ReactionEvidenceView",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "ShareSheet",
+        "Supplement",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 23,
+      "DebtMag": 22.71428571428571,
+      "NormDebt": 0.9875776397515527,
+      "RankScore": 4.73625597643927,
+      "metrics": {
+        "CC_T": 2.2118530020703933,
+        "WMT_T": 6.956521739130435,
+        "LCOT_T": 0.782608695652174,
+        "CBT_T": 3.782608695652174,
+        "RFT_T": 3.8260869565217392,
+        "ED_T": 0.01591511936339523,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 14.0,
+        "LCOT_T": 43.0,
+        "CBT_T": 49.0,
+        "RFT_T": 53.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 2,
+      "DebtMag": 2.709738537324744,
+      "NormDebt": 1.354869268662372,
+      "RankScore": 1.916074494984843,
+      "metrics": {
+        "CC_T": 1.35,
+        "WMT_T": 4.5,
+        "LCOT_T": 5.5,
+        "CBT_T": 1.5,
+        "RFT_T": 3.5,
+        "ED_T": 1.5,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 11.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 2.9681697612732094,
+        "CY_T": 2.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDSearchIndex",
+        "DownloadedDSLDStore"
+      ],
+      "size": 2,
+      "DebtMag": 1.857142857142857,
+      "NormDebt": 0.9285714285714285,
+      "RankScore": 1.3131983079178737,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 10.5,
+        "LCOT_T": -1.5,
+        "CBT_T": 3.5,
+        "RFT_T": 7.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 10.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PreloadedDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.8571428571428571,
+      "NormDebt": 0.8571428571428571,
+      "RankScore": 0.8571428571428571,
+      "metrics": {
+        "CC_T": 4.0,
+        "WMT_T": 16.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisPDFExporter"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.3333333333333335,
+        "WMT_T": 7.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 15.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InMemorySupplementRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 3.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Interaction"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisSnapshotStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 6.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Evidence"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionDisplayModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionTaxonomy"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 9.5,
+        "WMT_T": 19.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PDFViewer"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceItem",
+        "Source"
+      ],
+      "size": 2,
+      "DebtMag": 0.13830996589617278,
+      "NormDebt": 0.06915498294808639,
+      "RankScore": 0.09779991479086389,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9681697612732095,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015915119363395226,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260215": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 12.714285714285714,
+      "NormDebt": 12.714285714285714,
+      "RankScore": 12.714285714285714,
+      "metrics": {
+        "CC_T": 4.090909090909091,
+        "WMT_T": 45.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 3.0,
+        "RFT_T": 14.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 25.0,
+        "LCOT_T": 51.0,
+        "CBT_T": 1.0,
+        "RFT_T": 12.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceAPIClient"
+      ],
+      "size": 1,
+      "DebtMag": 5.428571428571428,
+      "NormDebt": 5.428571428571428,
+      "RankScore": 5.428571428571428,
+      "metrics": {
+        "CC_T": 7.166666666666667,
+        "WMT_T": 43.0,
+        "LCOT_T": -5.0,
+        "CBT_T": 8.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 6.0,
+        "RFT_T": 9.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DefaultInteractionAnalysisService",
+        "FaersRepository",
+        "HomeView",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "OCRProcessingHelpers",
+        "PairEvidenceViewModel",
+        "PubMedRepository",
+        "ReactionEvidenceView",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "ShareSheet",
+        "Supplement",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 23,
+      "DebtMag": 22.28571428571428,
+      "NormDebt": 0.9689440993788818,
+      "RankScore": 4.646892656129094,
+      "metrics": {
+        "CC_T": 2.2210144927536235,
+        "WMT_T": 6.782608695652174,
+        "LCOT_T": 0.6956521739130435,
+        "CBT_T": 3.782608695652174,
+        "RFT_T": 4.043478260869565,
+        "ED_T": 0.015694076038903618,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 7.0,
+        "LCOT_T": 42.0,
+        "CBT_T": 49.0,
+        "RFT_T": 58.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "CameraCaptureView",
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 3,
+      "DebtMag": 5.136131110269042,
+      "NormDebt": 1.7120437034230138,
+      "RankScore": 2.965346679107043,
+      "metrics": {
+        "CC_T": 1.3,
+        "WMT_T": 6.0,
+        "LCOT_T": 8.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 1.0,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 24.0,
+        "CBT_T": 0.0,
+        "RFT_T": 6.0,
+        "ED_T": 2.952917771883289,
+        "CY_T": 3.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDSearchIndex",
+        "DownloadedDSLDStore"
+      ],
+      "size": 2,
+      "DebtMag": 1.857142857142857,
+      "NormDebt": 0.9285714285714285,
+      "RankScore": 1.3131983079178737,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 10.5,
+        "LCOT_T": -1.5,
+        "CBT_T": 3.5,
+        "RFT_T": 7.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 10.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisPDFExporter"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.3333333333333335,
+        "WMT_T": 7.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 15.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisSnapshotStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 2.25,
+        "WMT_T": 9.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InMemorySupplementRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 3.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Interaction"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Evidence"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionDisplayModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionTaxonomy"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 9.5,
+        "WMT_T": 19.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "LibraryViewModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 4.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PDFViewer"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceItem",
+        "Source"
+      ],
+      "size": 2,
+      "DebtMag": 0.13837312113174183,
+      "NormDebt": 0.06918656056587091,
+      "RankScore": 0.09784457228620219,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9686118479221928,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260216": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 14.142857142857142,
+      "NormDebt": 14.142857142857142,
+      "RankScore": 14.142857142857142,
+      "metrics": {
+        "CC_T": 3.9166666666666665,
+        "WMT_T": 47.0,
+        "LCOT_T": 58.0,
+        "CBT_T": 3.0,
+        "RFT_T": 15.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 27.0,
+        "LCOT_T": 58.0,
+        "CBT_T": 1.0,
+        "RFT_T": 13.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceAPIClient"
+      ],
+      "size": 1,
+      "DebtMag": 5.428571428571428,
+      "NormDebt": 5.428571428571428,
+      "RankScore": 5.428571428571428,
+      "metrics": {
+        "CC_T": 7.166666666666667,
+        "WMT_T": 43.0,
+        "LCOT_T": -5.0,
+        "CBT_T": 8.0,
+        "RFT_T": 11.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 23.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 6.0,
+        "RFT_T": 9.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DefaultInteractionAnalysisService",
+        "FaersRepository",
+        "HomeView",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "OCRProcessingHelpers",
+        "PairEvidenceViewModel",
+        "PubMedRepository",
+        "ReactionEvidenceView",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "ShareSheet",
+        "Supplement",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 23,
+      "DebtMag": 22.28571428571428,
+      "NormDebt": 0.9689440993788818,
+      "RankScore": 4.646892656129094,
+      "metrics": {
+        "CC_T": 2.2210144927536235,
+        "WMT_T": 6.782608695652174,
+        "LCOT_T": 0.6956521739130435,
+        "CBT_T": 3.782608695652174,
+        "RFT_T": 4.043478260869565,
+        "ED_T": 0.015694076038903618,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 7.0,
+        "LCOT_T": 42.0,
+        "CBT_T": 49.0,
+        "RFT_T": 58.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "CameraCaptureView",
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 3,
+      "DebtMag": 5.136131110269042,
+      "NormDebt": 1.7120437034230138,
+      "RankScore": 2.965346679107043,
+      "metrics": {
+        "CC_T": 1.3,
+        "WMT_T": 6.0,
+        "LCOT_T": 8.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 1.0,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 24.0,
+        "CBT_T": 0.0,
+        "RFT_T": 6.0,
+        "ED_T": 2.952917771883289,
+        "CY_T": 3.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDSearchIndex",
+        "DownloadedDSLDStore"
+      ],
+      "size": 2,
+      "DebtMag": 1.857142857142857,
+      "NormDebt": 0.9285714285714285,
+      "RankScore": 1.3131983079178737,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 10.5,
+        "LCOT_T": -1.5,
+        "CBT_T": 3.5,
+        "RFT_T": 7.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 10.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisPDFExporter"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.3333333333333335,
+        "WMT_T": 7.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 15.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisSnapshotStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 2.25,
+        "WMT_T": 9.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InMemorySupplementRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 3.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Interaction"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Evidence"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionDisplayModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionTaxonomy"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 9.5,
+        "WMT_T": 19.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "LibraryViewModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 4.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PDFViewer"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceItem",
+        "Source"
+      ],
+      "size": 2,
+      "DebtMag": 0.13837312113174183,
+      "NormDebt": 0.06918656056587091,
+      "RankScore": 0.09784457228620219,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9686118479221928,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.015694076038903625,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260217": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 14.57142857142857,
+      "NormDebt": 14.57142857142857,
+      "RankScore": 14.57142857142857,
+      "metrics": {
+        "CC_T": 4.166666666666667,
+        "WMT_T": 50.0,
+        "LCOT_T": 58.0,
+        "CBT_T": 3.0,
+        "RFT_T": 15.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 30.0,
+        "LCOT_T": 58.0,
+        "CBT_T": 1.0,
+        "RFT_T": 13.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrenceView",
+        "DefaultInteractionAnalysisService",
+        "FaersRepository",
+        "HomeView",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "OCRCanonicalizer",
+        "OCRProcessingHelpers",
+        "OCRTextCleaner",
+        "PairEvidenceViewModel",
+        "PubMedRepository",
+        "ReactionEvidenceView",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "ShareSheet",
+        "Supplement",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 25,
+      "DebtMag": 24.857142857142854,
+      "NormDebt": 0.9942857142857142,
+      "RankScore": 4.971428571428571,
+      "metrics": {
+        "CC_T": 2.4405555555555556,
+        "WMT_T": 6.76,
+        "LCOT_T": 0.84,
+        "CBT_T": 3.72,
+        "RFT_T": 4.4,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 5.0,
+        "LCOT_T": 47.0,
+        "CBT_T": 51.0,
+        "RFT_T": 71.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "OCRRegionExtractor"
+      ],
+      "size": 1,
+      "DebtMag": 3.1428571428571423,
+      "NormDebt": 3.1428571428571423,
+      "RankScore": 3.1428571428571423,
+      "metrics": {
+        "CC_T": 7.4,
+        "WMT_T": 37.0,
+        "LCOT_T": -2.0,
+        "CBT_T": 2.0,
+        "RFT_T": 7.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 17.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 5.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "CameraCaptureView",
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 3,
+      "DebtMag": 5.136925267154106,
+      "NormDebt": 1.7123084223847018,
+      "RankScore": 2.965805185798413,
+      "metrics": {
+        "CC_T": 1.3,
+        "WMT_T": 6.0,
+        "LCOT_T": 8.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 1.0,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 24.0,
+        "CBT_T": 0.0,
+        "RFT_T": 6.0,
+        "ED_T": 2.9584768700787403,
+        "CY_T": 3.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDSearchIndex",
+        "DownloadedDSLDStore"
+      ],
+      "size": 2,
+      "DebtMag": 3.4285714285714284,
+      "NormDebt": 1.7142857142857142,
+      "RankScore": 2.4243661069253055,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 10.5,
+        "LCOT_T": 0.5,
+        "CBT_T": 3.5,
+        "RFT_T": 12.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 20.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDNameIndex"
+      ],
+      "size": 1,
+      "DebtMag": 0.8571428571428571,
+      "NormDebt": 0.8571428571428571,
+      "RankScore": 0.8571428571428571,
+      "metrics": {
+        "CC_T": 1.75,
+        "WMT_T": 7.0,
+        "LCOT_T": 4.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 4.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisPDFExporter"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.3333333333333335,
+        "WMT_T": 7.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 15.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisSnapshotStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 2.25,
+        "WMT_T": 9.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InMemorySupplementRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 3.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Interaction"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PubMedSummaryResponse"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Evidence"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionDisplayModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionTaxonomy"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 9.5,
+        "WMT_T": 19.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "LibraryViewModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 4.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PDFViewer"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceItem",
+        "Source"
+      ],
+      "size": 2,
+      "DebtMag": 0.13890255905511809,
+      "NormDebt": 0.06945127952755904,
+      "RankScore": 0.09821894143203887,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9723179133858267,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013841043307086614,
+        "CY_T": 0.0
+      }
+    }
+  ],
+  "NutriCompass_backup_20260218": [
+    {
+      "cluster": [
+        "OCRIngredientScanner"
+      ],
+      "size": 1,
+      "DebtMag": 15.142857142857142,
+      "NormDebt": 15.142857142857142,
+      "RankScore": 15.142857142857142,
+      "metrics": {
+        "CC_T": 4.416666666666667,
+        "WMT_T": 53.0,
+        "LCOT_T": 58.0,
+        "CBT_T": 3.0,
+        "RFT_T": 16.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 33.0,
+        "LCOT_T": 58.0,
+        "CBT_T": 1.0,
+        "RFT_T": 14.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisController",
+        "AnalysisResultView",
+        "AppCompositionRoot",
+        "AppModel",
+        "AuthManager",
+        "CoOccurrenceInlineViewModel",
+        "CoOccurrencePMIDView",
+        "CoOccurrenceView",
+        "DefaultInteractionAnalysisService",
+        "FaersRepository",
+        "HomeView",
+        "LanguagePolicyEngine",
+        "LibraryStore",
+        "LibraryView",
+        "LibraryViewModel",
+        "MyIngredientsStore",
+        "OCRCanonicalizer",
+        "OCRProcessingHelpers",
+        "OCRTextCleaner",
+        "PairEvidenceViewModel",
+        "PubMedRepository",
+        "ReactionEvidenceView",
+        "RootView",
+        "RouteHostView",
+        "SampleData",
+        "SelectionStore",
+        "ShareSheet",
+        "Supplement",
+        "TerminologyMappingView",
+        "UIStringPolicyEnforcer"
+      ],
+      "size": 30,
+      "DebtMag": 33.42857142857144,
+      "NormDebt": 1.1142857142857145,
+      "RankScore": 6.103194212200424,
+      "metrics": {
+        "CC_T": 2.3248677248677247,
+        "WMT_T": 7.0,
+        "LCOT_T": 1.0666666666666667,
+        "CBT_T": 3.7333333333333334,
+        "RFT_T": 4.333333333333333,
+        "ED_T": 0.013994910941475824,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 22.0,
+        "LCOT_T": 68.0,
+        "CBT_T": 60.0,
+        "RFT_T": 84.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDNameIndex"
+      ],
+      "size": 1,
+      "DebtMag": 4.571428571428571,
+      "NormDebt": 4.571428571428571,
+      "RankScore": 4.571428571428571,
+      "metrics": {
+        "CC_T": 2.25,
+        "WMT_T": 18.0,
+        "LCOT_T": 26.0,
+        "CBT_T": 2.0,
+        "RFT_T": 8.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 26.0,
+        "CBT_T": 0.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "OCRRegionExtractor"
+      ],
+      "size": 1,
+      "DebtMag": 3.2857142857142856,
+      "NormDebt": 3.2857142857142856,
+      "RankScore": 3.2857142857142856,
+      "metrics": {
+        "CC_T": 7.4,
+        "WMT_T": 37.0,
+        "LCOT_T": -2.0,
+        "CBT_T": 2.0,
+        "RFT_T": 8.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 17.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "CameraCaptureView",
+        "Coordinator",
+        "ImagePicker"
+      ],
+      "size": 3,
+      "DebtMag": 5.1368593238822235,
+      "NormDebt": 1.7122864412940746,
+      "RankScore": 2.965767113432641,
+      "metrics": {
+        "CC_T": 1.3,
+        "WMT_T": 6.0,
+        "LCOT_T": 8.0,
+        "CBT_T": 2.0,
+        "RFT_T": 4.0,
+        "ED_T": 1.0,
+        "CY_T": 1.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 24.0,
+        "CBT_T": 0.0,
+        "RFT_T": 6.0,
+        "ED_T": 2.9580152671755724,
+        "CY_T": 3.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDSearchIndex",
+        "DownloadedDSLDStore"
+      ],
+      "size": 2,
+      "DebtMag": 3.714285714285714,
+      "NormDebt": 1.857142857142857,
+      "RankScore": 2.6263966158357475,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 10.5,
+        "LCOT_T": 0.5,
+        "CBT_T": 3.5,
+        "RFT_T": 13.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 22.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisPDFExporter"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.3333333333333335,
+        "WMT_T": 7.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 3.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 1.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceDatabase"
+      ],
+      "size": 1,
+      "DebtMag": 0.5714285714285714,
+      "NormDebt": 0.5714285714285714,
+      "RankScore": 0.5714285714285714,
+      "metrics": {
+        "CC_T": 2.5,
+        "WMT_T": 15.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 6.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "AnalysisSnapshotStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.42857142857142855,
+      "NormDebt": 0.42857142857142855,
+      "RankScore": 0.42857142857142855,
+      "metrics": {
+        "CC_T": 2.6,
+        "WMT_T": 13.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 5.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InMemorySupplementRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.42857142857142855,
+      "NormDebt": 0.42857142857142855,
+      "RankScore": 0.42857142857142855,
+      "metrics": {
+        "CC_T": 1.5,
+        "WMT_T": 3.0,
+        "LCOT_T": -1.0,
+        "CBT_T": 2.0,
+        "RFT_T": 5.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "DSLDRemoteClient"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 2.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 4.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Interaction"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PubMedSummaryResponse"
+      ],
+      "size": 1,
+      "DebtMag": 0.2857142857142857,
+      "NormDebt": 0.2857142857142857,
+      "RankScore": 0.2857142857142857,
+      "metrics": {
+        "CC_T": 3.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 4.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EmptyDSLDStore"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 3.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "Evidence"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceRepository"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 4.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 3.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 1.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionDisplayModel"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "InteractionTaxonomy"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 9.5,
+        "WMT_T": 19.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 3.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 1.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "PDFViewer"
+      ],
+      "size": 1,
+      "DebtMag": 0.14285714285714285,
+      "NormDebt": 0.14285714285714285,
+      "RankScore": 0.14285714285714285,
+      "metrics": {
+        "CC_T": 1.0,
+        "WMT_T": 2.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 1.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.0,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    },
+    {
+      "cluster": [
+        "EvidenceItem",
+        "Source"
+      ],
+      "size": 2,
+      "DebtMag": 0.13885859687386404,
+      "NormDebt": 0.06942929843693202,
+      "RankScore": 0.09818785547555839,
+      "metrics": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.5,
+        "RFT_T": 0.0,
+        "ED_T": 0.5,
+        "CY_T": 0.0
+      },
+      "excess": {
+        "CC_T": 0.0,
+        "WMT_T": 0.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 0.0,
+        "RFT_T": 0.0,
+        "ED_T": 0.9720101781170484,
+        "CY_T": 0.0
+      },
+      "thresholds": {
+        "CC_T": 10.0,
+        "WMT_T": 20.0,
+        "LCOT_T": 0.0,
+        "CBT_T": 2.0,
+        "RFT_T": 2.0,
+        "ED_T": 0.013994910941475827,
+        "CY_T": 0.0
+      }
+    }
+  ]
+}

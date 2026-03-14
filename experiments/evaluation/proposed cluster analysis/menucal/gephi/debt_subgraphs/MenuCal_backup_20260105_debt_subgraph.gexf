@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-13">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="AnalyticsEventStore" label="AnalyticsEventStore" />
+      <node id="StageTimeRule" label="StageTimeRule" />
+      <node id="Set" label="Set" />
+      <node id="MiniLMTokenizer" label="MiniLMTokenizer" />
+      <node id="CalCoinStore" label="CalCoinStore" />
+      <node id="IngredientContentView" label="IngredientContentView" />
+      <node id="ExpandableFavoriteMenuRow" label="ExpandableFavoriteMenuRow" />
+      <node id="AnalyticsEngine" label="AnalyticsEngine" />
+      <node id="AutoMenuLoaderView" label="AutoMenuLoaderView" />
+      <node id="CalorieArchitectGenerator" label="CalorieArchitectGenerator" />
+      <node id="NearbyRestaurantPickerView" label="NearbyRestaurantPickerView" />
+      <node id="TextDocumentCameraView" label="TextDocumentCameraView" />
+      <node id="HealthKitManager" label="HealthKitManager" />
+      <node id="RecipeDishParser" label="RecipeDishParser" />
+      <node id="ReceiptDetailView" label="ReceiptDetailView" />
+      <node id="DistractorSourceManager" label="DistractorSourceManager" />
+      <node id="IngredientSelectSheet" label="IngredientSelectSheet" />
+      <node id="ReceiptDocumentScannerView" label="ReceiptDocumentScannerView" />
+      <node id="SafariView" label="SafariView" />
+      <node id="SettingsView" label="SettingsView" />
+      <node id="CalorieStage" label="CalorieStage" />
+      <node id="GameProgressStore" label="GameProgressStore" />
+      <node id="IngredientDataLoader" label="IngredientDataLoader" />
+      <node id="MenuParser" label="MenuParser" />
+      <node id="IngredientRoleInferencer" label="IngredientRoleInferencer" />
+      <node id="CookingRecipeCache" label="CookingRecipeCache" />
+      <node id="DishSelectSheet" label="DishSelectSheet" />
+      <node id="RecipeDetailDB" label="RecipeDetailDB" />
+      <node id="DishTypeContentView" label="DishTypeContentView" />
+      <node id="ReceiptVisibilityStore" label="ReceiptVisibilityStore" />
+      <node id="GameFoodIcon" label="GameFoodIcon" />
+      <node id="FoodSeg103Segmenter" label="FoodSeg103Segmenter" />
+      <node id="DietRecipeCache" label="DietRecipeCache" />
+      <node id="RecipeHistoryView" label="RecipeHistoryView" />
+      <node id="RecipeCalorieCache" label="RecipeCalorieCache" />
+      <node id="OccasionRecipeCache" label="OccasionRecipeCache" />
+      <node id="HistoryDaySheet" label="HistoryDaySheet" />
+      <node id="PhotoMapView" label="PhotoMapView" />
+      <node id="CalendarView" label="CalendarView" />
+      <node id="CalorieArchitectScoring" label="CalorieArchitectScoring" />
+      <node id="HealthInsightsView" label="HealthInsightsView" />
+      <node id="DietContentView" label="DietContentView" />
+      <node id="FoodPhotoLinkViewModel" label="FoodPhotoLinkViewModel" />
+      <node id="HealthAlertService" label="HealthAlertService" />
+      <node id="PopularRecipeCache" label="PopularRecipeCache" />
+      <node id="ReceiptScanStore" label="ReceiptScanStore" />
+      <node id="ReceiptDishMatcher" label="ReceiptDishMatcher" />
+      <node id="NutritionContentView" label="NutritionContentView" />
+      <node id="FeatureButtonGradients" label="FeatureButtonGradients" />
+      <node id="AuthManager" label="AuthManager" />
+      <node id="RecipeDetailView" label="RecipeDetailView" />
+      <node id="CalCoinCenterView" label="CalCoinCenterView" />
+      <node id="PopularContentView" label="PopularContentView" />
+      <node id="RecipeSearchView" label="RecipeSearchView" />
+      <node id="RecipeSearchService" label="RecipeSearchService" />
+      <node id="ProductAlertBuilder" label="ProductAlertBuilder" />
+      <node id="ExistingRecipeEditView" label="ExistingRecipeEditView" />
+      <node id="ProductResultView" label="ProductResultView" />
+      <node id="AddStepView" label="AddStepView" />
+      <node id="CuisineContentView" label="CuisineContentView" />
+      <node id="MyKitchenView" label="MyKitchenView" />
+      <node id="DishTypeRecipeCache" label="DishTypeRecipeCache" />
+      <node id="IngredientNutritionDetailView" label="IngredientNutritionDetailView" />
+      <node id="MenuVisibilityStore" label="MenuVisibilityStore" />
+      <node id="StageResultView" label="StageResultView" />
+      <node id="Date" label="Date" />
+      <node id="IngredientRecipeCache" label="IngredientRecipeCache" />
+      <node id="FoodNewsStore" label="FoodNewsStore" />
+      <node id="DishCalorieCalculator" label="DishCalorieCalculator" />
+      <node id="AutoDishCardView" label="AutoDishCardView" />
+      <node id="NavigationRoute" label="NavigationRoute" />
+      <node id="ChainMenuDishParser" label="ChainMenuDishParser" />
+      <node id="NameNormalizer" label="NameNormalizer" />
+      <node id="FoodNewsAutoScrollView" label="FoodNewsAutoScrollView" />
+      <node id="MenuItemEstimate" label="MenuItemEstimate" />
+      <node id="Coordinator" label="Coordinator" />
+      <node id="FoodPhotoMenuLinkStore" label="FoodPhotoMenuLinkStore" />
+      <node id="DishCalorieStore" label="DishCalorieStore" />
+      <node id="ChainMenuRegistry" label="ChainMenuRegistry" />
+      <node id="MenuItemCardView" label="MenuItemCardView" />
+      <node id="FavoriteRecipeStore" label="FavoriteRecipeStore" />
+      <node id="ArchitectEngine" label="ArchitectEngine" />
+      <node id="RecipeIngredientSelectSheet" label="RecipeIngredientSelectSheet" />
+      <node id="UserRecipeStore" label="UserRecipeStore" />
+      <node id="IngredientAlternativePicker" label="IngredientAlternativePicker" />
+      <node id="RestaurantDetector" label="RestaurantDetector" />
+      <node id="ScannedItemsView" label="ScannedItemsView" />
+      <node id="FoodPhotoLibraryView" label="FoodPhotoLibraryView" />
+      <node id="CandidateListView" label="CandidateListView" />
+      <node id="IngredientCardView" label="IngredientCardView" />
+      <node id="CustomIngredientStore" label="CustomIngredientStore" />
+      <node id="CalendarNoteStore" label="CalendarNoteStore" />
+      <node id="FavoriteRestaurantStore" label="FavoriteRestaurantStore" />
+      <node id="FoodPhotoView" label="FoodPhotoView" />
+      <node id="PhotoLabelStore" label="PhotoLabelStore" />
+      <node id="DefaultFoodTagDetector" label="DefaultFoodTagDetector" />
+      <node id="FoodDB" label="FoodDB" />
+      <node id="RecipeEmbeddingIndex" label="RecipeEmbeddingIndex" />
+      <node id="RecipeHubView" label="RecipeHubView" />
+      <node id="GameMenuView" label="GameMenuView" />
+      <node id="SeededRNG" label="SeededRNG" />
+      <node id="FeatureButtonGridView" label="FeatureButtonGridView" />
+      <node id="MyRecipeContentView" label="MyRecipeContentView" />
+      <node id="CuisineRecipeCache" label="CuisineRecipeCache" />
+      <node id="RecipeViewStore" label="RecipeViewStore" />
+      <node id="LocationManager" label="LocationManager" />
+      <node id="RecipeCategoryView" label="RecipeCategoryView" />
+      <node id="MiniLMWordPieceTokenizer" label="MiniLMWordPieceTokenizer" />
+      <node id="FavoritesView" label="FavoritesView" />
+      <node id="RecipeDetailLoadingView" label="RecipeDetailLoadingView" />
+      <node id="AnalyticsView" label="AnalyticsView" />
+      <node id="FoodNewsService" label="FoodNewsService" />
+      <node id="ScannerVC" label="ScannerVC" />
+      <node id="CalorieArchitectRunnerView" label="CalorieArchitectRunnerView" />
+      <node id="FeatureButtonStore" label="FeatureButtonStore" />
+      <node id="OccasionContentView" label="OccasionContentView" />
+      <node id="DishSection" label="DishSection" />
+      <node id="StageHeaderView" label="StageHeaderView" />
+      <node id="ContentView" label="ContentView" />
+      <node id="ScanCard" label="ScanCard" />
+      <node id="GreetingAgentEngine" label="GreetingAgentEngine" />
+      <node id="PreferencesView" label="PreferencesView" />
+      <node id="MenuScanStore" label="MenuScanStore" />
+      <node id="NavigationRouter" label="NavigationRouter" />
+      <node id="IngredientPool" label="IngredientPool" />
+      <node id="FoodPhotoMenuLinkSheet" label="FoodPhotoMenuLinkSheet" />
+      <node id="DishCalorieDBBuilder" label="DishCalorieDBBuilder" />
+      <node id="FavoriteMenuStore" label="FavoriteMenuStore" />
+      <node id="MyRecipeEditorView" label="MyRecipeEditorView" />
+      <node id="GameContext" label="GameContext" />
+      <node id="NutritionRecipeCache" label="NutritionRecipeCache" />
+      <node id="SeasoningStore" label="SeasoningStore" />
+      <node id="UserScannedMenuStore" label="UserScannedMenuStore" />
+      <node id="MenuCalPhotoStore" label="MenuCalPhotoStore" />
+      <node id="NutritionAgent" label="NutritionAgent" />
+      <node id="LocalSQLiteIngredientSource" label="LocalSQLiteIngredientSource" />
+      <node id="RecipeCategoryPreloadStore" label="RecipeCategoryPreloadStore" />
+      <node id="RSSParser" label="RSSParser" />
+      <node id="CookingContentView" label="CookingContentView" />
+      <node id="RecipeVisibilityStore" label="RecipeVisibilityStore" />
+    </nodes>
+    <edges>
+      <edge source="AnalyticsEventStore" target="AnalyticsEventStore" id="0" />
+      <edge source="AnalyticsEventStore" target="Date" id="1" />
+      <edge source="CalCoinStore" target="Set" id="2" />
+      <edge source="CalCoinStore" target="CalCoinStore" id="3" />
+      <edge source="IngredientContentView" target="RecipeDetailLoadingView" id="4" />
+      <edge source="ExpandableFavoriteMenuRow" target="Date" id="5" />
+      <edge source="AnalyticsEngine" target="Date" id="6" />
+      <edge source="AnalyticsEngine" target="NameNormalizer" id="7" />
+      <edge source="AutoMenuLoaderView" target="Date" id="8" />
+      <edge source="CalorieArchitectGenerator" target="FoodDB" id="9" />
+      <edge source="CalorieArchitectGenerator" target="CalorieStage" id="10" />
+      <edge source="CalorieArchitectGenerator" target="SeededRNG" id="11" />
+      <edge source="CalorieArchitectGenerator" target="IngredientAlternativePicker" id="12" />
+      <edge source="CalorieArchitectGenerator" target="IngredientRoleInferencer" id="13" />
+      <edge source="NearbyRestaurantPickerView" target="AutoMenuLoaderView" id="14" />
+      <edge source="TextDocumentCameraView" target="TextDocumentCameraView" id="15" />
+      <edge source="TextDocumentCameraView" target="Coordinator" id="16" />
+      <edge source="HealthKitManager" target="Set" id="17" />
+      <edge source="HealthKitManager" target="HealthKitManager" id="18" />
+      <edge source="HealthKitManager" target="Date" id="19" />
+      <edge source="RecipeDishParser" target="NameNormalizer" id="20" />
+      <edge source="RecipeDishParser" target="Date" id="21" />
+      <edge source="DistractorSourceManager" target="Set" id="22" />
+      <edge source="DistractorSourceManager" target="DistractorSourceManager" id="23" />
+      <edge source="IngredientSelectSheet" target="LocationManager" id="24" />
+      <edge source="IngredientSelectSheet" target="CustomIngredientStore" id="25" />
+      <edge source="IngredientSelectSheet" target="Set" id="26" />
+      <edge source="ReceiptDocumentScannerView" target="Coordinator" id="27" />
+      <edge source="SettingsView" target="HealthKitManager" id="28" />
+      <edge source="SettingsView" target="FeatureButtonStore" id="29" />
+      <edge source="SettingsView" target="AuthManager" id="30" />
+      <edge source="CalorieStage" target="CalorieArchitectGenerator" id="31" />
+      <edge source="GameProgressStore" target="GameProgressStore" id="32" />
+      <edge source="MenuParser" target="RecipeEmbeddingIndex" id="33" />
+      <edge source="MenuParser" target="Set" id="34" />
+      <edge source="MenuParser" target="MenuParser" id="35" />
+      <edge source="MenuParser" target="DishCalorieCalculator" id="36" />
+      <edge source="MenuParser" target="Date" id="37" />
+      <edge source="MenuParser" target="MenuItemEstimate" id="38" />
+      <edge source="CookingRecipeCache" target="CookingRecipeCache" id="39" />
+      <edge source="DishSelectSheet" target="LocationManager" id="40" />
+      <edge source="DishSelectSheet" target="Set" id="41" />
+      <edge source="DishSelectSheet" target="NameNormalizer" id="42" />
+      <edge source="DishSelectSheet" target="DishSection" id="43" />
+      <edge source="RecipeDetailDB" target="NameNormalizer" id="44" />
+      <edge source="RecipeDetailDB" target="RecipeDetailDB" id="45" />
+      <edge source="DishTypeContentView" target="RecipeDetailLoadingView" id="46" />
+      <edge source="ReceiptVisibilityStore" target="Set" id="47" />
+      <edge source="ReceiptVisibilityStore" target="ReceiptVisibilityStore" id="48" />
+      <edge source="FoodSeg103Segmenter" target="FoodSeg103Segmenter" id="49" />
+      <edge source="DietRecipeCache" target="DietRecipeCache" id="50" />
+      <edge source="RecipeHistoryView" target="Date" id="51" />
+      <edge source="RecipeHistoryView" target="RecipeDetailLoadingView" id="52" />
+      <edge source="RecipeCalorieCache" target="RecipeCalorieCache" id="53" />
+      <edge source="OccasionRecipeCache" target="OccasionRecipeCache" id="54" />
+      <edge source="HistoryDaySheet" target="Set" id="55" />
+      <edge source="HistoryDaySheet" target="ScanCard" id="56" />
+      <edge source="HistoryDaySheet" target="RecipeDetailLoadingView" id="57" />
+      <edge source="PhotoMapView" target="FoodPhotoLinkViewModel" id="58" />
+      <edge source="PhotoMapView" target="FoodPhotoView" id="59" />
+      <edge source="PhotoMapView" target="DishSelectSheet" id="60" />
+      <edge source="PhotoMapView" target="IngredientSelectSheet" id="61" />
+      <edge source="PhotoMapView" target="Set" id="62" />
+      <edge source="CalendarView" target="Date" id="63" />
+      <edge source="CalendarView" target="HistoryDaySheet" id="64" />
+      <edge source="CalendarView" target="NutritionAgent" id="65" />
+      <edge source="CalorieArchitectScoring" target="Set" id="66" />
+      <edge source="CalorieArchitectScoring" target="CalorieStage" id="67" />
+      <edge source="HealthInsightsView" target="HealthKitManager" id="68" />
+      <edge source="HealthInsightsView" target="Date" id="69" />
+      <edge source="DietContentView" target="RecipeDetailLoadingView" id="70" />
+      <edge source="FoodPhotoLinkViewModel" target="LocationManager" id="71" />
+      <edge source="HealthAlertService" target="HealthAlertService" id="72" />
+      <edge source="PopularRecipeCache" target="PopularRecipeCache" id="73" />
+      <edge source="ReceiptScanStore" target="ReceiptScanStore" id="74" />
+      <edge source="ReceiptDishMatcher" target="Set" id="75" />
+      <edge source="NutritionContentView" target="RecipeDetailLoadingView" id="76" />
+      <edge source="AuthManager" target="AuthManager" id="77" />
+      <edge source="RecipeDetailView" target="NameNormalizer" id="78" />
+      <edge source="RecipeDetailView" target="ExistingRecipeEditView" id="79" />
+      <edge source="RecipeDetailView" target="RecipeDetailLoadingView" id="80" />
+      <edge source="CalCoinCenterView" target="GameContext" id="81" />
+      <edge source="PopularContentView" target="RecipeDetailLoadingView" id="82" />
+      <edge source="RecipeSearchView" target="NameNormalizer" id="83" />
+      <edge source="RecipeSearchService" target="RecipeSearchService" id="84" />
+      <edge source="ProductAlertBuilder" target="FoodDB" id="85" />
+      <edge source="ProductAlertBuilder" target="HealthAlertService" id="86" />
+      <edge source="ExistingRecipeEditView" target="DishCalorieCalculator" id="87" />
+      <edge source="ExistingRecipeEditView" target="AddStepView" id="88" />
+      <edge source="ProductResultView" target="FoodDB" id="89" />
+      <edge source="ProductResultView" target="HealthKitManager" id="90" />
+      <edge source="ProductResultView" target="Set" id="91" />
+      <edge source="AddStepView" target="Set" id="92" />
+      <edge source="CuisineContentView" target="RecipeDetailLoadingView" id="93" />
+      <edge source="MyKitchenView" target="CustomIngredientStore" id="94" />
+      <edge source="MyKitchenView" target="RecipeDetailLoadingView" id="95" />
+      <edge source="DishTypeRecipeCache" target="DishTypeRecipeCache" id="96" />
+      <edge source="MenuVisibilityStore" target="Set" id="97" />
+      <edge source="MenuVisibilityStore" target="MenuVisibilityStore" id="98" />
+      <edge source="StageResultView" target="IngredientNutritionDetailView" id="99" />
+      <edge source="Date" target="Date" id="100" />
+      <edge source="IngredientRecipeCache" target="IngredientRecipeCache" id="101" />
+      <edge source="ChainMenuDishParser" target="NameNormalizer" id="102" />
+      <edge source="ChainMenuDishParser" target="Date" id="103" />
+      <edge source="FoodNewsAutoScrollView" target="FoodNewsStore" id="104" />
+      <edge source="Coordinator" target="TextDocumentCameraView" id="105" />
+      <edge source="FoodPhotoMenuLinkStore" target="FoodPhotoMenuLinkStore" id="106" />
+      <edge source="DishCalorieStore" target="NameNormalizer" id="107" />
+      <edge source="DishCalorieStore" target="DishCalorieStore" id="108" />
+      <edge source="DishCalorieStore" target="Set" id="109" />
+      <edge source="ChainMenuRegistry" target="ChainMenuRegistry" id="110" />
+      <edge source="FavoriteRecipeStore" target="Set" id="111" />
+      <edge source="FavoriteRecipeStore" target="FavoriteRecipeStore" id="112" />
+      <edge source="FavoriteRecipeStore" target="Date" id="113" />
+      <edge source="ArchitectEngine" target="Set" id="114" />
+      <edge source="ArchitectEngine" target="CalorieStage" id="115" />
+      <edge source="RecipeIngredientSelectSheet" target="CustomIngredientStore" id="116" />
+      <edge source="RecipeIngredientSelectSheet" target="Set" id="117" />
+      <edge source="UserRecipeStore" target="NameNormalizer" id="118" />
+      <edge source="UserRecipeStore" target="UserRecipeStore" id="119" />
+      <edge source="UserRecipeStore" target="Date" id="120" />
+      <edge source="IngredientAlternativePicker" target="Set" id="121" />
+      <edge source="IngredientAlternativePicker" target="IngredientRoleInferencer" id="122" />
+      <edge source="RestaurantDetector" target="RestaurantDetector" id="123" />
+      <edge source="ScannedItemsView" target="Set" id="124" />
+      <edge source="ScannedItemsView" target="ReceiptDetailView" id="125" />
+      <edge source="FoodPhotoLibraryView" target="FoodPhotoLinkViewModel" id="126" />
+      <edge source="FoodPhotoLibraryView" target="DishSelectSheet" id="127" />
+      <edge source="FoodPhotoLibraryView" target="IngredientSelectSheet" id="128" />
+      <edge source="FoodPhotoLibraryView" target="FoodPhotoView" id="129" />
+      <edge source="CandidateListView" target="Date" id="130" />
+      <edge source="IngredientCardView" target="ArchitectEngine" id="131" />
+      <edge source="IngredientCardView" target="CalorieStage" id="132" />
+      <edge source="IngredientCardView" target="GameFoodIcon" id="133" />
+      <edge source="CustomIngredientStore" target="CustomIngredientStore" id="134" />
+      <edge source="CalendarNoteStore" target="Date" id="135" />
+      <edge source="CalendarNoteStore" target="CalendarNoteStore" id="136" />
+      <edge source="FavoriteRestaurantStore" target="Set" id="137" />
+      <edge source="FavoriteRestaurantStore" target="FavoriteRestaurantStore" id="138" />
+      <edge source="FavoriteRestaurantStore" target="Date" id="139" />
+      <edge source="FoodPhotoView" target="Coordinator" id="140" />
+      <edge source="PhotoLabelStore" target="PhotoLabelStore" id="141" />
+      <edge source="PhotoLabelStore" target="Date" id="142" />
+      <edge source="DefaultFoodTagDetector" target="DefaultFoodTagDetector" id="143" />
+      <edge source="FoodDB" target="FoodDB" id="144" />
+      <edge source="RecipeEmbeddingIndex" target="RecipeEmbeddingIndex" id="145" />
+      <edge source="RecipeHubView" target="FeatureButtonStore" id="146" />
+      <edge source="RecipeHubView" target="FeatureButtonGridView" id="147" />
+      <edge source="RecipeHubView" target="RecipeDetailLoadingView" id="148" />
+      <edge source="RecipeHubView" target="RecipeSearchView" id="149" />
+      <edge source="RecipeHubView" target="RecipeCategoryView" id="150" />
+      <edge source="RecipeHubView" target="Set" id="151" />
+      <edge source="GameMenuView" target="GameContext" id="152" />
+      <edge source="GameMenuView" target="CalorieArchitectGenerator" id="153" />
+      <edge source="GameMenuView" target="CalorieArchitectRunnerView" id="154" />
+      <edge source="MyRecipeContentView" target="MyRecipeEditorView" id="155" />
+      <edge source="MyRecipeContentView" target="RecipeDetailView" id="156" />
+      <edge source="CuisineRecipeCache" target="CuisineRecipeCache" id="157" />
+      <edge source="RecipeViewStore" target="Date" id="158" />
+      <edge source="RecipeViewStore" target="RecipeViewStore" id="159" />
+      <edge source="LocationManager" target="Date" id="160" />
+      <edge source="RecipeCategoryView" target="DishTypeContentView" id="161" />
+      <edge source="RecipeCategoryView" target="IngredientContentView" id="162" />
+      <edge source="RecipeCategoryView" target="CuisineContentView" id="163" />
+      <edge source="RecipeCategoryView" target="CookingContentView" id="164" />
+      <edge source="RecipeCategoryView" target="DietContentView" id="165" />
+      <edge source="RecipeCategoryView" target="NutritionContentView" id="166" />
+      <edge source="RecipeCategoryView" target="OccasionContentView" id="167" />
+      <edge source="RecipeCategoryView" target="PopularContentView" id="168" />
+      <edge source="RecipeCategoryView" target="MyRecipeContentView" id="169" />
+      <edge source="MiniLMWordPieceTokenizer" target="Set" id="170" />
+      <edge source="MiniLMWordPieceTokenizer" target="MiniLMWordPieceTokenizer" id="171" />
+      <edge source="FavoritesView" target="Set" id="172" />
+      <edge source="FavoritesView" target="NameNormalizer" id="173" />
+      <edge source="FavoritesView" target="ExpandableFavoriteMenuRow" id="174" />
+      <edge source="FavoritesView" target="AutoMenuLoaderView" id="175" />
+      <edge source="FavoritesView" target="RecipeDetailLoadingView" id="176" />
+      <edge source="RecipeDetailLoadingView" target="RecipeDetailView" id="177" />
+      <edge source="AnalyticsView" target="AnalyticsEngine" id="178" />
+      <edge source="FoodNewsService" target="Date" id="179" />
+      <edge source="FoodNewsService" target="FoodNewsService" id="180" />
+      <edge source="FoodNewsService" target="RSSParser" id="181" />
+      <edge source="CalorieArchitectRunnerView" target="CalorieStage" id="182" />
+      <edge source="CalorieArchitectRunnerView" target="GameContext" id="183" />
+      <edge source="CalorieArchitectRunnerView" target="HealthKitManager" id="184" />
+      <edge source="CalorieArchitectRunnerView" target="StageTimeRule" id="185" />
+      <edge source="CalorieArchitectRunnerView" target="CalorieArchitectGenerator" id="186" />
+      <edge source="CalorieArchitectRunnerView" target="CalorieArchitectScoring" id="187" />
+      <edge source="CalorieArchitectRunnerView" target="ArchitectEngine" id="188" />
+      <edge source="CalorieArchitectRunnerView" target="Set" id="189" />
+      <edge source="CalorieArchitectRunnerView" target="StageHeaderView" id="190" />
+      <edge source="CalorieArchitectRunnerView" target="IngredientCardView" id="191" />
+      <edge source="CalorieArchitectRunnerView" target="StageResultView" id="192" />
+      <edge source="FeatureButtonStore" target="FeatureButtonStore" id="193" />
+      <edge source="FeatureButtonStore" target="Set" id="194" />
+      <edge source="OccasionContentView" target="RecipeDetailLoadingView" id="195" />
+      <edge source="DishSection" target="Set" id="196" />
+      <edge source="DishSection" target="NameNormalizer" id="197" />
+      <edge source="StageHeaderView" target="CalorieStage" id="198" />
+      <edge source="StageHeaderView" target="GameFoodIcon" id="199" />
+      <edge source="StageHeaderView" target="IngredientNutritionDetailView" id="200" />
+      <edge source="ContentView" target="FoodDB" id="201" />
+      <edge source="ContentView" target="FeatureButtonStore" id="202" />
+      <edge source="ContentView" target="GameContext" id="203" />
+      <edge source="ContentView" target="ProductAlertBuilder" id="204" />
+      <edge source="ContentView" target="ReceiptDishMatcher" id="205" />
+      <edge source="ContentView" target="LocationManager" id="206" />
+      <edge source="ContentView" target="FoodNewsStore" id="207" />
+      <edge source="ContentView" target="SettingsView" id="208" />
+      <edge source="ContentView" target="RecipeHubView" id="209" />
+      <edge source="ContentView" target="GameMenuView" id="210" />
+      <edge source="ContentView" target="CalendarView" id="211" />
+      <edge source="ContentView" target="TextDocumentCameraView" id="212" />
+      <edge source="ContentView" target="FoodPhotoLibraryView" id="213" />
+      <edge source="ContentView" target="FoodPhotoMenuLinkSheet" id="214" />
+      <edge source="ContentView" target="PreferencesView" id="215" />
+      <edge source="ContentView" target="NearbyRestaurantPickerView" id="216" />
+      <edge source="ContentView" target="ReceiptDocumentScannerView" id="217" />
+      <edge source="ContentView" target="FoodNewsAutoScrollView" id="218" />
+      <edge source="ContentView" target="FeatureButtonGridView" id="219" />
+      <edge source="ContentView" target="Date" id="220" />
+      <edge source="ScanCard" target="FavoriteRestaurantStore" id="221" />
+      <edge source="ScanCard" target="FavoriteMenuStore" id="222" />
+      <edge source="ScanCard" target="Set" id="223" />
+      <edge source="GreetingAgentEngine" target="GreetingAgentEngine" id="224" />
+      <edge source="PreferencesView" target="HealthKitManager" id="225" />
+      <edge source="PreferencesView" target="FeatureButtonStore" id="226" />
+      <edge source="PreferencesView" target="FeatureButtonGridView" id="227" />
+      <edge source="MenuScanStore" target="Set" id="228" />
+      <edge source="MenuScanStore" target="MenuScanStore" id="229" />
+      <edge source="NavigationRouter" target="NavigationRoute" id="230" />
+      <edge source="IngredientPool" target="IngredientDataLoader" id="231" />
+      <edge source="IngredientPool" target="IngredientPool" id="232" />
+      <edge source="FoodPhotoMenuLinkSheet" target="Date" id="233" />
+      <edge source="DishCalorieDBBuilder" target="ChainMenuDishParser" id="234" />
+      <edge source="DishCalorieDBBuilder" target="RecipeDishParser" id="235" />
+      <edge source="FavoriteMenuStore" target="Set" id="236" />
+      <edge source="FavoriteMenuStore" target="FavoriteMenuStore" id="237" />
+      <edge source="FavoriteMenuStore" target="Date" id="238" />
+      <edge source="MyRecipeEditorView" target="CustomIngredientStore" id="239" />
+      <edge source="MyRecipeEditorView" target="AddStepView" id="240" />
+      <edge source="MyRecipeEditorView" target="Date" id="241" />
+      <edge source="GameContext" target="CalorieStage" id="242" />
+      <edge source="GameContext" target="Date" id="243" />
+      <edge source="NutritionRecipeCache" target="NutritionRecipeCache" id="244" />
+      <edge source="SeasoningStore" target="SeasoningStore" id="245" />
+      <edge source="UserScannedMenuStore" target="UserScannedMenuStore" id="246" />
+      <edge source="UserScannedMenuStore" target="Date" id="247" />
+      <edge source="MenuCalPhotoStore" target="MenuCalPhotoStore" id="248" />
+      <edge source="NutritionAgent" target="Set" id="249" />
+      <edge source="LocalSQLiteIngredientSource" target="Set" id="250" />
+      <edge source="LocalSQLiteIngredientSource" target="LocalSQLiteIngredientSource" id="251" />
+      <edge source="RecipeCategoryPreloadStore" target="RecipeCategoryPreloadStore" id="252" />
+      <edge source="RSSParser" target="Date" id="253" />
+      <edge source="CookingContentView" target="RecipeDetailLoadingView" id="254" />
+      <edge source="RecipeVisibilityStore" target="Set" id="255" />
+      <edge source="RecipeVisibilityStore" target="RecipeVisibilityStore" id="256" />
+    </edges>
+  </graph>
+</gexf>

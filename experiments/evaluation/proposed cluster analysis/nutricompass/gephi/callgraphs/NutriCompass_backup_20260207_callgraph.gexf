@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-13">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="('EvidenceClassificationModule', 'classify')" label="('EvidenceClassificationModule', 'classify')" />
+      <node id="('LiteratureRetrievalModule', 'lookupEvidenceMetadata')" label="('LiteratureRetrievalModule', 'lookupEvidenceMetadata')" />
+      <node id="('EvidencePatternDetectionModule', 'detectPatterns')" label="('EvidencePatternDetectionModule', 'detectPatterns')" />
+      <node id="('IngredientNormalizationModule', 'normalize')" label="('IngredientNormalizationModule', 'normalize')" />
+      <node id="('ImageOCRModule', 'recognizeText')" label="('ImageOCRModule', 'recognizeText')" />
+      <node id="('IngredientExtractionModule', 'extract')" label="('IngredientExtractionModule', 'extract')" />
+      <node id="('OutputSchemaValidator', 'validate')" label="('OutputSchemaValidator', 'validate')" />
+      <node id="('PermissionConsentManager', 'requestCameraIfNeeded')" label="('PermissionConsentManager', 'requestCameraIfNeeded')" />
+      <node id="('ScanWorkflowController', 'startScanFlow')" label="('ScanWorkflowController', 'startScanFlow')" />
+      <node id="('AnalysisController', 'analyze')" label="('AnalysisController', 'analyze')" />
+      <node id="('SecureStorage', 'save')" label="('SecureStorage', 'save')" />
+      <node id="('SecureStorage', 'load')" label="('SecureStorage', 'load')" />
+      <node id="('UserSupplementLibraryStore', 'persist')" label="('UserSupplementLibraryStore', 'persist')" />
+      <node id="('UserSupplementLibraryStore', 'fetchAll')" label="('UserSupplementLibraryStore', 'fetchAll')" />
+      <node id="('PreloadedDSLDStore', 'loadIndexIfNeeded')" label="('PreloadedDSLDStore', 'loadIndexIfNeeded')" />
+      <node id="('InMemorySupplementRepository', 'searchSupplements')" label="('InMemorySupplementRepository', 'searchSupplements')" />
+      <node id="('InMemorySupplementRepository', 'getSupplement')" label="('InMemorySupplementRepository', 'getSupplement')" />
+      <node id="('InMemoryUserLibraryRepository', 'saveSupplement')" label="('InMemoryUserLibraryRepository', 'saveSupplement')" />
+      <node id="('InMemoryUserLibraryRepository', 'listSupplements')" label="('InMemoryUserLibraryRepository', 'listSupplements')" />
+      <node id="('InMemoryEvidenceRepository', 'findEvidence')" label="('InMemoryEvidenceRepository', 'findEvidence')" />
+      <node id="('SearchIndex', 'buildIfNeeded')" label="('SearchIndex', 'buildIfNeeded')" />
+      <node id="('ProvenanceManager', 'currentDatabaseVersion')" label="('ProvenanceManager', 'currentDatabaseVersion')" />
+      <node id="('ConstraintRules', 'validateInteraction')" label="('ConstraintRules', 'validateInteraction')" />
+      <node id="('ComparisonEngine', 'groupByType')" label="('ComparisonEngine', 'groupByType')" />
+      <node id="('ComparisonEngine', 'sortByEvidenceStrength')" label="('ComparisonEngine', 'sortByEvidenceStrength')" />
+      <node id="('InteractionTaxonomy', 'displayName')" label="('InteractionTaxonomy', 'displayName')" />
+      <node id="('InteractionTaxonomy', 'evidenceLabel')" label="('InteractionTaxonomy', 'evidenceLabel')" />
+      <node id="('DefaultInteractionAnalysisService', 'analyze')" label="('DefaultInteractionAnalysisService', 'analyze')" />
+      <node id="('AppModel', 'runAnalysis')" label="('AppModel', 'runAnalysis')" />
+      <node id="('AppCompositionRoot', 'makeAppModel')" label="('AppCompositionRoot', 'makeAppModel')" />
+      <node id="('HomeView', 'search')" label="('HomeView', 'search')" />
+      <node id="('HomeView', 'toggleSelection')" label="('HomeView', 'toggleSelection')" />
+      <node id="('UIStringPolicyEnforcer', 'safe')" label="('UIStringPolicyEnforcer', 'safe')" />
+      <node id="('RegulatoryModeSwitch', 'setMode')" label="('RegulatoryModeSwitch', 'setMode')" />
+      <node id="('LanguagePolicyEngine', 'validate')" label="('LanguagePolicyEngine', 'validate')" />
+      <node id="('SchemaEnforcementEngine', 'enforceNonEmpty')" label="('SchemaEnforcementEngine', 'enforceNonEmpty')" />
+      <node id="('AuditLogger', 'info')" label="('AuditLogger', 'info')" />
+      <node id="('AuditLogger', 'warning')" label="('AuditLogger', 'warning')" />
+    </nodes>
+    <edges>
+      <edge source="('AnalysisController', 'analyze')" target="('AuditLogger', 'info')" id="0" />
+      <edge source="('AnalysisController', 'analyze')" target="('AnalysisController', 'analyze')" id="1" />
+      <edge source="('AppModel', 'runAnalysis')" target="('AnalysisController', 'analyze')" id="2" />
+      <edge source="('AppModel', 'runAnalysis')" target="('DefaultInteractionAnalysisService', 'analyze')" id="3" />
+      <edge source="('HomeView', 'search')" target="('InMemorySupplementRepository', 'searchSupplements')" id="4" />
+      <edge source="('UIStringPolicyEnforcer', 'safe')" target="('LanguagePolicyEngine', 'validate')" id="5" />
+      <edge source="('UIStringPolicyEnforcer', 'safe')" target="('OutputSchemaValidator', 'validate')" id="6" />
+      <edge source="('AuditLogger', 'info')" target="('AuditLogger', 'info')" id="7" />
+      <edge source="('AuditLogger', 'warning')" target="('AuditLogger', 'warning')" id="8" />
+    </edges>
+  </graph>
+</gexf>

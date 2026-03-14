@@ -1,0 +1,137 @@
+NutriCompass_backup_20260208/  [Swift LOC: 2862]
+├── NutriCompass/  [Swift LOC: 2855]
+│   ├── AIProcessing/  [Swift LOC: 422]
+│   │   ├── Classification/  [Swift LOC: 11]
+│   │   │   └── EvidenceClassificationModule.swift (11 lines)
+│   │   ├── Extraction/  [Swift LOC: 10]
+│   │   │   └── IngredientExtractionModule.swift (10 lines)
+│   │   ├── Literature/  [Swift LOC: 11]
+│   │   │   └── LiteratureRetrievalModule.swift (11 lines)
+│   │   ├── Normalization/  [Swift LOC: 10]
+│   │   │   └── IngredientNormalizationModule.swift (10 lines)
+│   │   ├── OCR/  [Swift LOC: 345]
+│   │   │   ├── ImageOCRModule.swift (11 lines)
+│   │   │   └── OCRIngredientScanner.swift (334 lines)
+│   │   ├── Patterns/  [Swift LOC: 11]
+│   │   │   └── EvidencePatternDetectionModule.swift (11 lines)
+│   │   ├── Pipeline/  [Swift LOC: 14]
+│   │   │   └── Pipeline.swift (14 lines)
+│   │   └── Validation/  [Swift LOC: 10]
+│   │       └── OutputSchemaValidator.swift (10 lines)
+│   ├── Application/  [Swift LOC: 88]
+│   │   ├── Controllers/  [Swift LOC: 28]
+│   │   │   └── AnalysisController.swift (28 lines)
+│   │   ├── Permissions/  [Swift LOC: 11]
+│   │   │   └── PermissionConsentManager.swift (11 lines)
+│   │   ├── Results/  [Swift LOC: 15]
+│   │   │   └── ResultAssemblyCoordinator.swift (15 lines)
+│   │   ├── Routing/  [Swift LOC: 16]
+│   │   │   └── RequestRouter.swift (16 lines)
+│   │   ├── Session/  [Swift LOC: 7]
+│   │   │   └── SessionStateManager.swift (7 lines)
+│   │   └── Workflow/  [Swift LOC: 11]
+│   │       └── WorkflowControllers.swift (11 lines)
+│   ├── Assets.xcassets/  [Swift LOC: 0]
+│   │   ├── AccentColor.colorset/  [Swift LOC: 0]
+│   │   ├── AppIcon.appiconset/  [Swift LOC: 0]
+│   │   └── bg_cyber_supplement.imageset/  [Swift LOC: 0]
+│   ├── Data/  [Swift LOC: 444]
+│   │   ├── Index/  [Swift LOC: 12]
+│   │   │   └── SearchIndex.swift (12 lines)
+│   │   ├── Repositories/  [Swift LOC: 62]
+│   │   │   ├── InMemoryRepositories.swift (45 lines)
+│   │   │   └── RepositoryInterfaces.swift (17 lines)
+│   │   ├── Stores/  [Swift LOC: 361]
+│   │   │   ├── DSLDSearchIndex.swift (112 lines)
+│   │   │   ├── DSLDSnapshot.swift (15 lines)
+│   │   │   ├── DSLDStore.swift (7 lines)
+│   │   │   ├── DownloadedDSLDStore.swift (68 lines)
+│   │   │   ├── EmptyDSLDStore.swift (19 lines)
+│   │   │   ├── PreloadedDSLDStore.swift (126 lines)
+│   │   │   └── UserSupplementLibraryStore.swift (14 lines)
+│   │   └── Versioning/  [Swift LOC: 9]
+│   │       └── ProvenanceManager.swift (9 lines)
+│   ├── Domain/  [Swift LOC: 349]
+│   │   ├── Logic/  [Swift LOC: 41]
+│   │   │   ├── ComparisonEngine.swift (26 lines)
+│   │   │   └── ConstraintRules.swift (15 lines)
+│   │   ├── Models/  [Swift LOC: 250]
+│   │   │   ├── CoOccurrenceEvidence.swift (46 lines)
+│   │   │   ├── CoOccurrencePMIDResponse.swift (15 lines)
+│   │   │   ├── Evidence.swift (51 lines)
+│   │   │   ├── Ingredient.swift (15 lines)
+│   │   │   ├── Interaction.swift (55 lines)
+│   │   │   └── Supplement.swift (68 lines)
+│   │   ├── Services/  [Swift LOC: 32]
+│   │   │   ├── DefaultInteractionAnalysisService.swift (26 lines)
+│   │   │   └── InteractionAnalysisService.swift (6 lines)
+│   │   └── Taxonomy/  [Swift LOC: 26]
+│   │       └── InteractionTaxonomy.swift (26 lines)
+│   ├── Infrastructure/  [Swift LOC: 193]
+│   │   ├── Cloud/  [Swift LOC: 6]
+│   │   │   └── OptionalCloudServices.swift (6 lines)
+│   │   ├── ML/  [Swift LOC: 6]
+│   │   │   └── OnDeviceMLRuntime.swift (6 lines)
+│   │   ├── Models/  [Swift LOC: 5]
+│   │   │   └── ModelVersionManager.swift (5 lines)
+│   │   ├── Networking/  [Swift LOC: 162]
+│   │   │   ├── DSLDRemoteClient.swift (23 lines)
+│   │   │   └── EvidenceAPIClient.swift (139 lines)
+│   │   └── Storage/  [Swift LOC: 14]
+│   │       └── SecureStorage.swift (14 lines)
+│   ├── Policy/  [Swift LOC: 144]
+│   │   ├── Audit/  [Swift LOC: 16]
+│   │   │   └── AuditLogger.swift (16 lines)
+│   │   ├── Boundary/  [Swift LOC: 7]
+│   │   │   └── ContextFirewall.swift (7 lines)
+│   │   ├── Errors/  [Swift LOC: 21]
+│   │   │   └── PolicyError.swift (21 lines)
+│   │   ├── Language/  [Swift LOC: 51]
+│   │   │   └── LanguagePolicyEngine.swift (51 lines)
+│   │   ├── Regulatory/  [Swift LOC: 18]
+│   │   │   └── RegulatoryMode.swift (18 lines)
+│   │   └── Schema/  [Swift LOC: 31]
+│   │       └── SchemaEnforcementEngine.swift (31 lines)
+│   ├── Presentation/  [Swift LOC: 1185]
+│   │   ├── App/  [Swift LOC: 20]
+│   │   │   └── NutriCompassApp.swift (20 lines)
+│   │   ├── Composition/  [Swift LOC: 80]
+│   │   │   └── AppCompositionRoot.swift (80 lines)
+│   │   ├── Policy/  [Swift LOC: 16]
+│   │   │   └── UIStringPolicyEnforcer.swift (16 lines)
+│   │   ├── Root/  [Swift LOC: 41]
+│   │   │   ├── RootView.swift (25 lines)
+│   │   │   └── TransparentTabHost.swift (16 lines)
+│   │   ├── SampleData/  [Swift LOC: 26]
+│   │   │   └── SampleData.swift (26 lines)
+│   │   ├── ViewModels/  [Swift LOC: 507]
+│   │   │   ├── AppModel.swift (101 lines)
+│   │   │   ├── CoOccurrenceBarRow.swift (62 lines)
+│   │   │   ├── CoOccurrenceInlineViewModel.swift (62 lines)
+│   │   │   ├── CoOccurrencePMIDView.swift (69 lines)
+│   │   │   ├── CoOccurrencePMIDViewModel.swift (28 lines)
+│   │   │   └── CoOccurrenceView.swift (185 lines)
+│   │   └── Views/  [Swift LOC: 495]
+│   │       ├── AnalysisResultView.swift (107 lines)
+│   │       ├── HomeView.swift (210 lines)
+│   │       ├── ImagePicker.swift (45 lines)
+│   │       ├── LibraryView.swift (10 lines)
+│   │       ├── OCRIngredientChip.swift (27 lines)
+│   │       ├── OCRIngredientStrip.swift (19 lines)
+│   │       ├── OCRScanButton.swift (28 lines)
+│   │       ├── RouteHostView.swift (14 lines)
+│   │       ├── SelectionView.swift (19 lines)
+│   │       └── SettingsView.swift (16 lines)
+│   ├── Shared/  [Swift LOC: 30]
+│   │   ├── Array+Unique.swift (11 lines)
+│   │   └── NCError.swift (19 lines)
+├── NutriCompass.xcodeproj/  [Swift LOC: 0]
+│   ├── project.xcworkspace/  [Swift LOC: 0]
+│   │   ├── xcshareddata/  [Swift LOC: 0]
+│   │   │   └── swiftpm/  [Swift LOC: 0]
+│   │   │       └── configuration/  [Swift LOC: 0]
+│   │   └── xcuserdata/  [Swift LOC: 0]
+│   │       └── dae-kyookim.xcuserdatad/  [Swift LOC: 0]
+│   └── xcuserdata/  [Swift LOC: 0]
+│       └── dae-kyookim.xcuserdatad/  [Swift LOC: 0]
+│           └── xcschemes/  [Swift LOC: 0]

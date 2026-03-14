@@ -1,0 +1,268 @@
+MenuCal_backup_20251227/  [Swift LOC: 22091]
+├── App/  [Swift LOC: 2944]
+│   ├── BackgroundManager.swift (23 lines)
+│   ├── ChefMascotView.swift (96 lines)
+│   ├── ChefMouseManager.swift (20 lines)
+│   ├── ConsentView.swift (87 lines)
+│   ├── ContentOverlayView.swift (83 lines)
+│   ├── ContentView.swift (1212 lines)
+│   ├── FeatureButtonBoxView.swift (117 lines)
+│   ├── FeatureButtonDefaults.swift (26 lines)
+│   ├── FeatureButtonGradients.swift (88 lines)
+│   ├── FeatureButtonGridView.swift (86 lines)
+│   ├── FeatureButtonModel.swift (209 lines)
+│   ├── FeatureButtonStore.swift (145 lines)
+│   ├── FeatureButtonStyle.swift (17 lines)
+│   ├── LegendView.swift (58 lines)
+│   ├── MenuCalApp.swift (93 lines)
+│   ├── MenuScanSlidePanel.swift (72 lines)
+│   ├── NameNormalizer.swift (99 lines)
+│   ├── ProductSidePanel.swift (80 lines)
+│   ├── RestaurantKeyBuilder.swift (31 lines)
+│   └── SharedEmoji.swift (302 lines)
+├── Assets.xcassets/  [Swift LOC: 0]
+│   ├── AccentColor.colorset/  [Swift LOC: 0]
+│   ├── AppIcon.appiconset/  [Swift LOC: 0]
+│   ├── black_food_border1.imageset/  [Swift LOC: 0]
+│   ├── black_food_border10.imageset/  [Swift LOC: 0]
+│   ├── black_food_border11.imageset/  [Swift LOC: 0]
+│   ├── black_food_border12.imageset/  [Swift LOC: 0]
+│   ├── black_food_border13.imageset/  [Swift LOC: 0]
+│   ├── black_food_border2.imageset/  [Swift LOC: 0]
+│   ├── black_food_border3.imageset/  [Swift LOC: 0]
+│   ├── black_food_border4.imageset/  [Swift LOC: 0]
+│   ├── black_food_border5.imageset/  [Swift LOC: 0]
+│   ├── black_food_border6.imageset/  [Swift LOC: 0]
+│   ├── black_food_border7.imageset/  [Swift LOC: 0]
+│   ├── black_food_border8.imageset/  [Swift LOC: 0]
+│   ├── black_food_border9.imageset/  [Swift LOC: 0]
+│   ├── chef_mouse_walking_blue.imageset/  [Swift LOC: 0]
+│   ├── chef_mouse_walking_green.imageset/  [Swift LOC: 0]
+│   └── chef_mouse_walking_orange.imageset/  [Swift LOC: 0]
+├── DevTools/  [Swift LOC: 173]
+│   ├── ChainMenuDishParser.swift (75 lines)
+│   ├── DishCalorieDBBuilder.swift (31 lines)
+│   └── RecipeDishParser.swift (67 lines)
+├── Features/  [Swift LOC: 18493]
+│   ├── Analytics/  [Swift LOC: 976]
+│   │   ├── AnalyticsEngine.swift (260 lines)
+│   │   ├── AnalyticsEventStore.swift (85 lines)
+│   │   ├── AnalyticsView.swift (444 lines)
+│   │   ├── AppUsageDonutView.swift (40 lines)
+│   │   ├── DonutChart.swift (56 lines)
+│   │   ├── DonutPalette.swift (22 lines)
+│   │   ├── DonutSlice.swift (15 lines)
+│   │   ├── FavoritesDonutView.swift (39 lines)
+│   │   └── UserBehaviorProfile.swift (15 lines)
+│   ├── AutoDetection/  [Swift LOC: 611]
+│   │   ├── AutoDishCardView.swift (95 lines)
+│   │   ├── AutoIngredientListView.swift (39 lines)
+│   │   ├── AutoMenuHeaderView.swift (37 lines)
+│   │   ├── AutoMenuLoaderView.swift (179 lines)
+│   │   ├── AutoMenuScreenView.swift (28 lines)
+│   │   ├── AutoMenuView.swift (70 lines)
+│   │   └── RestaurantDetector.swift (163 lines)
+│   ├── Barcode/  [Swift LOC: 1606]
+│   │   ├── AlertCardData.swift (19 lines)
+│   │   ├── BarcodeScannerView.swift (128 lines)
+│   │   ├── BarcodeSemanticType.swift (14 lines)
+│   │   ├── FoodDB.swift (165 lines)
+│   │   ├── HealthAlertService.swift (156 lines)
+│   │   ├── HealthKitManager.swift (380 lines)
+│   │   ├── HealthProfile.swift (21 lines)
+│   │   ├── MenuSource.swift (68 lines)
+│   │   ├── NetworkMonitor.swift (25 lines)
+│   │   ├── NonHalalFoodStore.swift (59 lines)
+│   │   ├── OpenFoodFactsAPI.swift (87 lines)
+│   │   ├── OpenFoodFactsMenuLoader.swift (15 lines)
+│   │   ├── ProductAlertBuilder .swift (34 lines)
+│   │   ├── ProductResultView.swift (435 lines)
+│   ├── DishCalorie/  [Swift LOC: 276]
+│   │   ├── DishCalorieConfidenceCalculator.swift (69 lines)
+│   │   ├── DishCalorieProfile.swift (17 lines)
+│   │   ├── DishCalorieSource.swift (24 lines)
+│   │   └── DishCalorieStore.swift (166 lines)
+│   ├── Favorite/  [Swift LOC: 384]
+│   │   ├── FavoriteDecision.swift (14 lines)
+│   │   ├── FavoriteMenu.swift (43 lines)
+│   │   ├── FavoriteMenuStore.swift (88 lines)
+│   │   ├── FavoriteOrigin.swift (15 lines)
+│   │   ├── FavoriteRecipe.swift (24 lines)
+│   │   ├── FavoriteRecipeStore.swift (88 lines)
+│   │   ├── FavoriteRestaurant.swift (24 lines)
+│   │   └── FavoriteRestaurantStore.swift (88 lines)
+│   ├── FindRetaurants/  [Swift LOC: 844]
+│   │   ├── ChainMenu.swift (14 lines)
+│   │   ├── ChainMenuItem.swift (7 lines)
+│   │   ├── ChainMenuLoadError.swift (26 lines)
+│   │   ├── ChainMenuRegistry.swift (143 lines)
+│   │   ├── ChainMenuService.swift (34 lines)
+│   │   ├── ChainNameNormalizer.swift (44 lines)
+│   │   ├── DetectedRestaurant.swift (15 lines)
+│   │   ├── LocalJSONMenuLoader.swift (27 lines)
+│   │   ├── LocationContext.swift (7 lines)
+│   │   ├── LocationManager.swift (260 lines)
+│   │   ├── LocationRequestSource.swift (14 lines)
+│   │   ├── NearbyRestaurantListView.swift (40 lines)
+│   │   ├── NearbyRestaurantPickerView.swift (213 lines)
+│   ├── FoodNews/  [Swift LOC: 617]
+│   │   ├── CachedFoodNews.swift (13 lines)
+│   │   ├── FoodNewsAutoScrollView.swift (174 lines)
+│   │   ├── FoodNewsCache.swift (15 lines)
+│   │   ├── FoodNewsDetailView.swift (27 lines)
+│   │   ├── FoodNewsItem.swift (16 lines)
+│   │   ├── FoodNewsRow.swift (41 lines)
+│   │   ├── FoodNewsSectionView.swift (43 lines)
+│   │   ├── FoodNewsService.swift (102 lines)
+│   │   ├── FoodNewsStore.swift (88 lines)
+│   │   └── RSSParser.swift (98 lines)
+│   ├── FoodPhoto/  [Swift LOC: 1504]
+│   │   ├──  IngredientSelectSheet.swift (190 lines)
+│   │   ├── DishSelectSheet.swift (173 lines)
+│   │   ├── FoodPhotoCardView.swift (85 lines)
+│   │   ├── FoodPhotoLabelViewModel.swift (15 lines)
+│   │   ├── FoodPhotoLibraryView.swift (243 lines)
+│   │   ├── FoodPhotoLinkViewModel.swift (15 lines)
+│   │   ├── FoodPhotoMenuLinkRecord.swift (18 lines)
+│   │   ├── FoodPhotoMenuLinkSheet.swift (209 lines)
+│   │   ├── FoodPhotoMenuLinkStore.swift (39 lines)
+│   │   ├── FoodPhotoResultView.swift (42 lines)
+│   │   ├── FoodPhotoSaver.swift (41 lines)
+│   │   ├── FoodPhotoThumbnail.swift (48 lines)
+│   │   ├── FoodPhotoView.swift (46 lines)
+│   │   ├── MappedFoodPhotoRow.swift (86 lines)
+│   │   ├── MenuCalPhotoStore.swift (31 lines)
+│   │   ├── PhotoLabel.swift (50 lines)
+│   │   ├── PhotoLabelStore.swift (93 lines)
+│   │   ├── PhotoPreviewView.swift (80 lines)
+│   ├── Games/  [Swift LOC: 2104]
+│   │   ├── CookingWorldMapView.swift (242 lines)
+│   │   ├── GameMenuView.swift (183 lines)
+│   │   ├── InfiniteCookingGameView.swift (231 lines)
+│   │   ├── InfiniteIngredientGameView.swift (309 lines)
+│   │   ├── InfiniteSushiGameView.swift (328 lines)
+│   │   ├── KCuisineStoryGameView.swift (338 lines)
+│   │   ├── KCuisineTechnique.swift (71 lines)
+│   │   ├── LocationScannerView.swift (149 lines)
+│   │   └── StoryRunnerView.swift (253 lines)
+│   ├── History/  [Swift LOC: 592]
+│   │   ├── Calendar+Utils.swift (14 lines)
+│   │   ├── CalendarView.swift (226 lines)
+│   │   ├── DailyRecord.swift (21 lines)
+│   │   ├── Date+Extension.swift (46 lines)
+│   │   ├── HistoryRecordStore.swift (54 lines)
+│   │   ├── MenuScanListSheet.swift (136 lines)
+│   │   └── ScanMenuRow.swift (95 lines)
+│   ├── MenuScan/  [Swift LOC: 2268]
+│   │   ├── DishCalorieCalculator.swift (85 lines)
+│   │   ├── IngredientInfo.swift (17 lines)
+│   │   ├── IngredientRowView.swift (38 lines)
+│   │   ├── IngredientSnapshot.swift (32 lines)
+│   │   ├── MenuItemCardView.swift (73 lines)
+│   │   ├── MenuItemEstimate.swift (85 lines)
+│   │   ├── MenuItemSnapshot.swift (16 lines)
+│   │   ├── MenuItemSource.swift (13 lines)
+│   │   ├── MenuLayout.swift (90 lines)
+│   │   ├── MenuLoader.swift (11 lines)
+│   │   ├── MenuParser.swift (948 lines)
+│   │   ├── MenuScanMenuView.swift (32 lines)
+│   │   ├── MenuScanRecord.swift (30 lines)
+│   │   ├── MenuScanSnapshotRow.swift (57 lines)
+│   │   ├── MenuScanStore.swift (144 lines)
+│   │   ├── Parsing.swift (59 lines)
+│   │   ├── PriceAnchor.swift (207 lines)
+│   │   ├── TextDocumentCameraView.swift (126 lines)
+│   │   ├── UIComponents.swift (62 lines)
+│   │   ├── UserScannedMenuStore.swift (100 lines)
+│   │   ├── UserScannedRestaurant.swift (23 lines)
+│   │   ├── UserScannedRestaurantDetailView.swift (20 lines)
+│   ├── Preferences/  [Swift LOC: 797]
+│   │   ├── DietaryPreference.swift (19 lines)
+│   │   ├── DietaryPreferenceEngine.swift (81 lines)
+│   │   ├── DietaryPreferenceStore.swift (42 lines)
+│   │   ├── ExpandableFavoriteMenuRow.swift (81 lines)
+│   │   └── PreferencesView.swift (574 lines)
+│   ├── Recipes/  [Swift LOC: 5726]
+│   │   ├── MenuParser+Recipe.swift (23 lines)
+│   │   ├── RecipeCalorieCache.swift (31 lines)
+│   │   ├── RecipeCalorieService.swift (24 lines)
+│   │   ├── RecipeCategoryPreloadStore.swift (66 lines)
+│   │   ├── RecipeCategoryView.swift (60 lines)
+│   │   ├── RecipeCoreCategory.swift (63 lines)
+│   │   ├── RecipeDetail/  [Swift LOC: 660]
+│   │   │   ├── IngredientCalorieResolver.swift (25 lines)
+│   │   │   ├── IngredientCalorieStore.swift.swift (29 lines)
+│   │   │   ├── RecipeDetail.swift (24 lines)
+│   │   │   ├── RecipeDetailDB.swift (177 lines)
+│   │   │   ├── RecipeDetailLoadingView.swift (83 lines)
+│   │   │   ├── RecipeDetailStore.swift (25 lines)
+│   │   │   └── RecipeDetailView.swift (297 lines)
+│   │   ├── RecipeEmbeddingIndex.swift (184 lines)
+│   │   ├── RecipeEmbeddingStore.swift (79 lines)
+│   │   ├── RecipeEstimate.swift (14 lines)
+│   │   ├── RecipeFeatureDefaults.swift (24 lines)
+│   │   ├── RecipeGrid/  [Swift LOC: 2639]
+│   │   │   ├── CookingContentView.swift (99 lines)
+│   │   │   ├── CookingRecipeCache.swift (70 lines)
+│   │   │   ├── CuisineContentView.swift (98 lines)
+│   │   │   ├── CuisineRecipeCache.swift (71 lines)
+│   │   │   ├── DietContentView.swift (100 lines)
+│   │   │   ├── DietRecipeCache.swift (68 lines)
+│   │   │   ├── DishTypeContentView.swift (96 lines)
+│   │   │   ├── DishTypeRecipeCache.swift (82 lines)
+│   │   │   ├── IngredientContentView.swift (98 lines)
+│   │   │   ├── IngredientRecipeCache.swift (71 lines)
+│   │   │   ├── MyRecipe/  [Swift LOC: 1137]
+│   │   │   │   ├── AddIngredientBar.swift (135 lines)
+│   │   │   │   ├── CategoryPickerView.swift (54 lines)
+│   │   │   │   ├── IngredientStore.swift (197 lines)
+│   │   │   │   ├── MyRecipeContentView.swift (131 lines)
+│   │   │   │   ├── MyRecipeEditorView.swift (522 lines)
+│   │   │   │   ├── UserRecipeModels.swift (38 lines)
+│   │   │   │   └── UserRecipeStore.swift (60 lines)
+│   │   │   ├── NutritionContentView.swift (103 lines)
+│   │   │   ├── NutritionRecipeCache.swift (74 lines)
+│   │   │   ├── NutritionixMenuLoader.swift (22 lines)
+│   │   │   ├── OccasionContentView.swift (104 lines)
+│   │   │   ├── OccasionRecipeCache.swift (74 lines)
+│   │   │   ├── PlaceholderCategoryView.swift (15 lines)
+│   │   │   ├── PopularContentView.swift (102 lines)
+│   │   │   └── PopularRecipeCache.swift (155 lines)
+│   │   ├── RecipeHistoryView.swift (165 lines)
+│   │   ├── RecipeHubView.swift (435 lines)
+│   │   ├── RecipeParser.swift (32 lines)
+│   │   ├── RecipeTitleCache.swift (14 lines)
+│   │   └── Search/  [Swift LOC: 1213]
+│   │       ├── CheckBoxChip.swift (25 lines)
+│   │       ├── RecipeSearchEngine.swift (560 lines)
+│   │       ├── RecipeSearchFilter.swift (20 lines)
+│   │       ├── RecipeSearchService.swift (220 lines)
+│   │       ├── RecipeSearchView.swift (388 lines)
+│   └── Setting/  [Swift LOC: 188]
+│       ├── SettingsStore.swift (64 lines)
+│       └── SettingsView.swift (124 lines)
+├── ML/  [Swift LOC: 481]
+│   ├── DistilBERTEncoder.mlpackage/  [Swift LOC: 0]
+│   │   ├── Data/  [Swift LOC: 0]
+│   │   │   └── com.apple.CoreML/  [Swift LOC: 0]
+│   │   │       └── weights/  [Swift LOC: 0]
+│   ├── FoodClassifier.mlpackage/  [Swift LOC: 0]
+│   │   ├── Data/  [Swift LOC: 0]
+│   │   │   └── com.apple.CoreML/  [Swift LOC: 0]
+│   │   │       └── weights/  [Swift LOC: 0]
+│   ├── FoodSeg103Segmentation.mlpackage/  [Swift LOC: 0]
+│   │   ├── Data/  [Swift LOC: 0]
+│   │   │   └── com.apple.CoreML/  [Swift LOC: 0]
+│   │   │       └── weights/  [Swift LOC: 0]
+│   ├── FoodSeg103Segmenter.swift (97 lines)
+│   ├── MiniLMEmbedder.mlpackage/  [Swift LOC: 0]
+│   │   ├── Data/  [Swift LOC: 0]
+│   │   │   └── com.apple.CoreML/  [Swift LOC: 0]
+│   │   │       └── weights/  [Swift LOC: 0]
+│   ├── MiniLMEmbedderService.swift (233 lines)
+│   ├── MiniLMTokenizer.swift (151 lines)
+│   └── MobileCLIPImageEncoder.mlpackage/  [Swift LOC: 0]
+│       ├── Data/  [Swift LOC: 0]
+│       │   └── com.apple.CoreML/  [Swift LOC: 0]
+│       │       └── weights/  [Swift LOC: 0]
+├── Resources/  [Swift LOC: 0]

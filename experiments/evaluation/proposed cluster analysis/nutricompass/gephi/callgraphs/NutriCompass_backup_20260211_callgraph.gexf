@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-13">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="('EvidenceClassificationModule', 'classify')" label="('EvidenceClassificationModule', 'classify')" />
+      <node id="('LiteratureRetrievalModule', 'lookupEvidenceMetadata')" label="('LiteratureRetrievalModule', 'lookupEvidenceMetadata')" />
+      <node id="('EvidencePatternDetectionModule', 'detectPatterns')" label="('EvidencePatternDetectionModule', 'detectPatterns')" />
+      <node id="('IngredientNormalizationModule', 'normalize')" label="('IngredientNormalizationModule', 'normalize')" />
+      <node id="('ImageOCRModule', 'recognizeText')" label="('ImageOCRModule', 'recognizeText')" />
+      <node id="('OCRIngredientScanner', 'scanIngredients')" label="('OCRIngredientScanner', 'scanIngredients')" />
+      <node id="('OCRIngredientScanner', 'normalizeIngredients')" label="('OCRIngredientScanner', 'normalizeIngredients')" />
+      <node id="('OCRIngredientScanner', 'cleanupIngredientName')" label="('OCRIngredientScanner', 'cleanupIngredientName')" />
+      <node id="('OCRIngredientScanner', 'isHeaderLine')" label="('OCRIngredientScanner', 'isHeaderLine')" />
+      <node id="('OCRIngredientScanner', 'isGarbageToken')" label="('OCRIngredientScanner', 'isGarbageToken')" />
+      <node id="('OCRIngredientScanner', 'detectSupplementFactsROI')" label="('OCRIngredientScanner', 'detectSupplementFactsROI')" />
+      <node id="('OCRIngredientScanner', 'text')" label="('OCRIngredientScanner', 'text')" />
+      <node id="('OCRIngredientScanner', 'normalizedKey')" label="('OCRIngredientScanner', 'normalizedKey')" />
+      <node id="('OCRIngredientScanner', 'isStopLine')" label="('OCRIngredientScanner', 'isStopLine')" />
+      <node id="('OCRIngredientScanner', 'cropImage')" label="('OCRIngredientScanner', 'cropImage')" />
+      <node id="('OCRIngredientScanner', 'normalizedImage')" label="('OCRIngredientScanner', 'normalizedImage')" />
+      <node id="('IngredientExtractionModule', 'extract')" label="('IngredientExtractionModule', 'extract')" />
+      <node id="('OutputSchemaValidator', 'validate')" label="('OutputSchemaValidator', 'validate')" />
+      <node id="('Array', 'unique')" label="('Array', 'unique')" />
+      <node id="('PermissionConsentManager', 'requestCameraIfNeeded')" label="('PermissionConsentManager', 'requestCameraIfNeeded')" />
+      <node id="('ScanWorkflowController', 'startScanFlow')" label="('ScanWorkflowController', 'startScanFlow')" />
+      <node id="('AnalysisController', 'analyze')" label="('AnalysisController', 'analyze')" />
+      <node id="('SelectionStore', 'add')" label="('SelectionStore', 'add')" />
+      <node id="('SelectionStore', 'remove')" label="('SelectionStore', 'remove')" />
+      <node id="('SelectionStore', 'clear')" label="('SelectionStore', 'clear')" />
+      <node id="('SelectionStore', 'contains')" label="('SelectionStore', 'contains')" />
+      <node id="('SelectionStore', 'toggle')" label="('SelectionStore', 'toggle')" />
+      <node id="('AuthManager', 'loginWithApple')" label="('AuthManager', 'loginWithApple')" />
+      <node id="('AuthManager', 'loginWithGoogle')" label="('AuthManager', 'loginWithGoogle')" />
+      <node id="('AuthManager', 'logout')" label="('AuthManager', 'logout')" />
+      <node id="('AuthManager', 'deleteAccount')" label="('AuthManager', 'deleteAccount')" />
+      <node id="('AuthManager', 'authorizationController')" label="('AuthManager', 'authorizationController')" />
+      <node id="('AuthManager', 'randomNonceString')" label="('AuthManager', 'randomNonceString')" />
+      <node id="('AuthManager', 'sha256')" label="('AuthManager', 'sha256')" />
+      <node id="('AuthManager', 'presentationAnchor')" label="('AuthManager', 'presentationAnchor')" />
+      <node id="('EvidenceAPIClient', 'fetchCoOccurrence')" label="('EvidenceAPIClient', 'fetchCoOccurrence')" />
+      <node id="('EvidenceAPIClient', 'fetchCoOccurrencePMIDs')" label="('EvidenceAPIClient', 'fetchCoOccurrencePMIDs')" />
+      <node id="('DSLDRemoteClient', 'downloadSnapshot')" label="('DSLDRemoteClient', 'downloadSnapshot')" />
+      <node id="('SecureStorage', 'save')" label="('SecureStorage', 'save')" />
+      <node id="('SecureStorage', 'load')" label="('SecureStorage', 'load')" />
+      <node id="('EvidenceDatabase', 'openDatabases')" label="('EvidenceDatabase', 'openDatabases')" />
+      <node id="('EvidenceDatabase', 'openDatabase')" label="('EvidenceDatabase', 'openDatabase')" />
+      <node id="('EvidenceDatabase', 'getPubmedDB')" label="('EvidenceDatabase', 'getPubmedDB')" />
+      <node id="('EvidenceDatabase', 'getMeshDB')" label="('EvidenceDatabase', 'getMeshDB')" />
+      <node id="('DownloadedDSLDStore', 'prepareIfNeeded')" label="('DownloadedDSLDStore', 'prepareIfNeeded')" />
+      <node id="('DownloadedDSLDStore', 'searchIngredients')" label="('DownloadedDSLDStore', 'searchIngredients')" />
+      <node id="('DownloadedDSLDStore', 'canonicalizeOCRIngredients')" label="('DownloadedDSLDStore', 'canonicalizeOCRIngredients')" />
+      <node id="('DSLDSearchIndex', 'buildIndex')" label="('DSLDSearchIndex', 'buildIndex')" />
+      <node id="('DSLDSearchIndex', 'add')" label="('DSLDSearchIndex', 'add')" />
+      <node id="('DSLDSearchIndex', 'search')" label="('DSLDSearchIndex', 'search')" />
+      <node id="('DSLDSearchIndex', 'unique')" label="('DSLDSearchIndex', 'unique')" />
+      <node id="('UserSupplementLibraryStore', 'persist')" label="('UserSupplementLibraryStore', 'persist')" />
+      <node id="('UserSupplementLibraryStore', 'fetchAll')" label="('UserSupplementLibraryStore', 'fetchAll')" />
+      <node id="('PreloadedDSLDStore', 'prepareIfNeeded')" label="('PreloadedDSLDStore', 'prepareIfNeeded')" />
+      <node id="('PreloadedDSLDStore', 'searchIngredients')" label="('PreloadedDSLDStore', 'searchIngredients')" />
+      <node id="('PreloadedDSLDStore', 'canonicalizeOCRIngredients')" label="('PreloadedDSLDStore', 'canonicalizeOCRIngredients')" />
+      <node id="('PreloadedDSLDStore', 'normalizeOCRToken')" label="('PreloadedDSLDStore', 'normalizeOCRToken')" />
+      <node id="('EmptyDSLDStore', 'prepareIfNeeded')" label="('EmptyDSLDStore', 'prepareIfNeeded')" />
+      <node id="('EmptyDSLDStore', 'searchIngredients')" label="('EmptyDSLDStore', 'searchIngredients')" />
+      <node id="('EmptyDSLDStore', 'canonicalizeOCRIngredients')" label="('EmptyDSLDStore', 'canonicalizeOCRIngredients')" />
+      <node id="('InMemorySupplementRepository', 'searchSupplements')" label="('InMemorySupplementRepository', 'searchSupplements')" />
+      <node id="('InMemorySupplementRepository', 'getSupplement')" label="('InMemorySupplementRepository', 'getSupplement')" />
+      <node id="('InMemoryUserLibraryRepository', 'saveSupplement')" label="('InMemoryUserLibraryRepository', 'saveSupplement')" />
+      <node id="('InMemoryUserLibraryRepository', 'listSupplements')" label="('InMemoryUserLibraryRepository', 'listSupplements')" />
+      <node id="('InMemoryEvidenceRepository', 'findEvidence')" label="('InMemoryEvidenceRepository', 'findEvidence')" />
+      <node id="('SearchIndex', 'buildIfNeeded')" label="('SearchIndex', 'buildIfNeeded')" />
+      <node id="('ProvenanceManager', 'currentDatabaseVersion')" label="('ProvenanceManager', 'currentDatabaseVersion')" />
+      <node id="('ConstraintRules', 'validateInteraction')" label="('ConstraintRules', 'validateInteraction')" />
+      <node id="('ComparisonEngine', 'groupByType')" label="('ComparisonEngine', 'groupByType')" />
+      <node id="('ComparisonEngine', 'sortByEvidenceStrength')" label="('ComparisonEngine', 'sortByEvidenceStrength')" />
+      <node id="('OCRProcessingHelpers', 'filterGarbageOCR')" label="('OCRProcessingHelpers', 'filterGarbageOCR')" />
+      <node id="('OCRProcessingHelpers', 'resolveToCanonicalMap')" label="('OCRProcessingHelpers', 'resolveToCanonicalMap')" />
+      <node id="('OCRProcessingHelpers', 'extractIngredientCandidates')" label="('OCRProcessingHelpers', 'extractIngredientCandidates')" />
+      <node id="('OCRProcessingHelpers', 'uniqueByCanonical')" label="('OCRProcessingHelpers', 'uniqueByCanonical')" />
+      <node id="('LibraryStore', 'add')" label="('LibraryStore', 'add')" />
+      <node id="('LibraryStore', 'remove')" label="('LibraryStore', 'remove')" />
+      <node id="('LibraryStore', 'contains')" label="('LibraryStore', 'contains')" />
+      <node id="('LibraryStore', 'save')" label="('LibraryStore', 'save')" />
+      <node id="('LibraryStore', 'load')" label="('LibraryStore', 'load')" />
+      <node id="('InteractionTaxonomy', 'displayName')" label="('InteractionTaxonomy', 'displayName')" />
+      <node id="('InteractionTaxonomy', 'evidenceLabel')" label="('InteractionTaxonomy', 'evidenceLabel')" />
+      <node id="('DefaultInteractionAnalysisService', 'analyze')" label="('DefaultInteractionAnalysisService', 'analyze')" />
+      <node id="('DefaultInteractionAnalysisService', 'classifyInteraction')" label="('DefaultInteractionAnalysisService', 'classifyInteraction')" />
+      <node id="('AppModel', 'runAnalysis')" label="('AppModel', 'runAnalysis')" />
+      <node id="('AppModel', 'prepareReferenceDataIfNeeded')" label="('AppModel', 'prepareReferenceDataIfNeeded')" />
+      <node id="('AppModel', 'searchReferenceIngredients')" label="('AppModel', 'searchReferenceIngredients')" />
+      <node id="('AppModel', 'setOCRResults')" label="('AppModel', 'setOCRResults')" />
+      <node id="('AppModel', 'acceptConsent')" label="('AppModel', 'acceptConsent')" />
+      <node id="('AppModel', 'toggleOCRGroup')" label="('AppModel', 'toggleOCRGroup')" />
+      <node id="('AppModel', 'clearAllOCRScans')" label="('AppModel', 'clearAllOCRScans')" />
+      <node id="('CoOccurrenceInlineViewModel', 'load')" label="('CoOccurrenceInlineViewModel', 'load')" />
+      <node id="('CoOccurrenceInlineViewModel', 'refetch')" label="('CoOccurrenceInlineViewModel', 'refetch')" />
+      <node id="('CoOccurrenceInlineViewModel', 'fetch')" label="('CoOccurrenceInlineViewModel', 'fetch')" />
+      <node id="('CoOccurrencePMIDViewModel', 'load')" label="('CoOccurrencePMIDViewModel', 'load')" />
+      <node id="('AppCompositionRoot', 'makeDSLDStore')" label="('AppCompositionRoot', 'makeDSLDStore')" />
+      <node id="('AppCompositionRoot', 'makeAppModel')" label="('AppCompositionRoot', 'makeAppModel')" />
+      <node id="('HomeView', 'search')" label="('HomeView', 'search')" />
+      <node id="('ImagePicker', 'makeUIViewController')" label="('ImagePicker', 'makeUIViewController')" />
+      <node id="('ImagePicker', 'updateUIViewController')" label="('ImagePicker', 'updateUIViewController')" />
+      <node id="('ImagePicker', 'makeCoordinator')" label="('ImagePicker', 'makeCoordinator')" />
+      <node id="('ImagePicker', 'imagePickerController')" label="('ImagePicker', 'imagePickerController')" />
+      <node id="('ImagePicker', 'imagePickerControllerDidCancel')" label="('ImagePicker', 'imagePickerControllerDidCancel')" />
+      <node id="('Coordinator', 'imagePickerController')" label="('Coordinator', 'imagePickerController')" />
+      <node id="('Coordinator', 'imagePickerControllerDidCancel')" label="('Coordinator', 'imagePickerControllerDidCancel')" />
+      <node id="('UIStringPolicyEnforcer', 'safe')" label="('UIStringPolicyEnforcer', 'safe')" />
+      <node id="('RegulatoryModeSwitch', 'setMode')" label="('RegulatoryModeSwitch', 'setMode')" />
+      <node id="('LanguagePolicyEngine', 'validate')" label="('LanguagePolicyEngine', 'validate')" />
+      <node id="('SchemaEnforcementEngine', 'enforceNonEmpty')" label="('SchemaEnforcementEngine', 'enforceNonEmpty')" />
+      <node id="('AuditLogger', 'info')" label="('AuditLogger', 'info')" />
+      <node id="('AuditLogger', 'warning')" label="('AuditLogger', 'warning')" />
+    </nodes>
+    <edges>
+      <edge source="('OCRIngredientScanner', 'scanIngredients')" target="('OCRIngredientScanner', 'normalizedImage')" id="0" />
+      <edge source="('OCRIngredientScanner', 'scanIngredients')" target="('OCRIngredientScanner', 'detectSupplementFactsROI')" id="1" />
+      <edge source="('OCRIngredientScanner', 'scanIngredients')" target="('OCRIngredientScanner', 'cropImage')" id="2" />
+      <edge source="('OCRIngredientScanner', 'scanIngredients')" target="('OCRIngredientScanner', 'normalizeIngredients')" id="3" />
+      <edge source="('OCRIngredientScanner', 'normalizeIngredients')" target="('OCRIngredientScanner', 'isHeaderLine')" id="4" />
+      <edge source="('OCRIngredientScanner', 'normalizeIngredients')" target="('SelectionStore', 'contains')" id="5" />
+      <edge source="('OCRIngredientScanner', 'normalizeIngredients')" target="('LibraryStore', 'contains')" id="6" />
+      <edge source="('OCRIngredientScanner', 'normalizeIngredients')" target="('OCRIngredientScanner', 'isGarbageToken')" id="7" />
+      <edge source="('OCRIngredientScanner', 'normalizeIngredients')" target="('OCRIngredientScanner', 'cleanupIngredientName')" id="8" />
+      <edge source="('OCRIngredientScanner', 'isHeaderLine')" target="('SelectionStore', 'contains')" id="9" />
+      <edge source="('OCRIngredientScanner', 'isHeaderLine')" target="('LibraryStore', 'contains')" id="10" />
+      <edge source="('OCRIngredientScanner', 'detectSupplementFactsROI')" target="('OCRIngredientScanner', 'text')" id="11" />
+      <edge source="('OCRIngredientScanner', 'detectSupplementFactsROI')" target="('SelectionStore', 'contains')" id="12" />
+      <edge source="('OCRIngredientScanner', 'detectSupplementFactsROI')" target="('LibraryStore', 'contains')" id="13" />
+      <edge source="('OCRIngredientScanner', 'detectSupplementFactsROI')" target="('OCRIngredientScanner', 'isStopLine')" id="14" />
+      <edge source="('OCRIngredientScanner', 'isStopLine')" target="('OCRIngredientScanner', 'normalizedKey')" id="15" />
+      <edge source="('OCRIngredientScanner', 'isStopLine')" target="('SelectionStore', 'contains')" id="16" />
+      <edge source="('OCRIngredientScanner', 'isStopLine')" target="('LibraryStore', 'contains')" id="17" />
+      <edge source="('OCRIngredientScanner', 'cropImage')" target="('OCRIngredientScanner', 'normalizedImage')" id="18" />
+      <edge source="('AnalysisController', 'analyze')" target="('AuditLogger', 'info')" id="19" />
+      <edge source="('AnalysisController', 'analyze')" target="('AnalysisController', 'analyze')" id="20" />
+      <edge source="('SelectionStore', 'add')" target="('SelectionStore', 'contains')" id="21" />
+      <edge source="('SelectionStore', 'toggle')" target="('SelectionStore', 'remove')" id="22" />
+      <edge source="('SelectionStore', 'toggle')" target="('SelectionStore', 'add')" id="23" />
+      <edge source="('AuthManager', 'loginWithApple')" target="('AuthManager', 'randomNonceString')" id="24" />
+      <edge source="('AuthManager', 'loginWithApple')" target="('AuthManager', 'sha256')" id="25" />
+      <edge source="('EvidenceAPIClient', 'fetchCoOccurrence')" target="('EvidenceDatabase', 'getPubmedDB')" id="26" />
+      <edge source="('EvidenceAPIClient', 'fetchCoOccurrence')" target="('EvidenceDatabase', 'getMeshDB')" id="27" />
+      <edge source="('EvidenceAPIClient', 'fetchCoOccurrence')" target="('SelectionStore', 'contains')" id="28" />
+      <edge source="('EvidenceAPIClient', 'fetchCoOccurrence')" target="('LibraryStore', 'contains')" id="29" />
+      <edge source="('EvidenceAPIClient', 'fetchCoOccurrencePMIDs')" target="('EvidenceDatabase', 'getPubmedDB')" id="30" />
+      <edge source="('DSLDRemoteClient', 'downloadSnapshot')" target="('SelectionStore', 'contains')" id="31" />
+      <edge source="('DSLDRemoteClient', 'downloadSnapshot')" target="('LibraryStore', 'contains')" id="32" />
+      <edge source="('EvidenceDatabase', 'openDatabases')" target="('EvidenceDatabase', 'openDatabase')" id="33" />
+      <edge source="('DownloadedDSLDStore', 'searchIngredients')" target="('DSLDSearchIndex', 'search')" id="34" />
+      <edge source="('DownloadedDSLDStore', 'searchIngredients')" target="('HomeView', 'search')" id="35" />
+      <edge source="('DownloadedDSLDStore', 'canonicalizeOCRIngredients')" target="('DSLDSearchIndex', 'search')" id="36" />
+      <edge source="('DownloadedDSLDStore', 'canonicalizeOCRIngredients')" target="('DownloadedDSLDStore', 'prepareIfNeeded')" id="37" />
+      <edge source="('DownloadedDSLDStore', 'canonicalizeOCRIngredients')" target="('HomeView', 'search')" id="38" />
+      <edge source="('DSLDSearchIndex', 'buildIndex')" target="('IngredientNormalizationModule', 'normalize')" id="39" />
+      <edge source="('DSLDSearchIndex', 'buildIndex')" target="('DSLDSearchIndex', 'add')" id="40" />
+      <edge source="('DSLDSearchIndex', 'add')" target="('SelectionStore', 'contains')" id="41" />
+      <edge source="('DSLDSearchIndex', 'add')" target="('LibraryStore', 'contains')" id="42" />
+      <edge source="('DSLDSearchIndex', 'search')" target="('IngredientNormalizationModule', 'normalize')" id="43" />
+      <edge source="('DSLDSearchIndex', 'search')" target="('DSLDSearchIndex', 'unique')" id="44" />
+      <edge source="('DSLDSearchIndex', 'search')" target="('SelectionStore', 'contains')" id="45" />
+      <edge source="('DSLDSearchIndex', 'search')" target="('LibraryStore', 'contains')" id="46" />
+      <edge source="('PreloadedDSLDStore', 'searchIngredients')" target="('PreloadedDSLDStore', 'prepareIfNeeded')" id="47" />
+      <edge source="('PreloadedDSLDStore', 'searchIngredients')" target="('SelectionStore', 'contains')" id="48" />
+      <edge source="('PreloadedDSLDStore', 'searchIngredients')" target="('LibraryStore', 'contains')" id="49" />
+      <edge source="('PreloadedDSLDStore', 'canonicalizeOCRIngredients')" target="('PreloadedDSLDStore', 'prepareIfNeeded')" id="50" />
+      <edge source="('PreloadedDSLDStore', 'normalizeOCRToken')" target="('SelectionStore', 'contains')" id="51" />
+      <edge source="('PreloadedDSLDStore', 'normalizeOCRToken')" target="('LibraryStore', 'contains')" id="52" />
+      <edge source="('InMemorySupplementRepository', 'searchSupplements')" target="('SelectionStore', 'contains')" id="53" />
+      <edge source="('InMemorySupplementRepository', 'searchSupplements')" target="('LibraryStore', 'contains')" id="54" />
+      <edge source="('OCRProcessingHelpers', 'filterGarbageOCR')" target="('SelectionStore', 'contains')" id="55" />
+      <edge source="('OCRProcessingHelpers', 'filterGarbageOCR')" target="('LibraryStore', 'contains')" id="56" />
+      <edge source="('OCRProcessingHelpers', 'resolveToCanonicalMap')" target="('SelectionStore', 'contains')" id="57" />
+      <edge source="('OCRProcessingHelpers', 'resolveToCanonicalMap')" target="('LibraryStore', 'contains')" id="58" />
+      <edge source="('OCRProcessingHelpers', 'resolveToCanonicalMap')" target="('DSLDSearchIndex', 'search')" id="59" />
+      <edge source="('OCRProcessingHelpers', 'resolveToCanonicalMap')" target="('HomeView', 'search')" id="60" />
+      <edge source="('OCRProcessingHelpers', 'extractIngredientCandidates')" target="('SelectionStore', 'contains')" id="61" />
+      <edge source="('OCRProcessingHelpers', 'extractIngredientCandidates')" target="('LibraryStore', 'contains')" id="62" />
+      <edge source="('OCRProcessingHelpers', 'uniqueByCanonical')" target="('SelectionStore', 'contains')" id="63" />
+      <edge source="('OCRProcessingHelpers', 'uniqueByCanonical')" target="('LibraryStore', 'contains')" id="64" />
+      <edge source="('LibraryStore', 'add')" target="('LibraryStore', 'contains')" id="65" />
+      <edge source="('DefaultInteractionAnalysisService', 'analyze')" target="('DefaultInteractionAnalysisService', 'classifyInteraction')" id="66" />
+      <edge source="('DefaultInteractionAnalysisService', 'classifyInteraction')" target="('SelectionStore', 'contains')" id="67" />
+      <edge source="('DefaultInteractionAnalysisService', 'classifyInteraction')" target="('LibraryStore', 'contains')" id="68" />
+      <edge source="('AppModel', 'runAnalysis')" target="('AnalysisController', 'analyze')" id="69" />
+      <edge source="('AppModel', 'runAnalysis')" target="('DefaultInteractionAnalysisService', 'analyze')" id="70" />
+      <edge source="('AppModel', 'prepareReferenceDataIfNeeded')" target="('PreloadedDSLDStore', 'prepareIfNeeded')" id="71" />
+      <edge source="('AppModel', 'prepareReferenceDataIfNeeded')" target="('DownloadedDSLDStore', 'prepareIfNeeded')" id="72" />
+      <edge source="('AppModel', 'prepareReferenceDataIfNeeded')" target="('EmptyDSLDStore', 'prepareIfNeeded')" id="73" />
+      <edge source="('AppModel', 'searchReferenceIngredients')" target="('PreloadedDSLDStore', 'prepareIfNeeded')" id="74" />
+      <edge source="('AppModel', 'searchReferenceIngredients')" target="('DownloadedDSLDStore', 'prepareIfNeeded')" id="75" />
+      <edge source="('AppModel', 'searchReferenceIngredients')" target="('EmptyDSLDStore', 'prepareIfNeeded')" id="76" />
+      <edge source="('AppModel', 'searchReferenceIngredients')" target="('PreloadedDSLDStore', 'searchIngredients')" id="77" />
+      <edge source="('AppModel', 'searchReferenceIngredients')" target="('DownloadedDSLDStore', 'searchIngredients')" id="78" />
+      <edge source="('AppModel', 'searchReferenceIngredients')" target="('EmptyDSLDStore', 'searchIngredients')" id="79" />
+      <edge source="('AppModel', 'toggleOCRGroup')" target="('SelectionStore', 'toggle')" id="80" />
+      <edge source="('CoOccurrenceInlineViewModel', 'load')" target="('CoOccurrenceInlineViewModel', 'fetch')" id="81" />
+      <edge source="('CoOccurrenceInlineViewModel', 'refetch')" target="('CoOccurrenceInlineViewModel', 'fetch')" id="82" />
+      <edge source="('CoOccurrenceInlineViewModel', 'fetch')" target="('EvidenceAPIClient', 'fetchCoOccurrence')" id="83" />
+      <edge source="('CoOccurrencePMIDViewModel', 'load')" target="('EvidenceAPIClient', 'fetchCoOccurrencePMIDs')" id="84" />
+      <edge source="('AppCompositionRoot', 'makeAppModel')" target="('AppCompositionRoot', 'makeDSLDStore')" id="85" />
+      <edge source="('HomeView', 'search')" target="('AppModel', 'searchReferenceIngredients')" id="86" />
+      <edge source="('UIStringPolicyEnforcer', 'safe')" target="('LanguagePolicyEngine', 'validate')" id="87" />
+      <edge source="('UIStringPolicyEnforcer', 'safe')" target="('OutputSchemaValidator', 'validate')" id="88" />
+      <edge source="('LanguagePolicyEngine', 'validate')" target="('SelectionStore', 'contains')" id="89" />
+      <edge source="('LanguagePolicyEngine', 'validate')" target="('LibraryStore', 'contains')" id="90" />
+      <edge source="('AuditLogger', 'info')" target="('AuditLogger', 'info')" id="91" />
+      <edge source="('AuditLogger', 'warning')" target="('AuditLogger', 'warning')" id="92" />
+    </edges>
+  </graph>
+</gexf>

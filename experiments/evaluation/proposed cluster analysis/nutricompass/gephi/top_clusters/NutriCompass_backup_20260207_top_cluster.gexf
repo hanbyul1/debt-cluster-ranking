@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-13">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="AnalysisController" label="AnalysisController" />
+      <node id="InteractionTaxonomy" label="InteractionTaxonomy" />
+      <node id="AuditLogger" label="AuditLogger" />
+      <node id="Supplement" label="Supplement" />
+      <node id="AppCompositionRoot" label="AppCompositionRoot" />
+      <node id="UserSupplementLibraryStore" label="UserSupplementLibraryStore" />
+      <node id="AnalysisResultView" label="AnalysisResultView" />
+      <node id="DefaultInteractionAnalysisService" label="DefaultInteractionAnalysisService" />
+      <node id="InMemoryUserLibraryRepository" label="InMemoryUserLibraryRepository" />
+      <node id="HomeView" label="HomeView" />
+      <node id="Interaction" label="Interaction" />
+      <node id="LiteratureRetrievalModule" label="LiteratureRetrievalModule" />
+      <node id="RouteHostView" label="RouteHostView" />
+      <node id="InMemorySupplementRepository" label="InMemorySupplementRepository" />
+      <node id="AppModel" label="AppModel" />
+      <node id="RootView" label="RootView" />
+      <node id="SampleData" label="SampleData" />
+      <node id="InMemoryEvidenceRepository" label="InMemoryEvidenceRepository" />
+    </nodes>
+    <edges>
+      <edge source="AnalysisController" target="AuditLogger" id="0" />
+      <edge source="AppCompositionRoot" target="AppModel" id="1" />
+      <edge source="AppCompositionRoot" target="InMemorySupplementRepository" id="2" />
+      <edge source="AppCompositionRoot" target="InMemoryUserLibraryRepository" id="3" />
+      <edge source="AppCompositionRoot" target="InMemoryEvidenceRepository" id="4" />
+      <edge source="AppCompositionRoot" target="DefaultInteractionAnalysisService" id="5" />
+      <edge source="AppCompositionRoot" target="AnalysisController" id="6" />
+      <edge source="UserSupplementLibraryStore" target="Supplement" id="7" />
+      <edge source="AnalysisResultView" target="AppModel" id="8" />
+      <edge source="AnalysisResultView" target="InteractionTaxonomy" id="9" />
+      <edge source="DefaultInteractionAnalysisService" target="InteractionTaxonomy" id="10" />
+      <edge source="InMemoryUserLibraryRepository" target="Supplement" id="11" />
+      <edge source="HomeView" target="AppModel" id="12" />
+      <edge source="HomeView" target="Supplement" id="13" />
+      <edge source="HomeView" target="InMemorySupplementRepository" id="14" />
+      <edge source="LiteratureRetrievalModule" target="Interaction" id="15" />
+      <edge source="RouteHostView" target="AppModel" id="16" />
+      <edge source="RouteHostView" target="HomeView" id="17" />
+      <edge source="RouteHostView" target="AnalysisResultView" id="18" />
+      <edge source="AppModel" target="AnalysisController" id="19" />
+      <edge source="RootView" target="AppCompositionRoot" id="20" />
+      <edge source="RootView" target="HomeView" id="21" />
+      <edge source="SampleData" target="Supplement" id="22" />
+      <edge source="InMemoryEvidenceRepository" target="Interaction" id="23" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-13">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="OCRIngredientChip" label="OCRIngredientChip" />
+      <node id="EmptyDSLDStore" label="EmptyDSLDStore" />
+      <node id="AppCompositionRoot" label="AppCompositionRoot" />
+      <node id="AnalysisResultView" label="AnalysisResultView" />
+      <node id="HomeView" label="HomeView" />
+      <node id="RouteHostView" label="RouteHostView" />
+      <node id="InMemorySupplementRepository" label="InMemorySupplementRepository" />
+      <node id="EvidenceSourceType" label="EvidenceSourceType" />
+      <node id="CoOccurrencePMIDResponse" label="CoOccurrencePMIDResponse" />
+      <node id="Coordinator" label="Coordinator" />
+      <node id="CoOccurrenceResponse" label="CoOccurrenceResponse" />
+      <node id="OCRIngredientStrip" label="OCRIngredientStrip" />
+      <node id="SampleData" label="SampleData" />
+      <node id="EvidenceDatabase" label="EvidenceDatabase" />
+      <node id="LanguagePolicyEngine" label="LanguagePolicyEngine" />
+      <node id="CoOccurrenceInlineViewModel" label="CoOccurrenceInlineViewModel" />
+      <node id="OCRIngredientScanner" label="OCRIngredientScanner" />
+      <node id="DSLDSearchIndex" label="DSLDSearchIndex" />
+      <node id="DSLDRemoteClient" label="DSLDRemoteClient" />
+      <node id="CoOccurrenceItem" label="CoOccurrenceItem" />
+      <node id="AuthManager" label="AuthManager" />
+      <node id="EvidenceAPIClient" label="EvidenceAPIClient" />
+      <node id="OCRProcessingHelpers" label="OCRProcessingHelpers" />
+      <node id="DefaultInteractionAnalysisService" label="DefaultInteractionAnalysisService" />
+      <node id="Interaction" label="Interaction" />
+      <node id="Citation" label="Citation" />
+      <node id="PreloadedDSLDStore" label="PreloadedDSLDStore" />
+      <node id="DownloadedDSLDStore" label="DownloadedDSLDStore" />
+      <node id="LibraryStore" label="LibraryStore" />
+      <node id="StudyType" label="StudyType" />
+      <node id="AppModel" label="AppModel" />
+      <node id="ImagePicker" label="ImagePicker" />
+      <node id="AnalysisController" label="AnalysisController" />
+      <node id="UIStringPolicyEnforcer" label="UIStringPolicyEnforcer" />
+      <node id="Evidence" label="Evidence" />
+      <node id="SelectionStore" label="SelectionStore" />
+      <node id="CoOccurrenceView" label="CoOccurrenceView" />
+      <node id="RootView" label="RootView" />
+    </nodes>
+    <edges>
+      <edge source="AppCompositionRoot" target="AppModel" id="0" />
+      <edge source="AppCompositionRoot" target="DownloadedDSLDStore" id="1" />
+      <edge source="AppCompositionRoot" target="InMemorySupplementRepository" id="2" />
+      <edge source="AppCompositionRoot" target="DefaultInteractionAnalysisService" id="3" />
+      <edge source="AppCompositionRoot" target="AnalysisController" id="4" />
+      <edge source="AppCompositionRoot" target="LanguagePolicyEngine" id="5" />
+      <edge source="AnalysisResultView" target="AppModel" id="6" />
+      <edge source="AnalysisResultView" target="CoOccurrenceInlineViewModel" id="7" />
+      <edge source="HomeView" target="AppModel" id="8" />
+      <edge source="HomeView" target="OCRProcessingHelpers" id="9" />
+      <edge source="HomeView" target="CoOccurrenceView" id="10" />
+      <edge source="HomeView" target="AnalysisResultView" id="11" />
+      <edge source="RouteHostView" target="AppModel" id="12" />
+      <edge source="RouteHostView" target="HomeView" id="13" />
+      <edge source="RouteHostView" target="AnalysisResultView" id="14" />
+      <edge source="Coordinator" target="ImagePicker" id="15" />
+      <edge source="OCRIngredientStrip" target="OCRIngredientChip" id="16" />
+      <edge source="EvidenceDatabase" target="EvidenceDatabase" id="17" />
+      <edge source="OCRIngredientScanner" target="OCRIngredientScanner" id="18" />
+      <edge source="EvidenceAPIClient" target="EvidenceAPIClient" id="19" />
+      <edge source="EvidenceAPIClient" target="CoOccurrenceResponse" id="20" />
+      <edge source="EvidenceAPIClient" target="CoOccurrenceItem" id="21" />
+      <edge source="EvidenceAPIClient" target="CoOccurrencePMIDResponse" id="22" />
+      <edge source="DefaultInteractionAnalysisService" target="Interaction" id="23" />
+      <edge source="DownloadedDSLDStore" target="DSLDSearchIndex" id="24" />
+      <edge source="AppModel" target="AuthManager" id="25" />
+      <edge source="AppModel" target="SelectionStore" id="26" />
+      <edge source="AppModel" target="LibraryStore" id="27" />
+      <edge source="AppModel" target="AnalysisController" id="28" />
+      <edge source="AppModel" target="LanguagePolicyEngine" id="29" />
+      <edge source="ImagePicker" target="ImagePicker" id="30" />
+      <edge source="ImagePicker" target="Coordinator" id="31" />
+      <edge source="UIStringPolicyEnforcer" target="LanguagePolicyEngine" id="32" />
+      <edge source="Evidence" target="EvidenceSourceType" id="33" />
+      <edge source="Evidence" target="Citation" id="34" />
+      <edge source="Evidence" target="StudyType" id="35" />
+      <edge source="CoOccurrenceView" target="CoOccurrenceInlineViewModel" id="36" />
+      <edge source="RootView" target="AppModel" id="37" />
+      <edge source="RootView" target="HomeView" id="38" />
+    </edges>
+  </graph>
+</gexf>

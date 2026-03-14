@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-13">
+    <creator>NetworkX 3.5</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="PDFViewer" label="PDFViewer" />
+      <node id="EmptyDSLDStore" label="EmptyDSLDStore" />
+      <node id="AppCompositionRoot" label="AppCompositionRoot" />
+      <node id="AnalysisResultView" label="AnalysisResultView" />
+      <node id="HomeView" label="HomeView" />
+      <node id="RouteHostView" label="RouteHostView" />
+      <node id="InMemorySupplementRepository" label="InMemorySupplementRepository" />
+      <node id="AnalysisSnapshotStore" label="AnalysisSnapshotStore" />
+      <node id="ShareSheet" label="ShareSheet" />
+      <node id="Coordinator" label="Coordinator" />
+      <node id="PubMedRepository" label="PubMedRepository" />
+      <node id="SampleData" label="SampleData" />
+      <node id="EvidenceDatabase" label="EvidenceDatabase" />
+      <node id="LanguagePolicyEngine" label="LanguagePolicyEngine" />
+      <node id="CoOccurrenceInlineViewModel" label="CoOccurrenceInlineViewModel" />
+      <node id="ReactionEvidenceView" label="ReactionEvidenceView" />
+      <node id="OCRIngredientScanner" label="OCRIngredientScanner" />
+      <node id="DSLDSearchIndex" label="DSLDSearchIndex" />
+      <node id="DSLDRemoteClient" label="DSLDRemoteClient" />
+      <node id="Source" label="Source" />
+      <node id="AuthManager" label="AuthManager" />
+      <node id="AnalysisPDFExporter" label="AnalysisPDFExporter" />
+      <node id="EvidenceAPIClient" label="EvidenceAPIClient" />
+      <node id="OCRProcessingHelpers" label="OCRProcessingHelpers" />
+      <node id="InteractionDisplayModel" label="InteractionDisplayModel" />
+      <node id="DefaultInteractionAnalysisService" label="DefaultInteractionAnalysisService" />
+      <node id="Interaction" label="Interaction" />
+      <node id="PreloadedDSLDStore" label="PreloadedDSLDStore" />
+      <node id="DownloadedDSLDStore" label="DownloadedDSLDStore" />
+      <node id="LibraryStore" label="LibraryStore" />
+      <node id="AppModel" label="AppModel" />
+      <node id="ImagePicker" label="ImagePicker" />
+      <node id="AnalysisController" label="AnalysisController" />
+      <node id="InteractionTaxonomy" label="InteractionTaxonomy" />
+      <node id="UIStringPolicyEnforcer" label="UIStringPolicyEnforcer" />
+      <node id="Supplement" label="Supplement" />
+      <node id="FaersRepository" label="FaersRepository" />
+      <node id="Evidence" label="Evidence" />
+      <node id="EvidenceItem" label="EvidenceItem" />
+      <node id="EvidenceRepository" label="EvidenceRepository" />
+      <node id="SelectionStore" label="SelectionStore" />
+      <node id="CoOccurrenceView" label="CoOccurrenceView" />
+      <node id="RootView" label="RootView" />
+      <node id="PairEvidenceViewModel" label="PairEvidenceViewModel" />
+    </nodes>
+    <edges>
+      <edge source="AppCompositionRoot" target="DefaultInteractionAnalysisService" id="0" />
+      <edge source="AppCompositionRoot" target="AnalysisController" id="1" />
+      <edge source="AppCompositionRoot" target="LanguagePolicyEngine" id="2" />
+      <edge source="AppCompositionRoot" target="AppModel" id="3" />
+      <edge source="AnalysisResultView" target="AppModel" id="4" />
+      <edge source="AnalysisResultView" target="CoOccurrenceInlineViewModel" id="5" />
+      <edge source="AnalysisResultView" target="PairEvidenceViewModel" id="6" />
+      <edge source="AnalysisResultView" target="ReactionEvidenceView" id="7" />
+      <edge source="AnalysisResultView" target="ShareSheet" id="8" />
+      <edge source="HomeView" target="AppModel" id="9" />
+      <edge source="HomeView" target="OCRProcessingHelpers" id="10" />
+      <edge source="HomeView" target="CoOccurrenceView" id="11" />
+      <edge source="HomeView" target="AnalysisResultView" id="12" />
+      <edge source="HomeView" target="Supplement" id="13" />
+      <edge source="RouteHostView" target="AppModel" id="14" />
+      <edge source="RouteHostView" target="HomeView" id="15" />
+      <edge source="RouteHostView" target="AnalysisResultView" id="16" />
+      <edge source="AnalysisSnapshotStore" target="AnalysisSnapshotStore" id="17" />
+      <edge source="Coordinator" target="ImagePicker" id="18" />
+      <edge source="SampleData" target="Supplement" id="19" />
+      <edge source="EvidenceDatabase" target="EvidenceDatabase" id="20" />
+      <edge source="OCRIngredientScanner" target="OCRIngredientScanner" id="21" />
+      <edge source="AnalysisPDFExporter" target="AnalysisPDFExporter" id="22" />
+      <edge source="EvidenceAPIClient" target="EvidenceAPIClient" id="23" />
+      <edge source="DefaultInteractionAnalysisService" target="FaersRepository" id="24" />
+      <edge source="DefaultInteractionAnalysisService" target="PubMedRepository" id="25" />
+      <edge source="DownloadedDSLDStore" target="DSLDSearchIndex" id="26" />
+      <edge source="AppModel" target="AuthManager" id="27" />
+      <edge source="AppModel" target="SelectionStore" id="28" />
+      <edge source="AppModel" target="LibraryStore" id="29" />
+      <edge source="AppModel" target="AnalysisController" id="30" />
+      <edge source="AppModel" target="LanguagePolicyEngine" id="31" />
+      <edge source="ImagePicker" target="ImagePicker" id="32" />
+      <edge source="ImagePicker" target="Coordinator" id="33" />
+      <edge source="AnalysisController" target="Supplement" id="34" />
+      <edge source="UIStringPolicyEnforcer" target="LanguagePolicyEngine" id="35" />
+      <edge source="EvidenceItem" target="Source" id="36" />
+      <edge source="CoOccurrenceView" target="CoOccurrenceInlineViewModel" id="37" />
+      <edge source="RootView" target="AppModel" id="38" />
+      <edge source="RootView" target="HomeView" id="39" />
+    </edges>
+  </graph>
+</gexf>
